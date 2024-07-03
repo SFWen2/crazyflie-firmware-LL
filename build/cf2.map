@@ -10609,9 +10609,9 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtn.o
  .rodata.exptestTestAllPins.str1.1
                 0x000000000803b13c       0x19 src/built-in.o
  .rodata.str1.1
-                0x000000000803b155     0x1c22 src/built-in.o
-                                       0x23f8 (size before relaxing)
- *fill*         0x000000000803cd77        0x1 
+                0x000000000803b155     0x1c20 src/built-in.o
+                                       0x23f6 (size before relaxing)
+ *fill*         0x000000000803cd75        0x3 
  .rodata.exptest_deck
                 0x000000000803cd78       0x24 src/built-in.o
  .rodata.exptestRRTestAllPins.str1.1
