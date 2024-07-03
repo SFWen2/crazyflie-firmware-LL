@@ -58,6 +58,18 @@ Gimbal2D_P_Type Gimbal2D_P = {
       .kd = 0.00002f,
       .kff = 0,
   },
+  .betaPD = {
+      .kp = 900.0f,
+      .ki = 0,
+      .kd = 10.0f,
+      .kff = 0,
+  },
+  .alphaPD = {
+      .kp = 900.0f,
+      .ki = 0,
+      .kd = 10.0f,
+      .kff = 0,
+  },
 };
 
 /**Instance of Controller Input structure*/
@@ -381,6 +393,28 @@ void Gimbal2D_AlphaBetaEstimator()
   Gimbal2D_Y.beta_prev = Gimbal2D_Y.beta_e; 
 }
 
+void Gimbal2D_controller_pd()
+{
+  float alpha_des;
+  float beta_des;
+
+  Gimbal2D_Y.error_alpha = Gimbal2D_U.alpha_desired - Gimbal2D_Y.alpha_e;
+  Gimbal2D_Y.error_beta = Gimbal2D_U.beta_desired - Gimbal2D_Y.beta_e;
+
+  pidSetError(&Gimbal2D_P.alphaPD, Gimbal2D_Y.error_alpha);
+  alpha_des = pidUpdate(&Gimbal2D_P.alphaPD, Gimbal2D_Y.alpha_e, true);
+
+  pidSetError(&Gimbal2D_P.betaPD, Gimbal2D_Y.error_beta);
+  beta_des = pidUpdate(&Gimbal2D_P.betaPD, Gimbal2D_Y.beta_e, true);
+
+  Gimbal2D_Y.u_alpha = JX * alpha_des;
+  Gimbal2D_Y.u_beta = JY * beta_des;
+
+  Gimbal2D_Y.Tau_x = Gimbal2D_Y.u_alpha * cosf(Gimbal2D_Y.beta_e);
+  Gimbal2D_Y.Tau_y = Gimbal2D_Y.u_beta;
+  Gimbal2D_Y.Tau_z = Gimbal2D_Y.u_alpha * sinf(Gimbal2D_Y.beta_e);
+}
+
 void Gimbal2D_controller_pid()
 {
   float alphas_desired_pid;
@@ -502,6 +536,10 @@ void Gimbal2D_controller()
   // Update your control law here
   switch( Gimbal2D_P.ControlMode )
   {
+    case GIMBAL2D_CONTROLMODE_PD:
+        Gimbal2D_controller_pd();
+        break;
+
     case GIMBAL2D_CONTROLMODE_PID:
     case GIMBAL2D_CONTROLMODE_PID_JALPHA:
         Gimbal2D_controller_pid();
@@ -675,6 +713,16 @@ PARAM_ADD(PARAM_UINT16, M1, &Gimbal2D_P.PWMTest[0])
 PARAM_ADD(PARAM_UINT16, M2, &Gimbal2D_P.PWMTest[1])
 PARAM_ADD(PARAM_UINT16, M3, &Gimbal2D_P.PWMTest[2])
 PARAM_ADD(PARAM_UINT16, M4, &Gimbal2D_P.PWMTest[3])
+
+// for PD type controller
+PARAM_ADD(PARAM_FLOAT, apgain, &Gimbal2D_P.alphaPD.kp)
+PARAM_ADD(PARAM_FLOAT, aigain, &Gimbal2D_P.alphaPD.ki)
+PARAM_ADD(PARAM_FLOAT, adgain, &Gimbal2D_P.alphaPD.kd)
+
+PARAM_ADD(PARAM_FLOAT, bpgain, &Gimbal2D_P.betaPD.kp)
+PARAM_ADD(PARAM_FLOAT, bigain, &Gimbal2D_P.betaPD.ki)
+PARAM_ADD(PARAM_FLOAT, bdgain, &Gimbal2D_P.betaPD.kd)
+
 
 // for PID type controller
 PARAM_ADD(PARAM_FLOAT, pgaina, &Gimbal2D_P.alphaPID.kp)

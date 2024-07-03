@@ -100,6 +100,8 @@ typedef struct {
     PidObject betaPID;
     PidObject alphasPID;
     PidObject betasPID;
+    PidObject alphaPD;
+    PidObject betaPD;
 } Gimbal2D_P_Type;
 
 extern Gimbal2D_P_Type Gimbal2D_P;
