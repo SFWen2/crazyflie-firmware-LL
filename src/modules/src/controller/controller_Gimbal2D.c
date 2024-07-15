@@ -25,7 +25,7 @@
 static bool isInit = false;
 
 Gimbal2D_P_Type Gimbal2D_P = {
-  .ControlMode = GIMBAL2D_CONTROLMODE_PID,
+  .ControlMode = GIMBAL2D_CONTROLMODE_PD,
   .PWMTest = {0, 0, 0, 0},
   .ThrustUpperBound = 4.0f * MOTOR_MAX_THRUST_N,
   .ThrustLowerBound = 0.0f,
@@ -101,7 +101,7 @@ Gimbal2D_U_Type Gimbal2D_U = {
 Gimbal2D_Y_Type Gimbal2D_Y = {
         .IsClamped = 0,
         .Treset = 0,
-        .UsingControlMode = GIMBAL2D_CONTROLMODE_PID,
+        .UsingControlMode = GIMBAL2D_CONTROLMODE_PD,
         .m1 = 0,
         .m2 = 0,
         .m3 = 0,
@@ -238,6 +238,12 @@ void controllerGimbal2DInit(void) {
   }
   switch( Gimbal2D_P.ControlMode )
   {
+    case GIMBAL2D_CONTROLMODE_PD:
+        pidInit(&Gimbal2D_P.alphaPD,  0, Gimbal2D_P.alphaPD.kp,  Gimbal2D_P.alphaPD.ki,  Gimbal2D_P.alphaPD.kd,
+            Gimbal2D_P.alphaPD.kff,  GIMBAL2D_ATTITUDE_UPDATE_DT, ATTITUDE_RATE, 0, 0);
+        pidInit(&Gimbal2D_P.betaPD,  0, Gimbal2D_P.betaPD.kp,  Gimbal2D_P.betaPD.ki,  Gimbal2D_P.betaPD.kd,
+            Gimbal2D_P.betaPD.kff,  GIMBAL2D_ATTITUDE_UPDATE_DT, ATTITUDE_RATE, 0, 0);
+
     case GIMBAL2D_CONTROLMODE_PID:
     case GIMBAL2D_CONTROLMODE_PID_JALPHA:
         pidInit(&Gimbal2D_P.alphaPID,  0, Gimbal2D_P.alphaPID.kp,  Gimbal2D_P.alphaPID.ki,  Gimbal2D_P.alphaPID.kd,
