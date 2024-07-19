@@ -25,7 +25,7 @@
 static bool isInit = false;
 
 Gimbal2D_P_Type Gimbal2D_P = {
-  .ControlMode = GIMBAL2D_CONTROLMODE_PD,
+  .ControlMode = GIMBAL2D_CONTROLMODE_PID,
   .PWMTest = {0, 0, 0, 0},
   .ThrustUpperBound = 4.0f * MOTOR_MAX_THRUST_N,
   .ThrustLowerBound = 0.0f,
@@ -101,7 +101,7 @@ Gimbal2D_U_Type Gimbal2D_U = {
 Gimbal2D_Y_Type Gimbal2D_Y = {
         .IsClamped = 0,
         .Treset = 0,
-        .UsingControlMode = GIMBAL2D_CONTROLMODE_PD,
+        .UsingControlMode = GIMBAL2D_CONTROLMODE_PID,
         .m1 = 0,
         .m2 = 0,
         .m3 = 0,
