@@ -84,8 +84,8 @@ typedef struct {
   float Tau_x;                      /* '<Root>/Tau_x' */
   float Tau_y;                      /* '<Root>/Tau_y' */
   float Tau_z;                      /* '<Root>/Tau_z' */
-  float pos_am;
-  float pos_bm;
+  float pos_ac;
+  float pos_bc;
 } Gimbal2D_Y_Type;
 
 typedef struct {
