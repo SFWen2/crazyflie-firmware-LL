@@ -25,7 +25,7 @@
 static bool isInit = false;
 
 Gimbal2D_P_Type Gimbal2D_P = {
-  .ControlMode = GIMBAL2D_CONTROLMODE_PID,
+  .ControlMode = GIMBAL2D_CONTROLMODE_PD,
   .PWMTest = {0, 0, 0, 0},
   .ThrustUpperBound = 4.0f * MOTOR_MAX_THRUST_N,
   .ThrustLowerBound = 0.0f,
@@ -101,7 +101,7 @@ Gimbal2D_U_Type Gimbal2D_U = {
 Gimbal2D_Y_Type Gimbal2D_Y = {
         .IsClamped = 0,
         .Treset = 0,
-        .UsingControlMode = GIMBAL2D_CONTROLMODE_PID,
+        .UsingControlMode = GIMBAL2D_CONTROLMODE_PD,
         .m1 = 0,
         .m2 = 0,
         .m3 = 0,
@@ -298,6 +298,8 @@ void Gimbal2D_reset_state()
   pidReset(&P->alphasPID);
   pidReset(&P->betaPID);
   pidReset(&P->betasPID);
+  pidReset(&P->alphaPD);
+  pidReset(&P->betaPD);
 }
 
 void Gimbal2D_AlphaBetaEstimator()
