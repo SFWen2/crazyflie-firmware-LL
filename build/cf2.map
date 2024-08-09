@@ -9251,253 +9251,252 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtn.o
                 0x000000000802e73c      0x268 src/built-in.o
                 0x000000000802e73c                Gimbal2D_AlphaBetaEstimator
  .text.Gimbal2D_controller_pd
-                0x000000000802e9a4       0xbc src/built-in.o
+                0x000000000802e9a4       0xc0 src/built-in.o
                 0x000000000802e9a4                Gimbal2D_controller_pd
  .text.Gimbal2D_controller_pid
-                0x000000000802ea60      0x12c src/built-in.o
-                0x000000000802ea60                Gimbal2D_controller_pid
+                0x000000000802ea64      0x12c src/built-in.o
+                0x000000000802ea64                Gimbal2D_controller_pid
  .text.Gimbal2D_controller_ofl
-                0x000000000802eb8c      0x174 src/built-in.o
-                0x000000000802eb8c                Gimbal2D_controller_ofl
+                0x000000000802eb90      0x174 src/built-in.o
+                0x000000000802eb90                Gimbal2D_controller_ofl
  .text.Gimbal2D_controller_nsf
-                0x000000000802ed00      0x14c src/built-in.o
-                0x000000000802ed00                Gimbal2D_controller_nsf
+                0x000000000802ed04      0x14c src/built-in.o
+                0x000000000802ed04                Gimbal2D_controller_nsf
  .text.Gimbal2D_controller_pwmtest
-                0x000000000802ee4c       0x18 src/built-in.o
-                0x000000000802ee4c                Gimbal2D_controller_pwmtest
+                0x000000000802ee50       0x18 src/built-in.o
+                0x000000000802ee50                Gimbal2D_controller_pwmtest
  .text.Gimbal2D_controller
-                0x000000000802ee64       0x34 src/built-in.o
-                0x000000000802ee64                Gimbal2D_controller
+                0x000000000802ee68       0x34 src/built-in.o
+                0x000000000802ee68                Gimbal2D_controller
  .text.Gimbal2D_PowerDistribution
-                0x000000000802ee98      0x1a8 src/built-in.o
-                0x000000000802ee98                Gimbal2D_PowerDistribution
+                0x000000000802ee9c      0x1a8 src/built-in.o
+                0x000000000802ee9c                Gimbal2D_PowerDistribution
  .text.controllerGimbal2D
-                0x000000000802f040       0xe0 src/built-in.o
-                0x000000000802f040                controllerGimbal2D
+                0x000000000802f044       0xe0 src/built-in.o
+                0x000000000802f044                controllerGimbal2D
  .text.controllerGimbal2DTest
-                0x000000000802f120        0x4 src/built-in.o
-                0x000000000802f120                controllerGimbal2DTest
+                0x000000000802f124        0x4 src/built-in.o
+                0x000000000802f124                controllerGimbal2DTest
  .text.update_second_order_low_pass
-                0x000000000802f124       0x4e src/built-in.o
- *fill*         0x000000000802f172        0x2 
+                0x000000000802f128       0x4e src/built-in.o
+ *fill*         0x000000000802f176        0x2 
  .text.init_butterworth_2_low_pass.constprop.0
-                0x000000000802f174       0x70 src/built-in.o
+                0x000000000802f178       0x70 src/built-in.o
  .text.position_indi_init_filters
-                0x000000000802f1e4       0x68 src/built-in.o
-                0x000000000802f1e4                position_indi_init_filters
- .text.m_ob     0x000000000802f24c       0xc2 src/built-in.o
-                0x000000000802f24c                m_ob
+                0x000000000802f1e8       0x68 src/built-in.o
+                0x000000000802f1e8                position_indi_init_filters
+ .text.m_ob     0x000000000802f250       0xc2 src/built-in.o
+                0x000000000802f250                m_ob
  .text.positionControllerINDIInit
-                0x000000000802f30e        0x4 src/built-in.o
-                0x000000000802f30e                positionControllerINDIInit
- *fill*         0x000000000802f312        0x2 
+                0x000000000802f312        0x4 src/built-in.o
+                0x000000000802f312                positionControllerINDIInit
+ *fill*         0x000000000802f316        0x2 
  .text.positionControllerINDI
-                0x000000000802f314      0x58c src/built-in.o
-                0x000000000802f314                positionControllerINDI
+                0x000000000802f318      0x58c src/built-in.o
+                0x000000000802f318                positionControllerINDI
  .text.runPid.constprop.0
-                0x000000000802f8a0       0x2c src/built-in.o
+                0x000000000802f8a4       0x2c src/built-in.o
  .text.positionControllerInit
-                0x000000000802f8cc      0x110 src/built-in.o
-                0x000000000802f8cc                positionControllerInit
+                0x000000000802f8d0      0x110 src/built-in.o
+                0x000000000802f8d0                positionControllerInit
  .text.velocityController
-                0x000000000802f9dc      0x170 src/built-in.o
-                0x000000000802f9dc                velocityController
+                0x000000000802f9e0      0x170 src/built-in.o
+                0x000000000802f9e0                velocityController
  .text.positionController
-                0x000000000802fb4c      0x17c src/built-in.o
-                0x000000000802fb4c                positionController
+                0x000000000802fb50      0x17c src/built-in.o
+                0x000000000802fb50                positionController
  .text.positionControllerResetAllPID
-                0x000000000802fcc8       0x3c src/built-in.o
-                0x000000000802fcc8                positionControllerResetAllPID
+                0x000000000802fccc       0x3c src/built-in.o
+                0x000000000802fccc                positionControllerResetAllPID
  .text.positionControllerResetAllfilters
-                0x000000000802fd04       0x80 src/built-in.o
-                0x000000000802fd04                positionControllerResetAllfilters
+                0x000000000802fd08       0x80 src/built-in.o
+                0x000000000802fd08                positionControllerResetAllfilters
  .text.estimatorComplementaryInit
-                0x000000000802fd84        0x4 src/built-in.o
-                0x000000000802fd84                estimatorComplementaryInit
- .text.estimatorComplementaryTest
                 0x000000000802fd88        0x4 src/built-in.o
-                0x000000000802fd88                estimatorComplementaryTest
+                0x000000000802fd88                estimatorComplementaryInit
+ .text.estimatorComplementaryTest
+                0x000000000802fd8c        0x4 src/built-in.o
+                0x000000000802fd8c                estimatorComplementaryTest
  .text.estimatorComplementary
-                0x000000000802fd8c      0x11c src/built-in.o
-                0x000000000802fd8c                estimatorComplementary
+                0x000000000802fd90      0x11c src/built-in.o
+                0x000000000802fd90                estimatorComplementary
  .text.estimatorKalmanTaskInit
-                0x000000000802fea8       0x7c src/built-in.o
-                0x000000000802fea8                estimatorKalmanTaskInit
+                0x000000000802feac       0x7c src/built-in.o
+                0x000000000802feac                estimatorKalmanTaskInit
  .text.estimatorKalmanTaskTest
-                0x000000000802ff24        0xc src/built-in.o
-                0x000000000802ff24                estimatorKalmanTaskTest
+                0x000000000802ff28        0xc src/built-in.o
+                0x000000000802ff28                estimatorKalmanTaskTest
  .text.estimatorKalman
-                0x000000000802ff30       0x44 src/built-in.o
-                0x000000000802ff30                estimatorKalman
+                0x000000000802ff34       0x44 src/built-in.o
+                0x000000000802ff34                estimatorKalman
  .text.estimatorKalmanInit
-                0x000000000802ff74       0x58 src/built-in.o
-                0x000000000802ff74                estimatorKalmanInit
+                0x000000000802ff78       0x58 src/built-in.o
+                0x000000000802ff78                estimatorKalmanInit
  .text.kalmanTask
-                0x000000000802ffcc      0x240 src/built-in.o
+                0x000000000802ffd0      0x240 src/built-in.o
  .text.estimatorKalmanTest
-                0x000000000803020c        0xc src/built-in.o
-                0x000000000803020c                estimatorKalmanTest
+                0x0000000008030210        0xc src/built-in.o
+                0x0000000008030210                estimatorKalmanTest
  .text.estimatorKalmanGetEstimatedPos
-                0x0000000008030218       0x14 src/built-in.o
-                0x0000000008030218                estimatorKalmanGetEstimatedPos
+                0x000000000803021c       0x14 src/built-in.o
+                0x000000000803021c                estimatorKalmanGetEstimatedPos
  .text.estimatorKalmanGetEstimatedRot
-                0x000000000803022c       0x28 src/built-in.o
-                0x000000000803022c                estimatorKalmanGetEstimatedRot
+                0x0000000008030230       0x28 src/built-in.o
+                0x0000000008030230                estimatorKalmanGetEstimatedRot
  .text.stateEstimatorGetType
-                0x0000000008030254        0xc src/built-in.o
-                0x0000000008030254                stateEstimatorGetType
+                0x0000000008030258        0xc src/built-in.o
+                0x0000000008030258                stateEstimatorGetType
  .text.stateEstimatorTest
-                0x0000000008030260       0x18 src/built-in.o
-                0x0000000008030260                stateEstimatorTest
+                0x0000000008030264       0x18 src/built-in.o
+                0x0000000008030264                stateEstimatorTest
  .text.stateEstimator
-                0x0000000008030278       0x20 src/built-in.o
-                0x0000000008030278                stateEstimator
+                0x000000000803027c       0x20 src/built-in.o
+                0x000000000803027c                stateEstimator
  .text.stateEstimatorGetName
-                0x0000000008030298       0x18 src/built-in.o
-                0x0000000008030298                stateEstimatorGetName
+                0x000000000803029c       0x18 src/built-in.o
+                0x000000000803029c                stateEstimatorGetName
  .text.stateEstimatorSwitchTo
-                0x00000000080302b0       0x54 src/built-in.o
-                0x00000000080302b0                stateEstimatorSwitchTo
+                0x00000000080302b4       0x54 src/built-in.o
+                0x00000000080302b4                stateEstimatorSwitchTo
  .text.stateEstimatorInit
-                0x0000000008030304       0x30 src/built-in.o
-                0x0000000008030304                stateEstimatorInit
+                0x0000000008030308       0x30 src/built-in.o
+                0x0000000008030308                stateEstimatorInit
  .text.estimatorEnqueue
-                0x0000000008030334      0x140 src/built-in.o
-                0x0000000008030334                estimatorEnqueue
+                0x0000000008030338      0x140 src/built-in.o
+                0x0000000008030338                estimatorEnqueue
  .text.estimatorDequeue
-                0x0000000008030474       0x1c src/built-in.o
-                0x0000000008030474                estimatorDequeue
+                0x0000000008030478       0x1c src/built-in.o
+                0x0000000008030478                estimatorDequeue
  .text.positionEstimate
-                0x0000000008030490       0xbc src/built-in.o
-                0x0000000008030490                positionEstimate
+                0x0000000008030494       0xbc src/built-in.o
+                0x0000000008030494                positionEstimate
  .text.positionUpdateVelocity
-                0x000000000803054c       0x44 src/built-in.o
-                0x000000000803054c                positionUpdateVelocity
+                0x0000000008030550       0x44 src/built-in.o
+                0x0000000008030550                positionUpdateVelocity
  .text.splitAndSend.constprop.0
-                0x0000000008030590       0x50 src/built-in.o
- .text.route    0x00000000080305e0       0x68 src/built-in.o
+                0x0000000008030594       0x50 src/built-in.o
+ .text.route    0x00000000080305e4       0x68 src/built-in.o
  .text.router_from_internal
-                0x0000000008030648       0x2c src/built-in.o
+                0x000000000803064c       0x2c src/built-in.o
  .text.router_from_uart
-                0x0000000008030674       0x2c src/built-in.o
+                0x0000000008030678       0x2c src/built-in.o
  .text.cpxExternalRouterInit
-                0x00000000080306a0       0x80 src/built-in.o
-                0x00000000080306a0                cpxExternalRouterInit
+                0x00000000080306a4       0x80 src/built-in.o
+                0x00000000080306a4                cpxExternalRouterInit
  .text.cpxInternalRouterReceiveCRTP
-                0x0000000008030720       0x10 src/built-in.o
-                0x0000000008030720                cpxInternalRouterReceiveCRTP
+                0x0000000008030724       0x10 src/built-in.o
+                0x0000000008030724                cpxInternalRouterReceiveCRTP
  .text.cpxInternalRouterReceiveOthers
-                0x0000000008030730       0x14 src/built-in.o
-                0x0000000008030730                cpxInternalRouterReceiveOthers
+                0x0000000008030734       0x14 src/built-in.o
+                0x0000000008030734                cpxInternalRouterReceiveOthers
  .text.cpxSendPacketBlocking
-                0x0000000008030744       0x28 src/built-in.o
-                0x0000000008030744                cpxSendPacketBlocking
+                0x0000000008030748       0x28 src/built-in.o
+                0x0000000008030748                cpxSendPacketBlocking
  .text.cpxSendPacketBlockingTimeout
-                0x000000000803076c       0x30 src/built-in.o
-                0x000000000803076c                cpxSendPacketBlockingTimeout
+                0x0000000008030770       0x30 src/built-in.o
+                0x0000000008030770                cpxSendPacketBlockingTimeout
  .text.cpxInternalRouterRouteIn
-                0x000000000803079c       0x68 src/built-in.o
-                0x000000000803079c                cpxInternalRouterRouteIn
+                0x00000000080307a0       0x68 src/built-in.o
+                0x00000000080307a0                cpxInternalRouterRouteIn
  .text.cpxInternalRouterRouteOut
-                0x0000000008030804       0x14 src/built-in.o
-                0x0000000008030804                cpxInternalRouterRouteOut
+                0x0000000008030808       0x14 src/built-in.o
+                0x0000000008030808                cpxInternalRouterRouteOut
  .text.cpxInternalRouterInit
-                0x0000000008030818       0x3c src/built-in.o
-                0x0000000008030818                cpxInternalRouterInit
+                0x000000000803081c       0x3c src/built-in.o
+                0x000000000803081c                cpxInternalRouterInit
  .text.CPX_UART_RX
-                0x0000000008030854       0xd0 src/built-in.o
+                0x0000000008030858       0xd0 src/built-in.o
  .text.CPX_UART_TX
-                0x0000000008030924      0x1a4 src/built-in.o
+                0x0000000008030928      0x1a4 src/built-in.o
  .text.cpxUARTTransportSend
-                0x0000000008030ac8       0x60 src/built-in.o
-                0x0000000008030ac8                cpxUARTTransportSend
+                0x0000000008030acc       0x60 src/built-in.o
+                0x0000000008030acc                cpxUARTTransportSend
  .text.cpxUARTTransportReceive
-                0x0000000008030b28       0x88 src/built-in.o
-                0x0000000008030b28                cpxUARTTransportReceive
+                0x0000000008030b2c       0x88 src/built-in.o
+                0x0000000008030b2c                cpxUARTTransportReceive
  .text.cpxUARTTransportInit
-                0x0000000008030bb0       0x9c src/built-in.o
-                0x0000000008030bb0                cpxUARTTransportInit
+                0x0000000008030bb4       0x9c src/built-in.o
+                0x0000000008030bb4                cpxUARTTransportInit
  .text.cpxUARTTransportDeinit
-                0x0000000008030c4c       0x30 src/built-in.o
-                0x0000000008030c4c                cpxUARTTransportDeinit
+                0x0000000008030c50       0x30 src/built-in.o
+                0x0000000008030c50                cpxUARTTransportDeinit
  .text.cpxlinkSetEnable
-                0x0000000008030c7c        0x4 src/built-in.o
+                0x0000000008030c80        0x4 src/built-in.o
  .text.cpxlinkIsConnected
-                0x0000000008030c80        0xc src/built-in.o
+                0x0000000008030c84        0xc src/built-in.o
  .text.cpxlinkReceivePacket
-                0x0000000008030c8c       0x40 src/built-in.o
+                0x0000000008030c90       0x40 src/built-in.o
  .text.cpxlinkSendPacket
-                0x0000000008030ccc       0x40 src/built-in.o
+                0x0000000008030cd0       0x40 src/built-in.o
  .text.cpxlinkInit
-                0x0000000008030d0c       0x10 src/built-in.o
-                0x0000000008030d0c                cpxlinkInit
+                0x0000000008030d10       0x10 src/built-in.o
+                0x0000000008030d10                cpxlinkInit
  .text.cpxLinkSetConnected
-                0x0000000008030d1c        0xc src/built-in.o
-                0x0000000008030d1c                cpxLinkSetConnected
+                0x0000000008030d20        0xc src/built-in.o
+                0x0000000008030d20                cpxLinkSetConnected
  .text.cpxlinkGetLink
-                0x0000000008030d28        0x8 src/built-in.o
-                0x0000000008030d28                cpxlinkGetLink
- .text.cpx      0x0000000008030d30      0x11c src/built-in.o
+                0x0000000008030d2c        0x8 src/built-in.o
+                0x0000000008030d2c                cpxlinkGetLink
+ .text.cpx      0x0000000008030d34      0x11c src/built-in.o
  .text.cpxInitRoute
-                0x0000000008030e4c        0xc src/built-in.o
-                0x0000000008030e4c                cpxInitRoute
+                0x0000000008030e50        0xc src/built-in.o
+                0x0000000008030e50                cpxInitRoute
  .text.cpxCheckVersion
-                0x0000000008030e58       0x30 src/built-in.o
-                0x0000000008030e58                cpxCheckVersion
- .text.cpxInit  0x0000000008030e88       0x24 src/built-in.o
-                0x0000000008030e88                cpxInit
+                0x0000000008030e5c       0x30 src/built-in.o
+                0x0000000008030e5c                cpxCheckVersion
+ .text.cpxInit  0x0000000008030e8c       0x24 src/built-in.o
+                0x0000000008030e8c                cpxInit
  .text.outlierFilterTdoaReset
-                0x0000000008030eac        0xe src/built-in.o
-                0x0000000008030eac                outlierFilterTdoaReset
- *fill*         0x0000000008030eba        0x2 
+                0x0000000008030eb0        0xe src/built-in.o
+                0x0000000008030eb0                outlierFilterTdoaReset
+ *fill*         0x0000000008030ebe        0x2 
  .text.outlierFilterTdoaValidateIntegrator
-                0x0000000008030ebc       0xfc src/built-in.o
-                0x0000000008030ebc                outlierFilterTdoaValidateIntegrator
+                0x0000000008030ec0       0xfc src/built-in.o
+                0x0000000008030ec0                outlierFilterTdoaValidateIntegrator
  .text.outlierFilterLighthouseReset
-                0x0000000008030fb8        0xa src/built-in.o
-                0x0000000008030fb8                outlierFilterLighthouseReset
- *fill*         0x0000000008030fc2        0x2 
+                0x0000000008030fbc        0xa src/built-in.o
+                0x0000000008030fbc                outlierFilterLighthouseReset
+ *fill*         0x0000000008030fc6        0x2 
  .text.outlierFilterLighthouseValidateSweep
-                0x0000000008030fc4       0x58 src/built-in.o
-                0x0000000008030fc4                outlierFilterLighthouseValidateSweep
- .text.mzero    0x000000000803101c       0x16 src/built-in.o
+                0x0000000008030fc8       0x58 src/built-in.o
+                0x0000000008030fc8                outlierFilterLighthouseValidateSweep
+ .text.mzero    0x0000000008031020       0x16 src/built-in.o
  .text.quatmultiply
-                0x0000000008031032       0xea src/built-in.o
+                0x0000000008031036       0xea src/built-in.o
  .text.quatToDCM
-                0x000000000803111c       0xaa src/built-in.o
-                0x000000000803111c                quatToDCM
- *fill*         0x00000000080311c6        0x2 
+                0x0000000008031120       0xaa src/built-in.o
+                0x0000000008031120                quatToDCM
+ *fill*         0x00000000080311ca        0x2 
  .text.omni_attitude_controller_DoAttitudeLoop
-                0x00000000080311c8      0x39c src/built-in.o
-                0x00000000080311c8                omni_attitude_controller_DoAttitudeLoop
+                0x00000000080311cc      0x39c src/built-in.o
+                0x00000000080311cc                omni_attitude_controller_DoAttitudeLoop
  .text.omni_attitude_controller_DoAttitudeRateLoop
-                0x0000000008031564      0x358 src/built-in.o
-                0x0000000008031564                omni_attitude_controller_DoAttitudeRateLoop
+                0x0000000008031568      0x358 src/built-in.o
+                0x0000000008031568                omni_attitude_controller_DoAttitudeRateLoop
  .text.omni_attitude_controller_initialize
-                0x00000000080318bc       0x28 src/built-in.o
-                0x00000000080318bc                omni_attitude_controller_initialize
+                0x00000000080318c0       0x28 src/built-in.o
+                0x00000000080318c0                omni_attitude_controller_initialize
  .text.single_qc_ppid_quatmultiply
-                0x00000000080318e4       0xea src/built-in.o
- *fill*         0x00000000080319ce        0x2 
+                0x00000000080318e8       0xea src/built-in.o
+ *fill*         0x00000000080319d2        0x2 
  .text.rt_atan2f_snf
-                0x00000000080319d0       0xc0 src/built-in.o
-                0x00000000080319d0                rt_atan2f_snf
+                0x00000000080319d4       0xc0 src/built-in.o
+                0x00000000080319d4                rt_atan2f_snf
  .text.single_qc_ppid_step
-                0x0000000008031a90      0x980 src/built-in.o
-                0x0000000008031a90                single_qc_ppid_step
+                0x0000000008031a94      0x980 src/built-in.o
+                0x0000000008031a94                single_qc_ppid_step
  .text.single_qc_ppid_initialize
-                0x0000000008032410       0x74 src/built-in.o
-                0x0000000008032410                single_qc_ppid_initialize
+                0x0000000008032414       0x74 src/built-in.o
+                0x0000000008032414                single_qc_ppid_initialize
  .text.rt_InitInfAndNaN
-                0x0000000008032484       0x58 src/built-in.o
-                0x0000000008032484                rt_InitInfAndNaN
+                0x0000000008032488       0x58 src/built-in.o
+                0x0000000008032488                rt_InitInfAndNaN
  .text.rtIsInfF
-                0x00000000080324dc       0x34 src/built-in.o
-                0x00000000080324dc                rtIsInfF
+                0x00000000080324e0       0x34 src/built-in.o
+                0x00000000080324e0                rtIsInfF
  .text.rtIsNaNF
-                0x0000000008032510       0x24 src/built-in.o
-                0x0000000008032510                rtIsNaNF
- *fill*         0x0000000008032534        0x4 
+                0x0000000008032514       0x24 src/built-in.o
+                0x0000000008032514                rtIsNaNF
  .text.rtGetInf
                 0x0000000008032538       0x10 src/built-in.o
                 0x0000000008032538                rtGetInf
@@ -11703,7 +11702,7 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtn.o
  *(.endflash)
                 0x0000000000000000                . = ALIGN (0x4)
 
-.data           0x0000000020000000     0x2050 load address 0x00000000080479b4
+.data           0x0000000020000000     0x1fb8 load address 0x00000000080479b4
                 0x0000000020000000                . = ALIGN (0x4)
                 0x0000000020000000                _sdata = .
  *(.data)
@@ -12143,1435 +12142,1437 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtn.o
  .data.Gimbal2D_P
                 0x0000000020001568      0x284 src/built-in.o
                 0x0000000020001568                Gimbal2D_P
- .data.Gimbal2D_Y
-                0x00000000200017ec       0x9c src/built-in.o
-                0x00000000200017ec                Gimbal2D_Y
- .data.K_dxi_x  0x0000000020001888        0x4 src/built-in.o
-                0x0000000020001888                K_dxi_x
- .data.K_dxi_y  0x000000002000188c        0x4 src/built-in.o
-                0x000000002000188c                K_dxi_y
- .data.K_dxi_z  0x0000000020001890        0x4 src/built-in.o
-                0x0000000020001890                K_dxi_z
- .data.K_thr    0x0000000020001894        0x4 src/built-in.o
-                0x0000000020001894                K_thr
- .data.K_xi_x   0x0000000020001898        0x4 src/built-in.o
-                0x0000000020001898                K_xi_x
- .data.K_xi_y   0x000000002000189c        0x4 src/built-in.o
-                0x000000002000189c                K_xi_y
- .data.K_xi_z   0x00000000200018a0        0x4 src/built-in.o
-                0x00000000200018a0                K_xi_z
+ .data.K_dxi_x  0x00000000200017ec        0x4 src/built-in.o
+                0x00000000200017ec                K_dxi_x
+ .data.K_dxi_y  0x00000000200017f0        0x4 src/built-in.o
+                0x00000000200017f0                K_dxi_y
+ .data.K_dxi_z  0x00000000200017f4        0x4 src/built-in.o
+                0x00000000200017f4                K_dxi_z
+ .data.K_thr    0x00000000200017f8        0x4 src/built-in.o
+                0x00000000200017f8                K_thr
+ .data.K_xi_x   0x00000000200017fc        0x4 src/built-in.o
+                0x00000000200017fc                K_xi_x
+ .data.K_xi_y   0x0000000020001800        0x4 src/built-in.o
+                0x0000000020001800                K_xi_y
+ .data.K_xi_z   0x0000000020001804        0x4 src/built-in.o
+                0x0000000020001804                K_xi_z
  .data.indiOuter
-                0x00000000200018a4      0x1a0 src/built-in.o
+                0x0000000020001808      0x1a0 src/built-in.o
  .data.pq_clamp
-                0x0000000020001a44        0x4 src/built-in.o
-                0x0000000020001a44                pq_clamp
- .data.pLimit   0x0000000020001a48        0x4 src/built-in.o
- .data.rLimit   0x0000000020001a4c        0x4 src/built-in.o
- .data.this     0x0000000020001a50      0x28c src/built-in.o
- .data.xVelMax  0x0000000020001cdc        0x4 src/built-in.o
- .data.yVelMax  0x0000000020001ce0        0x4 src/built-in.o
- .data.zVelMax  0x0000000020001ce4        0x4 src/built-in.o
+                0x00000000200019a8        0x4 src/built-in.o
+                0x00000000200019a8                pq_clamp
+ .data.pLimit   0x00000000200019ac        0x4 src/built-in.o
+ .data.rLimit   0x00000000200019b0        0x4 src/built-in.o
+ .data.this     0x00000000200019b4      0x28c src/built-in.o
+ .data.xVelMax  0x0000000020001c40        0x4 src/built-in.o
+ .data.yVelMax  0x0000000020001c44        0x4 src/built-in.o
+ .data.zVelMax  0x0000000020001c48        0x4 src/built-in.o
  .data.finalizeCounter
-                0x0000000020001ce8       0x1c src/built-in.o
+                0x0000000020001c4c       0x1c src/built-in.o
  .data.predictionCounter
-                0x0000000020001d04       0x1c src/built-in.o
+                0x0000000020001c68       0x1c src/built-in.o
  .data.updateCounter
-                0x0000000020001d20       0x1c src/built-in.o
+                0x0000000020001c84       0x1c src/built-in.o
  .data.measurementAppendedCounter
-                0x0000000020001d3c       0x1c src/built-in.o
+                0x0000000020001ca0       0x1c src/built-in.o
  .data.measurementNotAppendedCounter
-                0x0000000020001d58       0x1c src/built-in.o
- .data.state    0x0000000020001d74       0x20 src/built-in.o
+                0x0000000020001cbc       0x1c src/built-in.o
+ .data.state    0x0000000020001cd8       0x20 src/built-in.o
  .data.cpxlinkOp
-                0x0000000020001d94       0x14 src/built-in.o
+                0x0000000020001cf8       0x14 src/built-in.o
+ *fill*         0x0000000020001d0c        0x4 
  .data.omni_attitude_controller_P
-                0x0000000020001da8       0xe8 src/built-in.o
-                0x0000000020001da8                omni_attitude_controller_P
+                0x0000000020001d10       0xe8 src/built-in.o
+                0x0000000020001d10                omni_attitude_controller_P
  .data.Omni_gains
-                0x0000000020001e90       0x40 src/built-in.o
-                0x0000000020001e90                Omni_gains
+                0x0000000020001df8       0x40 src/built-in.o
+                0x0000000020001df8                Omni_gains
  .data.single_qc_ppid_P
-                0x0000000020001ed0       0xd0 src/built-in.o
-                0x0000000020001ed0                single_qc_ppid_P
- .data.configs  0x0000000020001fa0       0x84 src/built-in.o
+                0x0000000020001e38       0xd0 src/built-in.o
+                0x0000000020001e38                single_qc_ppid_P
+ .data.configs  0x0000000020001f08       0x84 src/built-in.o
  .data.configblockDefault
-                0x0000000020002024       0x15 src/built-in.o
- *fill*         0x0000000020002039        0x3 
+                0x0000000020001f8c       0x15 src/built-in.o
+ *fill*         0x0000000020001fa1        0x3 
  .data.anglesMask
-                0x000000002000203c        0x4 src/built-in.o
-                0x000000002000203c                anglesMask
+                0x0000000020001fa4        0x4 src/built-in.o
+                0x0000000020001fa4                anglesMask
  .data.V_SLOCAL_REVISION
-                0x0000000020002040        0x4 src/built-in.o
-                0x0000000020002040                V_SLOCAL_REVISION
+                0x0000000020001fa8        0x4 src/built-in.o
+                0x0000000020001fa8                V_SLOCAL_REVISION
  .data.V_SREVISION
-                0x0000000020002044        0x4 src/built-in.o
-                0x0000000020002044                V_SREVISION
- .data.V_STAG   0x0000000020002048        0x4 src/built-in.o
-                0x0000000020002048                V_STAG
+                0x0000000020001fac        0x4 src/built-in.o
+                0x0000000020001fac                V_SREVISION
+ .data.V_STAG   0x0000000020001fb0        0x4 src/built-in.o
+                0x0000000020001fb0                V_STAG
  .data.uxCriticalNesting
-                0x000000002000204c        0x4 vendor/built-in.o
+                0x0000000020001fb4        0x4 vendor/built-in.o
  *(.RAMtext)
-                0x0000000020002050                . = ALIGN (0x4)
-                0x0000000020002050                _edata = .
+                0x0000000020001fb8                . = ALIGN (0x4)
+                0x0000000020001fb8                _edata = .
                 0x00000000080479b4                _sidata = LOADADDR (.data)
 
-.igot.plt       0x0000000020002050        0x0 load address 0x0000000008049a04
- .igot.plt      0x0000000020002050        0x0 src/built-in.o
+.igot.plt       0x0000000020001fb8        0x0 load address 0x000000000804996c
+ .igot.plt      0x0000000020001fb8        0x0 src/built-in.o
 
-.bss            0x0000000020002050    0x125ec load address 0x0000000008049a04
-                0x0000000020002050                . = ALIGN (0x4)
-                0x0000000020002050                _sbss = .
+.bss            0x0000000020001fb8    0x1268c load address 0x000000000804996c
+                0x0000000020001fb8                . = ALIGN (0x4)
+                0x0000000020001fb8                _sbss = .
  *(.bss)
- .bss           0x0000000020002050        0x8 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-mallocr.o)
-                0x0000000020002050                __malloc_free_list
-                0x0000000020002054                __malloc_sbrk_start
- .bss           0x0000000020002058        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-reent.o)
-                0x0000000020002058                errno
- .bss           0x000000002000205c        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(sbrk.o)
+ .bss           0x0000000020001fb8        0x8 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-mallocr.o)
+                0x0000000020001fb8                __malloc_free_list
+                0x0000000020001fbc                __malloc_sbrk_start
+ .bss           0x0000000020001fc0        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-reent.o)
+                0x0000000020001fc0                errno
+ .bss           0x0000000020001fc4        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(sbrk.o)
  *(.bss.*)
- .bss.adcRange  0x0000000020002060        0x4 src/built-in.o
+ .bss.adcRange  0x0000000020001fc8        0x4 src/built-in.o
  .bss.stregResolution
-                0x0000000020002064        0x4 src/built-in.o
- .bss.isInit    0x0000000020002068       0x41 src/built-in.o
- *fill*         0x00000000200020a9        0x3 
+                0x0000000020001fcc        0x4 src/built-in.o
+ .bss.isInit    0x0000000020001fd0       0x41 src/built-in.o
+ *fill*         0x0000000020002011        0x3 
  .bss.rxComplete
-                0x00000000200020ac        0x8 src/built-in.o
- .bss.spiMutex  0x00000000200020b4        0x8 src/built-in.o
+                0x0000000020002014        0x8 src/built-in.o
+ .bss.spiMutex  0x000000002000201c        0x8 src/built-in.o
  .bss.txComplete
-                0x00000000200020bc        0x8 src/built-in.o
- .bss.drivers   0x00000000200020c4        0x4 src/built-in.o
+                0x0000000020002024        0x8 src/built-in.o
+ .bss.drivers   0x000000002000202c        0x4 src/built-in.o
  .bss.driversLen
-                0x00000000200020c8        0x4 src/built-in.o
- .bss.init.0    0x00000000200020cc        0x1 src/built-in.o
- *fill*         0x00000000200020cd        0x3 
- .bss.count     0x00000000200020d0        0x4 src/built-in.o
- .bss.isInit.0  0x00000000200020d4        0x1 src/built-in.o
+                0x0000000020002030        0x4 src/built-in.o
+ .bss.init.0    0x0000000020002034        0x1 src/built-in.o
+ *fill*         0x0000000020002035        0x3 
+ .bss.count     0x0000000020002038        0x4 src/built-in.o
+ .bss.isInit.0  0x000000002000203c        0x1 src/built-in.o
  .bss.requiredEstimator
-                0x00000000200020d5        0x1 src/built-in.o
+                0x000000002000203d        0x1 src/built-in.o
  .bss.requiredLowInterferenceRadioMode
-                0x00000000200020d6        0x1 src/built-in.o
+                0x000000002000203e        0x1 src/built-in.o
  .bss.deckButtonSensorValue
-                0x00000000200020d7        0x1 src/built-in.o
+                0x000000002000203f        0x1 src/built-in.o
  .bss.deckFwVersion
-                0x00000000200020d8        0x1 src/built-in.o
-                0x00000000200020d8                deckFwVersion
+                0x0000000020002040        0x1 src/built-in.o
+                0x0000000020002040                deckFwVersion
  .bss.doPollDeckButtonSensor
-                0x00000000200020d9        0x1 src/built-in.o
+                0x0000000020002041        0x1 src/built-in.o
  .bss.eventTrigger_activeMarkerModeChanged_payload
-                0x00000000200020da        0x1 src/built-in.o
- .bss.i2cOk     0x00000000200020db        0x1 src/built-in.o
+                0x0000000020002042        0x1 src/built-in.o
+ .bss.i2cOk     0x0000000020002043        0x1 src/built-in.o
  .bss.isVerified
-                0x00000000200020dc        0x1 src/built-in.o
- *fill*         0x00000000200020dd        0x3 
+                0x0000000020002044        0x1 src/built-in.o
+ *fill*         0x0000000020002045        0x3 
  .bss.nextPollTime
-                0x00000000200020e0        0x4 src/built-in.o
+                0x0000000020002048        0x4 src/built-in.o
  .bss.versionString
-                0x00000000200020e4        0xd src/built-in.o
- *fill*         0x00000000200020f1        0x3 
+                0x000000002000204c        0xd src/built-in.o
+ *fill*         0x0000000020002059        0x3 
  .bss.bootloaderSync
-                0x00000000200020f4        0x4 src/built-in.o
- .bss.espMode   0x00000000200020f8        0x1 src/built-in.o
-                0x00000000200020f8                espMode
+                0x000000002000205c        0x4 src/built-in.o
+ .bss.espMode   0x0000000020002060        0x1 src/built-in.o
+                0x0000000020002060                espMode
  .bss.flashBuffer
-                0x00000000200020f9       0x40 src/built-in.o
- *fill*         0x0000000020002139        0x3 
+                0x0000000020002061       0x40 src/built-in.o
+ *fill*         0x00000000200020a1        0x3 
  .bss.gap8BufContext
-                0x000000002000213c       0x20 src/built-in.o
+                0x00000000200020a4       0x20 src/built-in.o
  .bss.gap8NewFlashSize
-                0x000000002000215c        0x4 src/built-in.o
+                0x00000000200020c4        0x4 src/built-in.o
  .bss.isGap8InBootloaderMode
-                0x0000000020002160        0x1 src/built-in.o
- *fill*         0x0000000020002161        0x1 
- .bss.txPacket  0x0000000020002162      0x101 src/built-in.o
+                0x00000000200020c8        0x1 src/built-in.o
+ *fill*         0x00000000200020c9        0x1 
+ .bss.txPacket  0x00000000200020ca      0x101 src/built-in.o
  .bss.currentMotion
-                0x0000000020002263        0xc src/built-in.o
-                0x0000000020002263                currentMotion
- .bss.isInit1   0x000000002000226f        0x1 src/built-in.o
- .bss.isInit2   0x0000000020002270        0x1 src/built-in.o
+                0x00000000200021cb        0xc src/built-in.o
+                0x00000000200021cb                currentMotion
+ .bss.isInit1   0x00000000200021d7        0x1 src/built-in.o
+ .bss.isInit2   0x00000000200021d8        0x1 src/built-in.o
  .bss.outlierCount
-                0x0000000020002271        0x1 src/built-in.o
+                0x00000000200021d9        0x1 src/built-in.o
  .bss.useAdaptiveStd
-                0x0000000020002272        0x1 src/built-in.o
+                0x00000000200021da        0x1 src/built-in.o
  .bss.useFlowDisabled
-                0x0000000020002273        0x1 src/built-in.o
+                0x00000000200021db        0x1 src/built-in.o
  .bss.batteryEverLow.30
-                0x0000000020002274        0x1 src/built-in.o
- .bss.black     0x0000000020002275       0x24 src/built-in.o
- *fill*         0x0000000020002299        0x3 
+                0x00000000200021dc        0x1 src/built-in.o
+ .bss.black     0x00000000200021dd       0x24 src/built-in.o
+ *fill*         0x0000000020002201        0x3 
  .bss.brightness.12
-                0x000000002000229c        0x4 src/built-in.o
+                0x0000000020002204        0x4 src/built-in.o
  .bss.brightness.13
-                0x00000000200022a0        0x4 src/built-in.o
+                0x0000000020002208        0x4 src/built-in.o
  .bss.brightness.5
-                0x00000000200022a4        0x1 src/built-in.o
- .bss.buffer.0  0x00000000200022a5       0x24 src/built-in.o
- *fill*         0x00000000200022c9        0x3 
+                0x000000002000220c        0x1 src/built-in.o
+ .bss.buffer.0  0x000000002000220d       0x24 src/built-in.o
+ *fill*         0x0000000020002231        0x3 
  .bss.current_effect.1
-                0x00000000200022cc        0x4 src/built-in.o
+                0x0000000020002234        0x4 src/built-in.o
  .bss.fadeColor
-                0x00000000200022d0        0x4 src/built-in.o
+                0x0000000020002238        0x4 src/built-in.o
  .bss.gyroYid.7
-                0x00000000200022d4        0x4 src/built-in.o
+                0x000000002000223c        0x4 src/built-in.o
  .bss.gyroZid.6
-                0x00000000200022d8        0x4 src/built-in.o
+                0x0000000020002240        0x4 src/built-in.o
  .bss.headlightEnable
-                0x00000000200022dc        0x1 src/built-in.o
+                0x0000000020002244        0x1 src/built-in.o
  .bss.headlight_test_counter
-                0x00000000200022dd        0x1 src/built-in.o
+                0x0000000020002245        0x1 src/built-in.o
  .bss.isInitialized.18
-                0x00000000200022de        0x1 src/built-in.o
+                0x0000000020002246        0x1 src/built-in.o
  .bss.ledringmem
-                0x00000000200022df       0x18 src/built-in.o
- *fill*         0x00000000200022f7        0x1 
+                0x0000000020002247       0x18 src/built-in.o
+ *fill*         0x000000002000225f        0x1 
  .bss.ledringtimingsmem
-                0x00000000200022f8       0x2c src/built-in.o
+                0x0000000020002260       0x2c src/built-in.o
  .bss.lightSignal
-                0x0000000020002324        0xc src/built-in.o
- .bss.neffect   0x0000000020002330        0x8 src/built-in.o
+                0x000000002000228c        0xc src/built-in.o
+ .bss.neffect   0x0000000020002298        0x8 src/built-in.o
  .bss.pitchid.17
-                0x0000000020002338        0x4 src/built-in.o
+                0x00000000200022a0        0x4 src/built-in.o
  .bss.pitchid.3
-                0x000000002000233c        0x4 src/built-in.o
+                0x00000000200022a4        0x4 src/built-in.o
  .bss.rollid.16
-                0x0000000020002340        0x4 src/built-in.o
- .bss.rollid.2  0x0000000020002344        0x4 src/built-in.o
- .bss.step.11   0x0000000020002348        0x4 src/built-in.o
- .bss.sub1.10   0x000000002000234c       0x24 src/built-in.o
- .bss.sub2.9    0x0000000020002370       0x24 src/built-in.o
+                0x00000000200022a8        0x4 src/built-in.o
+ .bss.rollid.2  0x00000000200022ac        0x4 src/built-in.o
+ .bss.step.11   0x00000000200022b0        0x4 src/built-in.o
+ .bss.sub1.10   0x00000000200022b4       0x24 src/built-in.o
+ .bss.sub2.9    0x00000000200022d8       0x24 src/built-in.o
  .bss.targetBlue.19
-                0x0000000020002394        0x4 src/built-in.o
+                0x00000000200022fc        0x4 src/built-in.o
  .bss.targetGreen.21
-                0x0000000020002398        0x4 src/built-in.o
+                0x0000000020002300        0x4 src/built-in.o
  .bss.targetRed.23
-                0x000000002000239c        0x4 src/built-in.o
+                0x0000000020002304        0x4 src/built-in.o
  .bss.test_delay_counter
-                0x00000000200023a0        0x1 src/built-in.o
+                0x0000000020002308        0x1 src/built-in.o
  .bss.test_eff_nbr
-                0x00000000200023a1        0x1 src/built-in.o
+                0x0000000020002309        0x1 src/built-in.o
  .bss.test_front
-                0x00000000200023a2        0x1 src/built-in.o
- *fill*         0x00000000200023a3        0x1 
- .bss.tic.15    0x00000000200023a4        0x4 src/built-in.o
- .bss.tic.29    0x00000000200023a8        0x4 src/built-in.o
+                0x000000002000230a        0x1 src/built-in.o
+ *fill*         0x000000002000230b        0x1 
+ .bss.tic.15    0x000000002000230c        0x4 src/built-in.o
+ .bss.tic.29    0x0000000020002310        0x4 src/built-in.o
  .bss.timeEffectI
-                0x00000000200023ac        0x4 src/built-in.o
+                0x0000000020002314        0x4 src/built-in.o
  .bss.timeEffectPrevBuffer
-                0x00000000200023b0       0x24 src/built-in.o
+                0x0000000020002318       0x24 src/built-in.o
  .bss.timeEffectRotation
-                0x00000000200023d4        0x4 src/built-in.o
+                0x000000002000233c        0x4 src/built-in.o
  .bss.timeEffectTime
-                0x00000000200023d8        0x8 src/built-in.o
+                0x0000000020002340        0x8 src/built-in.o
  .bss.timerBuffer
-                0x00000000200023e0       0x84 src/built-in.o
+                0x0000000020002348       0x84 src/built-in.o
  .bss.algoSemaphore
-                0x0000000020002464        0x4 src/built-in.o
+                0x00000000200023cc        0x4 src/built-in.o
  .bss.dwm_device
-                0x0000000020002468       0x60 src/built-in.o
+                0x00000000200023d0       0x60 src/built-in.o
  .bss.lppShortPacket
-                0x00000000200024c8       0x40 src/built-in.o
+                0x0000000020002430       0x40 src/built-in.o
  .bss.lppShortQueue
-                0x0000000020002508        0x4 src/built-in.o
+                0x0000000020002470        0x4 src/built-in.o
  .bss.spiRxBuffer
-                0x000000002000250c       0xc4 src/built-in.o
+                0x0000000020002474       0xc4 src/built-in.o
  .bss.spiTxBuffer
-                0x00000000200025d0       0xc4 src/built-in.o
- .bss.timeout   0x0000000020002694        0x4 src/built-in.o
+                0x0000000020002538       0xc4 src/built-in.o
+ .bss.timeout   0x00000000200025fc        0x4 src/built-in.o
  .bss.unsortedAnchorList.0
-                0x0000000020002698      0x100 src/built-in.o
+                0x0000000020002600      0x100 src/built-in.o
  .bss.uwbTaskHandle
-                0x0000000020002798        0x4 src/built-in.o
+                0x0000000020002700        0x4 src/built-in.o
  .bss.logAnchorDistance
-                0x000000002000279c       0x10 src/built-in.o
+                0x0000000020002704       0x10 src/built-in.o
  .bss.logClockCorrection
-                0x00000000200027ac       0x20 src/built-in.o
+                0x0000000020002714       0x20 src/built-in.o
  .bss.logUwbTdoaDistDiff
-                0x00000000200027cc       0x20 src/built-in.o
+                0x0000000020002734       0x20 src/built-in.o
  .bss.lppPacket
-                0x00000000200027ec       0x20 src/built-in.o
+                0x0000000020002754       0x20 src/built-in.o
  .bss.lppPacketSendTryCounter
-                0x000000002000280c        0x4 src/built-in.o
+                0x0000000020002774        0x4 src/built-in.o
  .bss.lppPacketToSend
-                0x0000000020002810        0x1 src/built-in.o
+                0x0000000020002778        0x1 src/built-in.o
  .bss.previousAnchor
-                0x0000000020002811        0x1 src/built-in.o
+                0x0000000020002779        0x1 src/built-in.o
  .bss.rangingOk
-                0x0000000020002812        0x2 src/built-in.o
+                0x000000002000277a        0x2 src/built-in.o
  .bss.txPacket.0
-                0x0000000020002814      0x16c src/built-in.o
- .bss.ctx       0x0000000020002980       0x28 src/built-in.o
+                0x000000002000277c      0x16c src/built-in.o
+ .bss.ctx       0x00000000200028e8       0x28 src/built-in.o
  .bss.answer_rx
-                0x00000000200029a8        0x8 src/built-in.o
+                0x0000000020002910        0x8 src/built-in.o
  .bss.answer_tx
-                0x00000000200029b0        0x8 src/built-in.o
- .bss.curr_seq  0x00000000200029b8        0x1 src/built-in.o
+                0x0000000020002918        0x8 src/built-in.o
+ .bss.curr_seq  0x0000000020002920        0x1 src/built-in.o
  .bss.current_anchor
-                0x00000000200029b9        0x1 src/built-in.o
+                0x0000000020002921        0x1 src/built-in.o
  .bss.failedRanging
-                0x00000000200029ba        0x8 src/built-in.o
- *fill*         0x00000000200029c2        0x6 
- .bss.final_rx  0x00000000200029c8        0x8 src/built-in.o
- .bss.final_tx  0x00000000200029d0        0x8 src/built-in.o
+                0x0000000020002922        0x8 src/built-in.o
+ *fill*         0x000000002000292a        0x6 
+ .bss.final_rx  0x0000000020002930        0x8 src/built-in.o
+ .bss.final_tx  0x0000000020002938        0x8 src/built-in.o
  .bss.frameStart
-                0x00000000200029d8        0x8 src/built-in.o
+                0x0000000020002940        0x8 src/built-in.o
  .bss.lpp_transaction
-                0x00000000200029e0        0x1 src/built-in.o
- *fill*         0x00000000200029e1        0x7 
- .bss.poll_rx   0x00000000200029e8        0x8 src/built-in.o
- .bss.poll_tx   0x00000000200029f0        0x8 src/built-in.o
+                0x0000000020002948        0x1 src/built-in.o
+ *fill*         0x0000000020002949        0x7 
+ .bss.poll_rx   0x0000000020002950        0x8 src/built-in.o
+ .bss.poll_tx   0x0000000020002958        0x8 src/built-in.o
  .bss.rangingPerSec
-                0x00000000200029f8        0x8 src/built-in.o
+                0x0000000020002960        0x8 src/built-in.o
  .bss.rangingSuccessRate
-                0x0000000020002a00        0x8 src/built-in.o
+                0x0000000020002968        0x8 src/built-in.o
  .bss.ranging_complete
-                0x0000000020002a08        0x1 src/built-in.o
- *fill*         0x0000000020002a09        0x3 
- .bss.state     0x0000000020002a0c       0xb0 src/built-in.o
+                0x0000000020002970        0x1 src/built-in.o
+ *fill*         0x0000000020002971        0x3 
+ .bss.state     0x0000000020002974       0xb0 src/built-in.o
  .bss.statisticStartTick.0
-                0x0000000020002abc        0x4 src/built-in.o
+                0x0000000020002a24        0x4 src/built-in.o
  .bss.succededRanging
-                0x0000000020002ac0        0x8 src/built-in.o
+                0x0000000020002a28        0x8 src/built-in.o
  .bss.tdmaSynchronized
-                0x0000000020002ac8        0x1 src/built-in.o
- .bss.isPassed  0x0000000020002ac9        0x1 src/built-in.o
- .bss.isTested  0x0000000020002aca        0x2 src/built-in.o
- .bss.devBack   0x0000000020002acc       0x18 src/built-in.o
- .bss.devFront  0x0000000020002ae4       0x18 src/built-in.o
- .bss.devLeft   0x0000000020002afc       0x18 src/built-in.o
- .bss.devRight  0x0000000020002b14       0x18 src/built-in.o
- .bss.devUp     0x0000000020002b2c       0x18 src/built-in.o
+                0x0000000020002a30        0x1 src/built-in.o
+ .bss.isPassed  0x0000000020002a31        0x1 src/built-in.o
+ .bss.isTested  0x0000000020002a32        0x2 src/built-in.o
+ .bss.devBack   0x0000000020002a34       0x18 src/built-in.o
+ .bss.devFront  0x0000000020002a4c       0x18 src/built-in.o
+ .bss.devLeft   0x0000000020002a64       0x18 src/built-in.o
+ .bss.devRight  0x0000000020002a7c       0x18 src/built-in.o
+ .bss.devUp     0x0000000020002a94       0x18 src/built-in.o
  .bss.rangeBack
-                0x0000000020002b44        0x2 src/built-in.o
+                0x0000000020002aac        0x2 src/built-in.o
  .bss.rangeFront
-                0x0000000020002b46        0x2 src/built-in.o
+                0x0000000020002aae        0x2 src/built-in.o
  .bss.rangeLeft
-                0x0000000020002b48        0x2 src/built-in.o
+                0x0000000020002ab0        0x2 src/built-in.o
  .bss.rangeRight
-                0x0000000020002b4a        0x2 src/built-in.o
- .bss.rangeUp   0x0000000020002b4c        0x2 src/built-in.o
- *fill*         0x0000000020002b4e        0x2 
- .bss.FatFs     0x0000000020002b50      0x23c src/built-in.o
+                0x0000000020002ab2        0x2 src/built-in.o
+ .bss.rangeUp   0x0000000020002ab4        0x2 src/built-in.o
+ *fill*         0x0000000020002ab6        0x2 
+ .bss.FatFs     0x0000000020002ab8      0x23c src/built-in.o
  .bss.crcContext
-                0x0000000020002d8c        0x4 src/built-in.o
+                0x0000000020002cf4        0x4 src/built-in.o
  .bss.enableLogging
-                0x0000000020002d90        0x1 src/built-in.o
+                0x0000000020002cf8        0x1 src/built-in.o
  .bss.exchangeBuff
-                0x0000000020002d91      0x200 src/built-in.o
+                0x0000000020002cf9      0x200 src/built-in.o
  .bss.in_shutdown
-                0x0000000020002f91        0x1 src/built-in.o
+                0x0000000020002ef9        0x1 src/built-in.o
  .bss.initSuccess
-                0x0000000020002f92        0x1 src/built-in.o
- *fill*         0x0000000020002f93        0x1 
+                0x0000000020002efa        0x1 src/built-in.o
+ *fill*         0x0000000020002efb        0x1 
  .bss.lastFileSize
-                0x0000000020002f94        0x4 src/built-in.o
+                0x0000000020002efc        0x4 src/built-in.o
  .bss.logBuffer
-                0x0000000020002f98       0x14 src/built-in.o
+                0x0000000020002f00       0x14 src/built-in.o
  .bss.logBufferMutex
-                0x0000000020002fac        0x4 src/built-in.o
- .bss.logFile   0x0000000020002fb0      0x228 src/built-in.o
+                0x0000000020002f14        0x4 src/built-in.o
+ .bss.logFile   0x0000000020002f18      0x228 src/built-in.o
  .bss.logFileMutex
-                0x00000000200031d8        0x4 src/built-in.o
+                0x0000000020003140        0x4 src/built-in.o
  .bss.shutdownMutex
-                0x00000000200031dc        0x4 src/built-in.o
- .bss.spiSpeed  0x00000000200031e0        0x2 src/built-in.o
- *fill*         0x00000000200031e2        0x2 
+                0x0000000020003144        0x4 src/built-in.o
+ .bss.spiSpeed  0x0000000020003148        0x2 src/built-in.o
+ *fill*         0x000000002000314a        0x2 
  .bss.usdLogConfig
-                0x00000000200031e4      0x3b4 src/built-in.o
+                0x000000002000314c      0x3b4 src/built-in.o
  .bss.usdLogStats
-                0x0000000020003598        0x8 src/built-in.o
+                0x0000000020003500        0x8 src/built-in.o
  .bss.xHandleWriteTask
-                0x00000000200035a0        0x4 src/built-in.o
- .bss.dev       0x00000000200035a4       0x18 src/built-in.o
- .bss.expCoeff  0x00000000200035bc        0x8 src/built-in.o
+                0x0000000020003508        0x4 src/built-in.o
+ .bss.dev       0x000000002000350c       0x18 src/built-in.o
+ .bss.expCoeff  0x0000000020003524        0x8 src/built-in.o
  .bss.range_last
-                0x00000000200035c4        0x4 src/built-in.o
- .bss.I2Cx      0x00000000200035c8       0x20 src/built-in.o
- .bss.buffer    0x00000000200035e8       0x3e src/built-in.o
- .bss.devAddr   0x0000000020003626        0x9 src/built-in.o
+                0x000000002000352c        0x4 src/built-in.o
+ .bss.I2Cx      0x0000000020003530       0x20 src/built-in.o
+ .bss.buffer    0x0000000020003550       0x3e src/built-in.o
+ .bss.devAddr   0x000000002000358e        0x9 src/built-in.o
  .bss.captureFlag
-                0x000000002000362f        0x1 src/built-in.o
+                0x0000000020003597        0x1 src/built-in.o
  .bss.captureQueue
-                0x0000000020003630        0x4 src/built-in.o
+                0x0000000020003598        0x4 src/built-in.o
  .bss.isAvailible
-                0x0000000020003634        0x1 src/built-in.o
- *fill*         0x0000000020003635        0x1 
+                0x000000002000359c        0x1 src/built-in.o
+ *fill*         0x000000002000359d        0x1 
  .bss.prevCaptureVal
-                0x0000000020003636        0x2 src/built-in.o
+                0x000000002000359e        0x2 src/built-in.o
  .bss.NVIC_InitStructure.0
-                0x0000000020003638        0x4 src/built-in.o
+                0x00000000200035a0        0x4 src/built-in.o
  .bss.powerFlag
-                0x000000002000363c        0x1 src/built-in.o
+                0x00000000200035a4        0x1 src/built-in.o
  .bss.ledControlBitmask
-                0x000000002000363d        0x1 src/built-in.o
+                0x00000000200035a5        0x1 src/built-in.o
  .bss.ledLastState
-                0x000000002000363e        0x6 src/built-in.o
+                0x00000000200035a6        0x6 src/built-in.o
  .bss.ledSwitchState
-                0x0000000020003644        0x1 src/built-in.o
-                0x0000000020003644                ledSwitchState
+                0x00000000200035ac        0x1 src/built-in.o
+                0x00000000200035ac                ledSwitchState
  .bss.flashWriteBuf
-                0x0000000020003645      0x109 src/built-in.o
- *fill*         0x000000002000374e        0x2 
+                0x00000000200035ad      0x109 src/built-in.o
+ *fill*         0x00000000200036b6        0x2 
  .bss.lastCycleTime
-                0x0000000020003750        0x8 src/built-in.o
- .bss.motorMap  0x0000000020003758        0x4 src/built-in.o
-                0x0000000020003758                motorMap
+                0x00000000200036b8        0x8 src/built-in.o
+ .bss.motorMap  0x00000000200036c0        0x4 src/built-in.o
+                0x00000000200036c0                motorMap
  .bss.motorPowerSet
-                0x000000002000375c        0x8 src/built-in.o
+                0x00000000200036c4        0x8 src/built-in.o
  .bss.motorSetEnable
-                0x0000000020003764        0x1 src/built-in.o
- *fill*         0x0000000020003765        0x3 
+                0x00000000200036cc        0x1 src/built-in.o
+ *fill*         0x00000000200036cd        0x3 
  .bss.motor_ratios
-                0x0000000020003768       0x10 src/built-in.o
- .bss.counter   0x0000000020003778        0x8 src/built-in.o
-                0x0000000020003778                counter
+                0x00000000200036d0       0x10 src/built-in.o
+ .bss.counter   0x00000000200036e0        0x8 src/built-in.o
+                0x00000000200036e0                counter
  .bss.hasOverrun
-                0x0000000020003780        0x2 src/built-in.o
- *fill*         0x0000000020003782        0x2 
+                0x00000000200036e8        0x2 src/built-in.o
+ *fill*         0x00000000200036ea        0x2 
  .bss.uart1queue
-                0x0000000020003784        0x4 src/built-in.o
+                0x00000000200036ec        0x4 src/built-in.o
  .bss.DMA_InitStructureShare
-                0x0000000020003788       0x3c src/built-in.o
+                0x00000000200036f0       0x3c src/built-in.o
  .bss.dmaBuffer
-                0x00000000200037c4       0x80 src/built-in.o
+                0x000000002000372c       0x80 src/built-in.o
  .bss.isUartDmaInitialized
-                0x0000000020003844        0x2 src/built-in.o
- *fill*         0x0000000020003846        0x2 
+                0x00000000200037ac        0x2 src/built-in.o
+ *fill*         0x00000000200037ae        0x2 
  .bss.isrEvents
-                0x0000000020003848        0x4 src/built-in.o
- .bss.rxStream  0x000000002000384c        0x4 src/built-in.o
- .bss.txBuffer  0x0000000020003850        0x4 src/built-in.o
- .bss.txIdx     0x0000000020003854        0x4 src/built-in.o
- .bss.txSize    0x0000000020003858        0x4 src/built-in.o
- .bss.uartBusy  0x000000002000385c        0x8 src/built-in.o
+                0x00000000200037b0        0x4 src/built-in.o
+ .bss.rxStream  0x00000000200037b4        0x4 src/built-in.o
+ .bss.txBuffer  0x00000000200037b8        0x4 src/built-in.o
+ .bss.txIdx     0x00000000200037bc        0x4 src/built-in.o
+ .bss.txSize    0x00000000200037c0        0x4 src/built-in.o
+ .bss.uartBusy  0x00000000200037c4        0x8 src/built-in.o
  .bss.uartBusyBuffer
-                0x0000000020003864       0xa0 src/built-in.o
+                0x00000000200037cc       0xa0 src/built-in.o
  .bss.waitUntilSendDone
-                0x0000000020003904        0x8 src/built-in.o
+                0x000000002000386c        0x8 src/built-in.o
  .bss.waitUntilSendDoneBuffer
-                0x000000002000390c       0xa0 src/built-in.o
+                0x0000000020003874       0xa0 src/built-in.o
  .bss.DMA_InitStructureShareTX
-                0x00000000200039ac       0x3c src/built-in.o
- .bss.cksum     0x00000000200039e8        0x2 src/built-in.o
+                0x0000000020003914       0x3c src/built-in.o
+ .bss.cksum     0x0000000020003950        0x2 src/built-in.o
  .bss.dataIndex
-                0x00000000200039ea        0x1 src/built-in.o
+                0x0000000020003952        0x1 src/built-in.o
  .bss.dataIndexIsr
-                0x00000000200039eb        0x1 src/built-in.o
+                0x0000000020003953        0x1 src/built-in.o
  .bss.dataSizeIsr
-                0x00000000200039ec        0x1 src/built-in.o
+                0x0000000020003954        0x1 src/built-in.o
  .bss.dmaIsPaused
-                0x00000000200039ed        0x1 src/built-in.o
+                0x0000000020003955        0x1 src/built-in.o
  .bss.dmaNrfFlowControlBufferFull
-                0x00000000200039ee        0x1 src/built-in.o
- *fill*         0x00000000200039ef        0x1 
+                0x0000000020003956        0x1 src/built-in.o
+ *fill*         0x0000000020003957        0x1 
  .bss.dmaPausedCounter
-                0x00000000200039f0        0x4 src/built-in.o
+                0x0000000020003958        0x4 src/built-in.o
  .bss.dmaResumedCounter
-                0x00000000200039f4        0x4 src/built-in.o
+                0x000000002000395c        0x4 src/built-in.o
  .bss.dmaSendWhileNrfBufferFull
-                0x00000000200039f8        0x4 src/built-in.o
+                0x0000000020003960        0x4 src/built-in.o
  .bss.dmaTXBuffer
-                0x00000000200039fc       0x40 src/built-in.o
+                0x0000000020003964       0x40 src/built-in.o
  .bss.dmaTxStreamPausedCounter
-                0x0000000020003a3c        0x4 src/built-in.o
+                0x00000000200039a4        0x4 src/built-in.o
  .bss.dmaTxStreamResumedCounter
-                0x0000000020003a40        0x4 src/built-in.o
+                0x00000000200039a8        0x4 src/built-in.o
  .bss.initialDMACount
-                0x0000000020003a44        0x2 src/built-in.o
- *fill*         0x0000000020003a46        0x2 
+                0x00000000200039ac        0x2 src/built-in.o
+ *fill*         0x00000000200039ae        0x2 
  .bss.outDataIsr
-                0x0000000020003a48        0x4 src/built-in.o
+                0x00000000200039b0        0x4 src/built-in.o
  .bss.remainingDMACount
-                0x0000000020003a4c        0x2 src/built-in.o
- .bss.rxState   0x0000000020003a4e        0x1 src/built-in.o
- .bss.slp       0x0000000020003a4f       0x42 src/built-in.o
- *fill*         0x0000000020003a91        0x3 
+                0x00000000200039b4        0x2 src/built-in.o
+ .bss.rxState   0x00000000200039b6        0x1 src/built-in.o
+ .bss.slp       0x00000000200039b7       0x42 src/built-in.o
+ *fill*         0x00000000200039f9        0x3 
  .bss.syslinkPacketDelivery
-                0x0000000020003a94        0x4 src/built-in.o
+                0x00000000200039fc        0x4 src/built-in.o
  .bss.syslinkPacketDeliveryReadyToReceive
-                0x0000000020003a98        0x1 src/built-in.o
- *fill*         0x0000000020003a99        0x1 
+                0x0000000020003a00        0x1 src/built-in.o
+ *fill*         0x0000000020003a01        0x1 
  .bss.r16data.1
-                0x0000000020003a9a        0x2 src/built-in.o
- .bss.r8data.2  0x0000000020003a9c        0x1 src/built-in.o
- *fill*         0x0000000020003a9d        0x3 
+                0x0000000020003a02        0x2 src/built-in.o
+ .bss.r8data.2  0x0000000020003a04        0x1 src/built-in.o
+ *fill*         0x0000000020003a05        0x3 
  .bss.DMA_InitStructure
-                0x0000000020003aa0       0x3c src/built-in.o
+                0x0000000020003a08       0x3c src/built-in.o
  .bss.GPIO_InitStructure
-                0x0000000020003adc        0x8 src/built-in.o
+                0x0000000020003a44        0x8 src/built-in.o
  .bss.NVIC_InitStructure
-                0x0000000020003ae4        0x4 src/built-in.o
+                0x0000000020003a4c        0x4 src/built-in.o
  .bss.TIM_OCInitStructure
-                0x0000000020003ae8       0x14 src/built-in.o
+                0x0000000020003a50       0x14 src/built-in.o
  .bss.TIM_TimeBaseStructure
-                0x0000000020003afc        0xc src/built-in.o
+                0x0000000020003a64        0xc src/built-in.o
  .bss.allLedDone
-                0x0000000020003b08        0x4 src/built-in.o
+                0x0000000020003a70        0x4 src/built-in.o
  .bss.color_led
-                0x0000000020003b0c        0x4 src/built-in.o
+                0x0000000020003a74        0x4 src/built-in.o
  .bss.current_led
-                0x0000000020003b10        0x4 src/built-in.o
- .bss.led_dma   0x0000000020003b14       0x60 src/built-in.o
+                0x0000000020003a78        0x4 src/built-in.o
+ .bss.led_dma   0x0000000020003a7c       0x60 src/built-in.o
  .bss.total_led
-                0x0000000020003b74        0x4 src/built-in.o
+                0x0000000020003adc        0x4 src/built-in.o
  .bss.accel_cfg_copy
-                0x0000000020003b78        0x4 src/built-in.o
+                0x0000000020003ae0        0x4 src/built-in.o
  .bss.gyro_cfg_copy
-                0x0000000020003b7c        0x4 src/built-in.o
+                0x0000000020003ae4        0x4 src/built-in.o
  .bss.receiverPacket
-                0x0000000020003b80      0x10a src/built-in.o
+                0x0000000020003ae8      0x10a src/built-in.o
  .bss.senderPacket
-                0x0000000020003c8a        0x8 src/built-in.o
+                0x0000000020003bf2        0x8 src/built-in.o
  .bss.espblReceiveState
-                0x0000000020003c92        0x1 src/built-in.o
+                0x0000000020003bfa        0x1 src/built-in.o
  .bss.inEscapeSequence
-                0x0000000020003c93        0x1 src/built-in.o
+                0x0000000020003bfb        0x1 src/built-in.o
  .bss.sendBuffer.0
-                0x0000000020003c94       0x80 src/built-in.o
- .bss.sendSize  0x0000000020003d14        0x4 src/built-in.o
+                0x0000000020003bfc       0x80 src/built-in.o
+ .bss.sendSize  0x0000000020003c7c        0x4 src/built-in.o
  .bss.slipDataIndex
-                0x0000000020003d18        0x1 src/built-in.o
- .bss.slipSize  0x0000000020003d19        0x2 src/built-in.o
+                0x0000000020003c80        0x1 src/built-in.o
+ .bss.slipSize  0x0000000020003c81        0x2 src/built-in.o
  .bss.slipSizeIndex
-                0x0000000020003d1b        0x1 src/built-in.o
+                0x0000000020003c83        0x1 src/built-in.o
  .bss.slipValue
-                0x0000000020003d1c        0x4 src/built-in.o
+                0x0000000020003c84        0x4 src/built-in.o
  .bss.slipValueIndex
-                0x0000000020003d20        0x1 src/built-in.o
- *fill*         0x0000000020003d21        0x3 
- .bss.ctrl      0x0000000020003d24        0x4 src/built-in.o
+                0x0000000020003c88        0x1 src/built-in.o
+ *fill*         0x0000000020003c89        0x3 
+ .bss.ctrl      0x0000000020003c8c        0x4 src/built-in.o
  .bss.ledseqCmdQueue
-                0x0000000020003d28        0x4 src/built-in.o
+                0x0000000020003c90        0x4 src/built-in.o
  .bss.ledseqEnabled
-                0x0000000020003d2c        0x1 src/built-in.o
- *fill*         0x0000000020003d2d        0x3 
+                0x0000000020003c94        0x1 src/built-in.o
+ *fill*         0x0000000020003c95        0x3 
  .bss.ledseqMutex
-                0x0000000020003d30        0x4 src/built-in.o
+                0x0000000020003c98        0x4 src/built-in.o
  .bss.sequences
-                0x0000000020003d34        0x4 src/built-in.o
-                0x0000000020003d34                sequences
+                0x0000000020003c9c        0x4 src/built-in.o
+                0x0000000020003c9c                sequences
  .bss.lockCmdBuf
-                0x0000000020003d38        0x4 src/built-in.o
+                0x0000000020003ca0        0x4 src/built-in.o
  .bss.lockCmdBufBuffer
-                0x0000000020003d3c       0x50 src/built-in.o
- .bss.owCmdBuf  0x0000000020003d8c       0x20 src/built-in.o
+                0x0000000020003ca4       0x50 src/built-in.o
+ .bss.owCmdBuf  0x0000000020003cf4       0x20 src/built-in.o
  .bss.owDataIsValid
-                0x0000000020003dac        0x1 src/built-in.o
- *fill*         0x0000000020003dad        0x3 
+                0x0000000020003d14        0x1 src/built-in.o
+ *fill*         0x0000000020003d15        0x3 
  .bss.waitForReply
-                0x0000000020003db0        0x4 src/built-in.o
+                0x0000000020003d18        0x4 src/built-in.o
  .bss.batteryLevel
-                0x0000000020003db4        0x1 src/built-in.o
- *fill*         0x0000000020003db5        0x3 
+                0x0000000020003d1c        0x1 src/built-in.o
+ *fill*         0x0000000020003d1d        0x3 
  .bss.batteryLowTimeStamp
-                0x0000000020003db8        0x4 src/built-in.o
+                0x0000000020003d20        0x4 src/built-in.o
  .bss.batteryVoltage
-                0x0000000020003dbc        0x4 src/built-in.o
+                0x0000000020003d24        0x4 src/built-in.o
  .bss.batteryVoltageMV
-                0x0000000020003dc0        0x2 src/built-in.o
- *fill*         0x0000000020003dc2        0x2 
+                0x0000000020003d28        0x2 src/built-in.o
+ *fill*         0x0000000020003d2a        0x2 
  .bss.batteryVoltageMax
-                0x0000000020003dc4        0x4 src/built-in.o
+                0x0000000020003d2c        0x4 src/built-in.o
  .bss.extBatCurrAmpPerVolt
-                0x0000000020003dc8        0x4 src/built-in.o
+                0x0000000020003d30        0x4 src/built-in.o
  .bss.extBatCurrDeckPin
-                0x0000000020003dcc        0x1 src/built-in.o
+                0x0000000020003d34        0x1 src/built-in.o
  .bss.extBatVoltDeckPin
-                0x0000000020003dcd        0x1 src/built-in.o
- *fill*         0x0000000020003dce        0x2 
+                0x0000000020003d35        0x1 src/built-in.o
+ *fill*         0x0000000020003d36        0x2 
  .bss.extBatVoltMultiplier
-                0x0000000020003dd0        0x4 src/built-in.o
+                0x0000000020003d38        0x4 src/built-in.o
  .bss.extBatteryCurrent
-                0x0000000020003dd4        0x4 src/built-in.o
+                0x0000000020003d3c        0x4 src/built-in.o
  .bss.extBatteryVoltage
-                0x0000000020003dd8        0x4 src/built-in.o
+                0x0000000020003d40        0x4 src/built-in.o
  .bss.extBatteryVoltageMV
-                0x0000000020003ddc        0x2 src/built-in.o
- *fill*         0x0000000020003dde        0x2 
+                0x0000000020003d44        0x2 src/built-in.o
+ *fill*         0x0000000020003d46        0x2 
  .bss.graceful_shutdown_callbacks
-                0x0000000020003de0       0x14 src/built-in.o
+                0x0000000020003d48       0x14 src/built-in.o
  .bss.graceful_shutdown_callbacks_index
-                0x0000000020003df4        0x4 src/built-in.o
+                0x0000000020003d5c        0x4 src/built-in.o
  .bss.ignoreChargedState
-                0x0000000020003df8        0x1 src/built-in.o
+                0x0000000020003d60        0x1 src/built-in.o
  .bss.isExtBatCurrDeckPinSet
-                0x0000000020003df9        0x1 src/built-in.o
+                0x0000000020003d61        0x1 src/built-in.o
  .bss.isExtBatVoltDeckPinSet
-                0x0000000020003dfa        0x1 src/built-in.o
- *fill*         0x0000000020003dfb        0x1 
+                0x0000000020003d62        0x1 src/built-in.o
+ *fill*         0x0000000020003d63        0x1 
  .bss.osSys_pmTaskStackBuffer
-                0x0000000020003dfc      0x258 src/built-in.o
- .bss.pmState   0x0000000020004054        0x1 src/built-in.o
+                0x0000000020003d64      0x258 src/built-in.o
+ .bss.pmState   0x0000000020003fbc        0x1 src/built-in.o
  .bss.pmSyslinkInfo
-                0x0000000020004055        0x9 src/built-in.o
- *fill*         0x000000002000405e        0x2 
+                0x0000000020003fbd        0x9 src/built-in.o
+ *fill*         0x0000000020003fc6        0x2 
  .bss.crtpPacketDelivery
-                0x0000000020004060        0x8 src/built-in.o
+                0x0000000020003fc8        0x8 src/built-in.o
  .bss.isConnected
-                0x0000000020004068        0x1 src/built-in.o
- *fill*         0x0000000020004069        0x3 
+                0x0000000020003fd0        0x1 src/built-in.o
+ *fill*         0x0000000020003fd1        0x3 
  .bss.lastPacketTick
-                0x000000002000406c        0x4 src/built-in.o
+                0x0000000020003fd4        0x4 src/built-in.o
  .bss.p2p_callback
-                0x0000000020004070        0x4 src/built-in.o
- .bss.rssi      0x0000000020004074        0x1 src/built-in.o
- .bss.slp.0     0x0000000020004075       0x84 src/built-in.o
+                0x0000000020003fd8        0x4 src/built-in.o
+ .bss.rssi      0x0000000020003fdc        0x1 src/built-in.o
+ .bss.slp.0     0x0000000020003fdd       0x84 src/built-in.o
  .bss.txPacket.2
-                0x00000000200040f9       0x42 src/built-in.o
- *fill*         0x000000002000413b        0x1 
- .bss.txQueue   0x000000002000413c        0x8 src/built-in.o
- .bss.accLpf    0x0000000020004144       0xa8 src/built-in.o
+                0x0000000020004061       0x42 src/built-in.o
+ *fill*         0x00000000200040a3        0x1 
+ .bss.txQueue   0x00000000200040a4        0x8 src/built-in.o
+ .bss.accLpf    0x00000000200040ac       0xa8 src/built-in.o
  .bss.accScaleFound
-                0x00000000200041ec        0x1 src/built-in.o
- *fill*         0x00000000200041ed        0x3 
+                0x0000000020004154        0x1 src/built-in.o
+ *fill*         0x0000000020004155        0x3 
  .bss.accScaleSum
-                0x00000000200041f0        0x8 src/built-in.o
+                0x0000000020004158        0x8 src/built-in.o
  .bss.accScaleSumCount
-                0x00000000200041f8        0x4 src/built-in.o
- .bss.accelRaw  0x00000000200041fc        0xc src/built-in.o
+                0x0000000020004160        0x4 src/built-in.o
+ .bss.accelRaw  0x0000000020004164        0xc src/built-in.o
  .bss.accelerometerDataQueue
-                0x0000000020004208        0x8 src/built-in.o
+                0x0000000020004170        0x8 src/built-in.o
  .bss.barometerDataQueue
-                0x0000000020004210        0x8 src/built-in.o
+                0x0000000020004178        0x8 src/built-in.o
  .bss.bmi088Dev
-                0x0000000020004218       0x2c src/built-in.o
- *fill*         0x0000000020004244        0x4 
+                0x0000000020004180       0x2c src/built-in.o
+ *fill*         0x00000000200041ac        0x4 
  .bss.bmp388Dev
-                0x0000000020004248       0x90 src/built-in.o
- .bss.cosPitch  0x00000000200042d8        0x8 src/built-in.o
- .bss.cosRoll   0x00000000200042e0        0x8 src/built-in.o
+                0x00000000200041b0       0x90 src/built-in.o
+ .bss.cosPitch  0x0000000020004240        0x8 src/built-in.o
+ .bss.cosRoll   0x0000000020004248        0x8 src/built-in.o
  .bss.dataReady
-                0x00000000200042e8        0x8 src/built-in.o
+                0x0000000020004250        0x8 src/built-in.o
  .bss.dataReadyBuffer
-                0x00000000200042f0       0xa0 src/built-in.o
- .bss.gyroBias  0x0000000020004390       0x18 src/built-in.o
+                0x0000000020004258       0xa0 src/built-in.o
+ .bss.gyroBias  0x00000000200042f8       0x18 src/built-in.o
  .bss.gyroBiasFound
-                0x00000000200043a8        0x2 src/built-in.o
- *fill*         0x00000000200043aa        0x2 
+                0x0000000020004310        0x2 src/built-in.o
+ *fill*         0x0000000020004312        0x2 
  .bss.gyroDataQueue
-                0x00000000200043ac        0x8 src/built-in.o
- .bss.gyroLpf   0x00000000200043b4       0xa8 src/built-in.o
- .bss.gyroRaw   0x000000002000445c        0xc src/built-in.o
+                0x0000000020004314        0x8 src/built-in.o
+ .bss.gyroLpf   0x000000002000431c       0xa8 src/built-in.o
+ .bss.gyroRaw   0x00000000200043c4        0xc src/built-in.o
  .bss.imuIntTimestamp
-                0x0000000020004468       0x10 src/built-in.o
- .bss.imuPhi    0x0000000020004478        0x8 src/built-in.o
- .bss.imuPsi    0x0000000020004480        0x8 src/built-in.o
- .bss.imuTheta  0x0000000020004488        0x8 src/built-in.o
+                0x00000000200043d0       0x10 src/built-in.o
+ .bss.imuPhi    0x00000000200043e0        0x8 src/built-in.o
+ .bss.imuPsi    0x00000000200043e8        0x8 src/built-in.o
+ .bss.imuTheta  0x00000000200043f0        0x8 src/built-in.o
  .bss.isBarometerPresent
-                0x0000000020004490        0x2 src/built-in.o
- *fill*         0x0000000020004492        0x2 
+                0x00000000200043f8        0x2 src/built-in.o
+ *fill*         0x00000000200043fa        0x2 
  .bss.magnetometerDataQueue
-                0x0000000020004494        0x8 src/built-in.o
+                0x00000000200043fc        0x8 src/built-in.o
  .bss.osSys_sensorsTaskStackBuffer
-                0x000000002000449c      0x960 src/built-in.o
- *fill*         0x0000000020004dfc        0x4 
+                0x0000000020004404      0x960 src/built-in.o
+ *fill*         0x0000000020004d64        0x4 
  .bss.sensorData
-                0x0000000020004e00       0xa8 src/built-in.o
+                0x0000000020004d68       0xa8 src/built-in.o
  .bss.sensorsDataReady
-                0x0000000020004ea8        0x8 src/built-in.o
+                0x0000000020004e10        0x8 src/built-in.o
  .bss.sensorsDataReadyBuffer
-                0x0000000020004eb0       0xa0 src/built-in.o
- .bss.sinPitch  0x0000000020004f50        0x8 src/built-in.o
- .bss.sinRoll   0x0000000020004f58        0x8 src/built-in.o
+                0x0000000020004e18       0xa0 src/built-in.o
+ .bss.sinPitch  0x0000000020004eb8        0x8 src/built-in.o
+ .bss.sinRoll   0x0000000020004ec0        0x8 src/built-in.o
  .bss.varianceSampleTime.6
-                0x0000000020004f60        0x4 src/built-in.o
+                0x0000000020004ec8        0x4 src/built-in.o
  .bss.accBiasFound.9
-                0x0000000020004f64        0x1 src/built-in.o
- *fill*         0x0000000020004f65        0x3 
+                0x0000000020004ecc        0x1 src/built-in.o
+ *fill*         0x0000000020004ecd        0x3 
  .bss.accScaleSumCount.8
-                0x0000000020004f68        0x4 src/built-in.o
+                0x0000000020004ed0        0x4 src/built-in.o
  .bss.isAK8963TestPassed
-                0x0000000020004f6c        0x1 src/built-in.o
+                0x0000000020004ed4        0x1 src/built-in.o
  .bss.isLPS25HTestPassed
-                0x0000000020004f6d        0x1 src/built-in.o
+                0x0000000020004ed5        0x1 src/built-in.o
  .bss.isMagnetometerPresent
-                0x0000000020004f6e        0x1 src/built-in.o
+                0x0000000020004ed6        0x1 src/built-in.o
  .bss.isMpu6500TestPassed
-                0x0000000020004f6f        0x1 src/built-in.o
+                0x0000000020004ed7        0x1 src/built-in.o
  .bss.rawPressure.1
-                0x0000000020004f70        0x4 src/built-in.o
+                0x0000000020004ed8        0x4 src/built-in.o
  .bss.rawTemp.0
-                0x0000000020004f74        0x2 src/built-in.o
- *fill*         0x0000000020004f76        0x2 
+                0x0000000020004edc        0x2 src/built-in.o
+ *fill*         0x0000000020004ede        0x2 
  .bss.varianceSampleTime.10
-                0x0000000020004f78        0x4 src/built-in.o
+                0x0000000020004ee0        0x4 src/built-in.o
  .bss.activeImplementation
-                0x0000000020004f7c        0x4 src/built-in.o
+                0x0000000020004ee4        0x4 src/built-in.o
  .bss.reformatValue
-                0x0000000020004f80        0x1 src/built-in.o
- *fill*         0x0000000020004f81        0x3 
+                0x0000000020004ee8        0x1 src/built-in.o
+ *fill*         0x0000000020004ee9        0x3 
  .bss.storageMutex
-                0x0000000020004f84        0x4 src/built-in.o
+                0x0000000020004eec        0x4 src/built-in.o
  .bss.storageStats
-                0x0000000020004f88        0x1 src/built-in.o
+                0x0000000020004ef0        0x1 src/built-in.o
  .bss.sendBuffer
-                0x0000000020004f89     0x1040 src/built-in.o
- *fill*         0x0000000020005fc9        0x3 
+                0x0000000020004ef1     0x1040 src/built-in.o
+ *fill*         0x0000000020005f31        0x3 
  .bss.syslinkAccess
-                0x0000000020005fcc        0x4 src/built-in.o
+                0x0000000020005f34        0x4 src/built-in.o
  .bss.triggerDebugProbe
-                0x0000000020005fd0        0x1 src/built-in.o
- *fill*         0x0000000020005fd1        0x3 
+                0x0000000020005f38        0x1 src/built-in.o
+ *fill*         0x0000000020005f39        0x3 
  .bss.osSys_usblinkTaskStackBuffer
-                0x0000000020005fd4      0x258 src/built-in.o
- .bss.p         0x000000002000622c       0x60 src/built-in.o
- .bss.usbIn     0x000000002000628c       0x41 src/built-in.o
- .bss.CmdBuff   0x00000000200062cd        0x8 src/built-in.o
-                0x00000000200062cd                CmdBuff
+                0x0000000020005f3c      0x258 src/built-in.o
+ .bss.p         0x0000000020006194       0x60 src/built-in.o
+ .bss.usbIn     0x00000000200061f4       0x41 src/built-in.o
+ .bss.CmdBuff   0x0000000020006235        0x8 src/built-in.o
+                0x0000000020006235                CmdBuff
  .bss.USB_Rx_Buffer
-                0x00000000200062d5       0x40 src/built-in.o
-                0x00000000200062d5                USB_Rx_Buffer
+                0x000000002000623d       0x40 src/built-in.o
+                0x000000002000623d                USB_Rx_Buffer
  .bss.doingTransfer
-                0x0000000020006315        0x1 src/built-in.o
+                0x000000002000627d        0x1 src/built-in.o
  .bss.doingVcpTransfer
-                0x0000000020006316        0x1 src/built-in.o
- .bss.inPacket  0x0000000020006317       0x41 src/built-in.o
+                0x000000002000627e        0x1 src/built-in.o
+ .bss.inPacket  0x000000002000627f       0x41 src/built-in.o
  .bss.outPacket
-                0x0000000020006358       0x41 src/built-in.o
- .bss.outStage  0x0000000020006399       0x41 src/built-in.o
+                0x00000000200062c0       0x41 src/built-in.o
+ .bss.outStage  0x0000000020006301       0x41 src/built-in.o
  .bss.outVcpPacket
-                0x00000000200063da       0x41 src/built-in.o
- *fill*         0x000000002000641b        0x1 
+                0x0000000020006342       0x41 src/built-in.o
+ *fill*         0x0000000020006383        0x1 
  .bss.usbDataRx
-                0x000000002000641c        0x4 src/built-in.o
+                0x0000000020006384        0x4 src/built-in.o
  .bss.usbDataTx
-                0x0000000020006420        0x4 src/built-in.o
+                0x0000000020006388        0x4 src/built-in.o
  .bss.usbd_cdc_AltSet
-                0x0000000020006424        0x4 src/built-in.o
- .bss.reset     0x0000000020006428        0x1 src/built-in.o
- *fill*         0x0000000020006429        0x3 
+                0x000000002000638c        0x4 src/built-in.o
+ .bss.reset     0x0000000020006390        0x1 src/built-in.o
+ *fill*         0x0000000020006391        0x3 
  .bss.usecTimerHighCount
-                0x000000002000642c        0x4 src/built-in.o
- .bss.CurrVol   0x0000000020006430        0x1 src/built-in.o
- *fill*         0x0000000020006431        0x1 
- .bss.Fsid      0x0000000020006432        0x2 src/built-in.o
- .bss.LfnBuf    0x0000000020006434      0x200 src/built-in.o
+                0x0000000020006394        0x4 src/built-in.o
+ .bss.CurrVol   0x0000000020006398        0x1 src/built-in.o
+ *fill*         0x0000000020006399        0x1 
+ .bss.Fsid      0x000000002000639a        0x2 src/built-in.o
+ .bss.LfnBuf    0x000000002000639c      0x200 src/built-in.o
  .bss.SET_TEST_MODE
-                0x0000000020006634        0x4 src/built-in.o
-                0x0000000020006634                SET_TEST_MODE
+                0x000000002000659c        0x4 src/built-in.o
+                0x000000002000659c                SET_TEST_MODE
  .bss.USBD_cfg_status
-                0x0000000020006638        0x4 src/built-in.o
-                0x0000000020006638                USBD_cfg_status
+                0x00000000200065a0        0x4 src/built-in.o
+                0x00000000200065a0                USBD_cfg_status
  .bss.USBD_default_cfg
-                0x000000002000663c        0x4 src/built-in.o
-                0x000000002000663c                USBD_default_cfg
+                0x00000000200065a4        0x4 src/built-in.o
+                0x00000000200065a4                USBD_default_cfg
  .bss.USBD_ep_status
-                0x0000000020006640        0x4 src/built-in.o
-                0x0000000020006640                USBD_ep_status
- .bss.cfgidx.0  0x0000000020006644        0x1 src/built-in.o
- .bss.overflow  0x0000000020006645        0x1 src/built-in.o
- *fill*         0x0000000020006646        0x2 
- .bss.rxQueue   0x0000000020006648        0x4 src/built-in.o
+                0x00000000200065a8        0x4 src/built-in.o
+                0x00000000200065a8                USBD_ep_status
+ .bss.cfgidx.0  0x00000000200065ac        0x1 src/built-in.o
+ .bss.overflow  0x00000000200065ad        0x1 src/built-in.o
+ *fill*         0x00000000200065ae        0x2 
+ .bss.rxQueue   0x00000000200065b0        0x4 src/built-in.o
  .bss.sendMutex
-                0x000000002000664c        0x4 src/built-in.o
+                0x00000000200065b4        0x4 src/built-in.o
  .bss.collisionAvoidanceEnable
-                0x0000000020006650        0x1 src/built-in.o
- *fill*         0x0000000020006651        0x3 
- .bss.latency   0x0000000020006654        0x4 src/built-in.o
+                0x00000000200065b8        0x1 src/built-in.o
+ *fill*         0x00000000200065b9        0x3 
+ .bss.latency   0x00000000200065bc        0x4 src/built-in.o
  .bss.workspace
-                0x0000000020006658      0x1c0 src/built-in.o
+                0x00000000200065c0      0x1c0 src/built-in.o
  .bss.enableHighLevel
-                0x0000000020006818        0x1 src/built-in.o
- *fill*         0x0000000020006819        0x3 
+                0x0000000020006780        0x1 src/built-in.o
+ *fill*         0x0000000020006781        0x3 
  .bss.lastState
-                0x000000002000681c       0x50 src/built-in.o
+                0x0000000020006784       0x50 src/built-in.o
  .bss.lastUpdate
-                0x000000002000686c        0x4 src/built-in.o
+                0x00000000200067d4        0x4 src/built-in.o
  .bss.priorityQueue
-                0x0000000020006870        0x4 src/built-in.o
+                0x00000000200067d8        0x4 src/built-in.o
  .bss.setpointQueue
-                0x0000000020006874        0x4 src/built-in.o
+                0x00000000200067dc        0x4 src/built-in.o
  .bss.messageSendingIsPending
-                0x0000000020006878        0x1 src/built-in.o
+                0x00000000200067e0        0x1 src/built-in.o
  .bss.messageToPrint
-                0x0000000020006879       0x20 src/built-in.o
- *fill*         0x0000000020006899        0x3 
- .bss.synch     0x000000002000689c        0x4 src/built-in.o
+                0x00000000200067e1       0x20 src/built-in.o
+ *fill*         0x0000000020006801        0x3 
+ .bss.synch     0x0000000020006804        0x4 src/built-in.o
  .bss.compressed_trajectory
-                0x00000000200068a0       0xa8 src/built-in.o
- .bss.ev.0      0x0000000020006948       0x34 src/built-in.o
+                0x0000000020006808       0xa8 src/built-in.o
+ .bss.ev.0      0x00000000200068b0       0x34 src/built-in.o
  .bss.group_mask
-                0x000000002000697c        0x1 src/built-in.o
+                0x00000000200068e4        0x1 src/built-in.o
  .bss.isBlocked
-                0x000000002000697d        0x1 src/built-in.o
- *fill*         0x000000002000697e        0x2 
- .bss.lockTraj  0x0000000020006980        0x4 src/built-in.o
+                0x00000000200068e5        0x1 src/built-in.o
+ *fill*         0x00000000200068e6        0x2 
+ .bss.lockTraj  0x00000000200068e8        0x4 src/built-in.o
  .bss.lockTrajBuffer
-                0x0000000020006984       0x50 src/built-in.o
+                0x00000000200068ec       0x50 src/built-in.o
  .bss.osSys_crtpCommanderHighLevelTaskStackBuffer
-                0x00000000200069d4      0x4b0 src/built-in.o
- .bss.planner   0x0000000020006e84       0xa8 src/built-in.o
- .bss.pos       0x0000000020006f2c        0xc src/built-in.o
+                0x000000002000693c      0x4b0 src/built-in.o
+ .bss.planner   0x0000000020006dec       0xa8 src/built-in.o
+ .bss.pos       0x0000000020006e94        0xc src/built-in.o
  .bss.trajectories_memory
-                0x0000000020006f38     0x1000 src/built-in.o
-                0x0000000020006f38                trajectories_memory
+                0x0000000020006ea0     0x1000 src/built-in.o
+                0x0000000020006ea0                trajectories_memory
  .bss.trajectory
-                0x0000000020007f38       0x1c src/built-in.o
+                0x0000000020007ea0       0x1c src/built-in.o
  .bss.trajectory_descriptions
-                0x0000000020007f54       0x46 src/built-in.o
- *fill*         0x0000000020007f9a        0x2 
- .bss.vel       0x0000000020007f9c        0xc src/built-in.o
- .bss.yaw       0x0000000020007fa8        0x4 src/built-in.o
+                0x0000000020007ebc       0x46 src/built-in.o
+ *fill*         0x0000000020007f02        0x2 
+ .bss.vel       0x0000000020007f04        0xc src/built-in.o
+ .bss.yaw       0x0000000020007f10        0x4 src/built-in.o
  .bss.setpoint.0
-                0x0000000020007fac       0x70 src/built-in.o
+                0x0000000020007f14       0x70 src/built-in.o
  .bss.altHoldMode
-                0x000000002000801c        0x1 src/built-in.o
- .bss.modeSet   0x000000002000801d        0x1 src/built-in.o
+                0x0000000020007f84        0x1 src/built-in.o
+ .bss.modeSet   0x0000000020007f85        0x1 src/built-in.o
  .bss.posHoldMode
-                0x000000002000801e        0x1 src/built-in.o
+                0x0000000020007f86        0x1 src/built-in.o
  .bss.posSetMode
-                0x000000002000801f        0x1 src/built-in.o
+                0x0000000020007f87        0x1 src/built-in.o
  .bss.stabilizationModeYaw
-                0x0000000020008020        0x1 src/built-in.o
- .bss.LhAngle   0x0000000020008021       0x20 src/built-in.o
- *fill*         0x0000000020008041        0x3 
+                0x0000000020007f88        0x1 src/built-in.o
+ .bss.LhAngle   0x0000000020007f89       0x20 src/built-in.o
+ *fill*         0x0000000020007fa9        0x3 
  .bss.emergencyStopWatchdogNotificationTick
-                0x0000000020008044        0x4 src/built-in.o
+                0x0000000020007fac        0x4 src/built-in.o
  .bss.enableLighthouseAngleStream
-                0x0000000020008048        0x1 src/built-in.o
+                0x0000000020007fb0        0x1 src/built-in.o
  .bss.enableRangeStreamFloat
-                0x0000000020008049        0x1 src/built-in.o
- *fill*         0x000000002000804a        0x2 
- .bss.ext_pos   0x000000002000804c       0x28 src/built-in.o
- .bss.ext_pose  0x0000000020008074       0x24 src/built-in.o
+                0x0000000020007fb1        0x1 src/built-in.o
+ *fill*         0x0000000020007fb2        0x2 
+ .bss.ext_pos   0x0000000020007fb4       0x28 src/built-in.o
+ .bss.ext_pose  0x0000000020007fdc       0x24 src/built-in.o
  .bss.isEmergencyStopRequested
-                0x0000000020008098        0x1 src/built-in.o
- .bss.my_id     0x0000000020008099        0x2 src/built-in.o
- .bss.pkRange   0x000000002000809b       0x20 src/built-in.o
+                0x0000000020008000        0x1 src/built-in.o
+ .bss.my_id     0x0000000020008001        0x2 src/built-in.o
+ .bss.pkRange   0x0000000020008003       0x20 src/built-in.o
  .bss.rangeIndex
-                0x00000000200080bb        0x1 src/built-in.o
+                0x0000000020008023        0x1 src/built-in.o
  .bss.tickOfLastPacket
-                0x00000000200080bc        0x2 src/built-in.o
- *fill*         0x00000000200080be        0x2 
+                0x0000000020008024        0x2 src/built-in.o
+ *fill*         0x0000000020008026        0x2 
  .bss.callbacks
-                0x00000000200080c0       0x44 src/built-in.o
- .bss.queues    0x0000000020008104       0x40 src/built-in.o
- .bss.stats     0x0000000020008144       0x14 src/built-in.o
+                0x0000000020008028       0x44 src/built-in.o
+ .bss.queues    0x000000002000806c       0x40 src/built-in.o
+ .bss.stats     0x00000000200080ac       0x14 src/built-in.o
  .bss.echoDelay
-                0x0000000020008158        0x2 src/built-in.o
- .bss.p.0       0x000000002000815a       0x20 src/built-in.o
- *fill*         0x000000002000817a        0x2 
+                0x00000000200080c0        0x2 src/built-in.o
+ .bss.p.0       0x00000000200080c2       0x20 src/built-in.o
+ *fill*         0x00000000200080e2        0x2 
  .bss.espDeckFlasherNewBinarySize
-                0x000000002000817c        0x4 src/built-in.o
-                0x000000002000817c                espDeckFlasherNewBinarySize
+                0x00000000200080e4        0x4 src/built-in.o
+                0x00000000200080e4                espDeckFlasherNewBinarySize
  .bss.overshoot
-                0x0000000020008180        0x1 src/built-in.o
- *fill*         0x0000000020008181        0x3 
+                0x00000000200080e8        0x1 src/built-in.o
+ *fill*         0x00000000200080e9        0x3 
  .bss.sendBufferIndex
-                0x0000000020008184        0x4 src/built-in.o
+                0x00000000200080ec        0x4 src/built-in.o
  .bss.sequenceNumber
-                0x0000000020008188        0x4 src/built-in.o
- .bss.ch        0x000000002000818c       0x10 src/built-in.o
+                0x00000000200080f0        0x4 src/built-in.o
+ .bss.ch        0x00000000200080f4       0x10 src/built-in.o
  .bss.extRxAltHold
-                0x000000002000819c        0x1 src/built-in.o
-                0x000000002000819c                extRxAltHold
- .bss.extRxArm  0x000000002000819d        0x1 src/built-in.o
-                0x000000002000819d                extRxArm
- *fill*         0x000000002000819e        0x2 
+                0x0000000020008104        0x1 src/built-in.o
+                0x0000000020008104                extRxAltHold
+ .bss.extRxArm  0x0000000020008105        0x1 src/built-in.o
+                0x0000000020008105                extRxArm
+ *fill*         0x0000000020008106        0x2 
  .bss.extrxSetpoint
-                0x00000000200081a0       0x70 src/built-in.o
- .bss.accVarX   0x0000000020008210       0x10 src/built-in.o
- .bss.accVarY   0x0000000020008220       0x10 src/built-in.o
+                0x0000000020008108       0x70 src/built-in.o
+ .bss.accVarX   0x0000000020008178       0x10 src/built-in.o
+ .bss.accVarY   0x0000000020008188       0x10 src/built-in.o
  .bss.batTestPWMRatio
-                0x0000000020008230        0x2 src/built-in.o
+                0x0000000020008198        0x2 src/built-in.o
  .bss.batteryPass
-                0x0000000020008232        0x1 src/built-in.o
- *fill*         0x0000000020008233        0x1 
+                0x000000002000819a        0x1 src/built-in.o
+ *fill*         0x000000002000819b        0x1 
  .bss.batterySag
-                0x0000000020008234        0x4 src/built-in.o
+                0x000000002000819c        0x4 src/built-in.o
  .bss.idleVoltage
-                0x0000000020008238        0x4 src/built-in.o
+                0x00000000200081a0        0x4 src/built-in.o
  .bss.minLoadedVoltage
-                0x000000002000823c        0x4 src/built-in.o
+                0x00000000200081a4        0x4 src/built-in.o
  .bss.minSingleLoadedVoltage
-                0x0000000020008240       0x10 src/built-in.o
+                0x00000000200081a8       0x10 src/built-in.o
  .bss.motorPass
-                0x0000000020008250        0x1 src/built-in.o
- *fill*         0x0000000020008251        0x1 
+                0x00000000200081b8        0x1 src/built-in.o
+ *fill*         0x00000000200081b9        0x1 
  .bss.motorTestCount
-                0x0000000020008252        0x2 src/built-in.o
+                0x00000000200081ba        0x2 src/built-in.o
  .bss.motorToTest
-                0x0000000020008254        0x4 src/built-in.o
+                0x00000000200081bc        0x4 src/built-in.o
  .bss.nrFailedTests
-                0x0000000020008258        0x1 src/built-in.o
- *fill*         0x0000000020008259        0x1 
+                0x00000000200081c0        0x1 src/built-in.o
+ *fill*         0x00000000200081c1        0x1 
  .bss.propTestPWMRatio
-                0x000000002000825a        0x2 src/built-in.o
+                0x00000000200081c2        0x2 src/built-in.o
  .bss.startBatTest
-                0x000000002000825c        0x1 src/built-in.o
+                0x00000000200081c4        0x1 src/built-in.o
  .bss.startPropTest
-                0x000000002000825d        0x1 src/built-in.o
- *fill*         0x000000002000825e        0x2 
- .bss.tick      0x0000000020008260        0x4 src/built-in.o
- .bss.logLock   0x0000000020008264        0x4 src/built-in.o
+                0x00000000200081c5        0x1 src/built-in.o
+ *fill*         0x00000000200081c6        0x2 
+ .bss.tick      0x00000000200081c8        0x4 src/built-in.o
+ .bss.logLock   0x00000000200081cc        0x4 src/built-in.o
  .bss.logLockBuffer
-                0x0000000020008268       0x50 src/built-in.o
- .bss.logs      0x00000000200082b8        0x4 src/built-in.o
+                0x00000000200081d0       0x50 src/built-in.o
+ .bss.logs      0x0000000020008220        0x4 src/built-in.o
  .bss.logsCount
-                0x00000000200082bc        0x2 src/built-in.o
- *fill*         0x00000000200082be        0x2 
- .bss.logsCrc   0x00000000200082c0        0x4 src/built-in.o
- .bss.logsLen   0x00000000200082c4        0x4 src/built-in.o
- .bss.pk.0      0x00000000200082c8       0x40 src/built-in.o
- .bss.handlers  0x0000000020008308       0x50 src/built-in.o
+                0x0000000020008224        0x2 src/built-in.o
+ *fill*         0x0000000020008226        0x2 
+ .bss.logsCrc   0x0000000020008228        0x4 src/built-in.o
+ .bss.logsLen   0x000000002000822c        0x4 src/built-in.o
+ .bss.pk.0      0x0000000020008230       0x40 src/built-in.o
+ .bss.handlers  0x0000000020008270       0x50 src/built-in.o
  .bss.memTesterWriteErrorCount
-                0x0000000020008358        0x4 src/built-in.o
+                0x00000000200082c0        0x4 src/built-in.o
  .bss.memTesterWriteReset
-                0x000000002000835c        0x1 src/built-in.o
+                0x00000000200082c4        0x1 src/built-in.o
  .bss.nrOfHandlers
-                0x000000002000835d        0x1 src/built-in.o
+                0x00000000200082c5        0x1 src/built-in.o
  .bss.nrOfOwMems
-                0x000000002000835e        0x1 src/built-in.o
- *fill*         0x000000002000835f        0x1 
+                0x00000000200082c6        0x1 src/built-in.o
+ *fill*         0x00000000200082c7        0x1 
  .bss.owMemHandler
-                0x0000000020008360        0x4 src/built-in.o
+                0x00000000200082c8        0x4 src/built-in.o
  .bss.osSys_memTaskStackBuffer
-                0x0000000020008364      0x4b0 src/built-in.o
- .bss.packet    0x0000000020008814       0x20 src/built-in.o
+                0x00000000200082cc      0x4b0 src/built-in.o
+ .bss.packet    0x000000002000877c       0x20 src/built-in.o
  .bss.hasSet4WayIf
-                0x0000000020008834        0x1 src/built-in.o
+                0x000000002000879c        0x1 src/built-in.o
  .bss.motorParams
-                0x0000000020008835       0x10 src/built-in.o
+                0x000000002000879d       0x10 src/built-in.o
  .bss.motorPowerSetEnableParam
-                0x0000000020008845        0x4 src/built-in.o
- *fill*         0x0000000020008849        0x3 
- .bss.params    0x000000002000884c        0x4 src/built-in.o
+                0x00000000200087ad        0x4 src/built-in.o
+ *fill*         0x00000000200087b1        0x3 
+ .bss.params    0x00000000200087b4        0x4 src/built-in.o
  .bss.paramsCount
-                0x0000000020008850        0x2 src/built-in.o
- *fill*         0x0000000020008852        0x2 
+                0x00000000200087b8        0x2 src/built-in.o
+ *fill*         0x00000000200087ba        0x2 
  .bss.paramsCrc
-                0x0000000020008854        0x4 src/built-in.o
+                0x00000000200087bc        0x4 src/built-in.o
  .bss.paramsLen
-                0x0000000020008858        0x4 src/built-in.o
- .bss.pk.1      0x000000002000885c       0x20 src/built-in.o
+                0x00000000200087c0        0x4 src/built-in.o
+ .bss.pk.1      0x00000000200087c4       0x20 src/built-in.o
  .bss.osSys_paramTaskStackBuffer
-                0x000000002000887c      0x4b0 src/built-in.o
+                0x00000000200087e4      0x4b0 src/built-in.o
  .bss.other_positions
-                0x0000000020008d2c       0xc8 src/built-in.o
- .bss.p.1       0x0000000020008df4       0x20 src/built-in.o
+                0x0000000020008c94       0xc8 src/built-in.o
+ .bss.p.1       0x0000000020008d5c       0x20 src/built-in.o
  .bss.idleThrust
-                0x0000000020008e14        0x4 src/built-in.o
+                0x0000000020008d7c        0x4 src/built-in.o
  .bss.poly4d_tmp
-                0x0000000020008e18       0x84 src/built-in.o
- .bss.ranges    0x0000000020008e9c        0xc src/built-in.o
- .bss.gravX     0x0000000020008ea8        0x4 src/built-in.o
- .bss.gravY     0x0000000020008eac        0x4 src/built-in.o
- .bss.gravZ     0x0000000020008eb0        0x4 src/built-in.o
+                0x0000000020008d80       0x84 src/built-in.o
+ .bss.ranges    0x0000000020008e04        0xc src/built-in.o
+ .bss.gravX     0x0000000020008e10        0x4 src/built-in.o
+ .bss.gravY     0x0000000020008e14        0x4 src/built-in.o
+ .bss.gravZ     0x0000000020008e18        0x4 src/built-in.o
  .bss.integralFBx
-                0x0000000020008eb4        0x4 src/built-in.o
-                0x0000000020008eb4                integralFBx
+                0x0000000020008e1c        0x4 src/built-in.o
+                0x0000000020008e1c                integralFBx
  .bss.integralFBy
-                0x0000000020008eb8        0x4 src/built-in.o
-                0x0000000020008eb8                integralFBy
+                0x0000000020008e20        0x4 src/built-in.o
+                0x0000000020008e20                integralFBy
  .bss.integralFBz
-                0x0000000020008ebc        0x4 src/built-in.o
-                0x0000000020008ebc                integralFBz
+                0x0000000020008e24        0x4 src/built-in.o
+                0x0000000020008e24                integralFBz
  .bss.isCalibrated
-                0x0000000020008ec0        0x1 src/built-in.o
- *fill*         0x0000000020008ec1        0x3 
- .bss.qx        0x0000000020008ec4        0x4 src/built-in.o
-                0x0000000020008ec4                qx
- .bss.qy        0x0000000020008ec8        0x4 src/built-in.o
-                0x0000000020008ec8                qy
- .bss.qz        0x0000000020008ecc        0x4 src/built-in.o
-                0x0000000020008ecc                qz
- .bss.CRC_16    0x0000000020008ed0        0x2 src/built-in.o
+                0x0000000020008e28        0x1 src/built-in.o
+ *fill*         0x0000000020008e29        0x3 
+ .bss.qx        0x0000000020008e2c        0x4 src/built-in.o
+                0x0000000020008e2c                qx
+ .bss.qy        0x0000000020008e30        0x4 src/built-in.o
+                0x0000000020008e30                qy
+ .bss.qz        0x0000000020008e34        0x4 src/built-in.o
+                0x0000000020008e34                qz
+ .bss.CRC_16    0x0000000020008e38        0x2 src/built-in.o
  .bss.LastCRC_16
-                0x0000000020008ed2        0x2 src/built-in.o
- .bss.CRC_in    0x0000000020008ed4        0x2 src/built-in.o
- .bss.CRCout    0x0000000020008ed6        0x2 src/built-in.o
+                0x0000000020008e3a        0x2 src/built-in.o
+ .bss.CRC_in    0x0000000020008e3c        0x2 src/built-in.o
+ .bss.CRCout    0x0000000020008e3e        0x2 src/built-in.o
  .bss.CurrentInterfaceMode
-                0x0000000020008ed8        0x1 src/built-in.o
+                0x0000000020008e40        0x1 src/built-in.o
  .bss.DeviceInfo
-                0x0000000020008ed9        0x4 src/built-in.o
-                0x0000000020008ed9                DeviceInfo
- .bss.escCount  0x0000000020008edd        0x1 src/built-in.o
+                0x0000000020008e41        0x4 src/built-in.o
+                0x0000000020008e41                DeviceInfo
+ .bss.escCount  0x0000000020008e45        0x1 src/built-in.o
  .bss.selected_esc
-                0x0000000020008ede        0x1 src/built-in.o
-                0x0000000020008ede                selected_esc
- *fill*         0x0000000020008edf        0x1 
- .bss.mcounter  0x0000000020008ee0        0x4 src/built-in.o
- .bss.pitch     0x0000000020008ee4        0x4 src/built-in.o
- .bss.pitchid   0x0000000020008ee8        0x4 src/built-in.o
- .bss.rollid    0x0000000020008eec        0x4 src/built-in.o
+                0x0000000020008e46        0x1 src/built-in.o
+                0x0000000020008e46                selected_esc
+ *fill*         0x0000000020008e47        0x1 
+ .bss.mcounter  0x0000000020008e48        0x4 src/built-in.o
+ .bss.pitch     0x0000000020008e4c        0x4 src/built-in.o
+ .bss.pitchid   0x0000000020008e50        0x4 src/built-in.o
+ .bss.rollid    0x0000000020008e54        0x4 src/built-in.o
  .bss.sys_effect
-                0x0000000020008ef0        0x4 src/built-in.o
+                0x0000000020008e58        0x4 src/built-in.o
  .bss.tilt_freq
-                0x0000000020008ef4        0x4 src/built-in.o
+                0x0000000020008e5c        0x4 src/built-in.o
  .bss.user_effect
-                0x0000000020008ef8        0x4 src/built-in.o
- .bss.control   0x0000000020008efc       0x14 src/built-in.o
+                0x0000000020008e60        0x4 src/built-in.o
+ .bss.control   0x0000000020008e64       0x14 src/built-in.o
  .bss.controllerType
-                0x0000000020008f10        0x1 src/built-in.o
+                0x0000000020008e78        0x1 src/built-in.o
  .bss.estimatorType
-                0x0000000020008f11        0x1 src/built-in.o
- *fill*         0x0000000020008f12        0x2 
+                0x0000000020008e79        0x1 src/built-in.o
+ *fill*         0x0000000020008e7a        0x2 
  .bss.inToOutLatency
-                0x0000000020008f14        0x4 src/built-in.o
+                0x0000000020008e7c        0x4 src/built-in.o
  .bss.motorThrustBatCompUncapped
-                0x0000000020008f18       0x10 src/built-in.o
+                0x0000000020008e80       0x10 src/built-in.o
  .bss.osSys_stabilizerTaskStackBuffer
-                0x0000000020008f28      0x708 src/built-in.o
+                0x0000000020008e90      0x708 src/built-in.o
  .bss.rateSupervisorContext
-                0x0000000020009630       0x38 src/built-in.o
+                0x0000000020009598       0x38 src/built-in.o
  .bss.rateWarningDisplayed
-                0x0000000020009668        0x1 src/built-in.o
- *fill*         0x0000000020009669        0x3 
- .bss.setpoint  0x000000002000966c       0x70 src/built-in.o
+                0x00000000200095d0        0x1 src/built-in.o
+ *fill*         0x00000000200095d1        0x3 
+ .bss.setpoint  0x00000000200095d4       0x70 src/built-in.o
  .bss.setpointCompressed
-                0x00000000200096dc       0x12 src/built-in.o
- *fill*         0x00000000200096ee        0x2 
+                0x0000000020009644       0x12 src/built-in.o
+ *fill*         0x0000000020009656        0x2 
  .bss.stateCompressed
-                0x00000000200096f0       0x20 src/built-in.o
+                0x0000000020009658       0x20 src/built-in.o
  .bss.tempSetpoint
-                0x0000000020009710       0x70 src/built-in.o
+                0x0000000020009678       0x70 src/built-in.o
  .bss.supervisorMem
-                0x0000000020009780       0x1c src/built-in.o
+                0x00000000200096e8       0x1c src/built-in.o
  .bss.initialized
-                0x000000002000979c        0x1 src/built-in.o
- *fill*         0x000000002000979d        0x3 
+                0x0000000020009704        0x1 src/built-in.o
+ *fill*         0x0000000020009705        0x3 
  .bss.previousTotalRunTime
-                0x00000000200097a0        0x4 src/built-in.o
+                0x0000000020009708        0x4 src/built-in.o
  .bss.taskTopIndex
-                0x00000000200097a4        0x4 src/built-in.o
+                0x000000002000970c        0x4 src/built-in.o
  .bss.triggerDump
-                0x00000000200097a8        0x1 src/built-in.o
- *fill*         0x00000000200097a9        0x3 
+                0x0000000020009710        0x1 src/built-in.o
+ *fill*         0x0000000020009711        0x3 
  .bss.canStartMutex
-                0x00000000200097ac        0x4 src/built-in.o
-                0x00000000200097ac                canStartMutex
+                0x0000000020009714        0x4 src/built-in.o
+                0x0000000020009714                canStartMutex
  .bss.canStartMutexBuffer
-                0x00000000200097b0       0x50 src/built-in.o
- .bss.doAssert  0x0000000020009800        0x1 src/built-in.o
+                0x0000000020009718       0x50 src/built-in.o
+ .bss.doAssert  0x0000000020009768        0x1 src/built-in.o
  .bss.dumpAssertInfo
-                0x0000000020009801        0x1 src/built-in.o
+                0x0000000020009769        0x1 src/built-in.o
  .bss.nrf_version
-                0x0000000020009802       0x10 src/built-in.o
- *fill*         0x0000000020009812        0x2 
+                0x000000002000976a       0x10 src/built-in.o
+ *fill*         0x000000002000977a        0x2 
  .bss.osSys_systemTaskStackBuffer
-                0x0000000020009814      0x4b0 src/built-in.o
+                0x000000002000977c      0x4b0 src/built-in.o
  .bss.selftestPassed
-                0x0000000020009cc4        0x1 src/built-in.o
+                0x0000000020009c2c        0x1 src/built-in.o
  .bss.testLogParam
-                0x0000000020009cc5        0x1 src/built-in.o
- *fill*         0x0000000020009cc6        0x2 
+                0x0000000020009c2d        0x1 src/built-in.o
+ *fill*         0x0000000020009c2e        0x2 
  .bss.tickOfLatestWatchdogReset.0
-                0x0000000020009cc8        0x4 src/built-in.o
- .bss.isInit.1  0x0000000020009ccc        0x1 src/built-in.o
- *fill*         0x0000000020009ccd        0x3 
+                0x0000000020009c30        0x4 src/built-in.o
+ .bss.isInit.1  0x0000000020009c34        0x1 src/built-in.o
+ *fill*         0x0000000020009c35        0x3 
  .bss.osSys_passthroughTaskStackBuffer
-                0x0000000020009cd0      0x4b0 src/built-in.o
+                0x0000000020009c38      0x4b0 src/built-in.o
  .bss.pMspObject.0
-                0x000000002000a180      0x120 src/built-in.o
+                0x000000002000a0e8      0x120 src/built-in.o
  .bss.passthroughTaskHandle
-                0x000000002000a2a0        0x4 src/built-in.o
+                0x000000002000a208        0x4 src/built-in.o
  .bss.ptRxQueue
-                0x000000002000a2a4        0x4 src/built-in.o
+                0x000000002000a20c        0x4 src/built-in.o
  .bss.ptTxQueue
-                0x000000002000a2a8        0x4 src/built-in.o
+                0x000000002000a210        0x4 src/built-in.o
  .bss.workerQueue
-                0x000000002000a2ac        0x4 src/built-in.o
+                0x000000002000a214        0x4 src/built-in.o
  .bss.tmpNN1d.6
-                0x000000002000a2b0      0x144 src/built-in.o
- .bss.HTd.3     0x000000002000a3f4       0x48 src/built-in.o
- .bss.Kw.7      0x000000002000a43c       0x48 src/built-in.o
- .bss.PHTd.8    0x000000002000a484       0x48 src/built-in.o
+                0x000000002000a218      0x144 src/built-in.o
+ .bss.HTd.3     0x000000002000a35c       0x48 src/built-in.o
+ .bss.Kw.7      0x000000002000a3a4       0x48 src/built-in.o
+ .bss.PHTd.8    0x000000002000a3ec       0x48 src/built-in.o
  .bss.P_chol.23
-                0x000000002000a4cc      0x288 src/built-in.o
- .bss.P_w.5     0x000000002000a754      0x288 src/built-in.o
- .bss.Pc_inv.1  0x000000002000a9dc      0x288 src/built-in.o
+                0x000000002000a434      0x288 src/built-in.o
+ .bss.P_w.5     0x000000002000a6bc      0x288 src/built-in.o
+ .bss.Pc_inv.1  0x000000002000a944      0x288 src/built-in.o
  .bss.Pc_tran.0
-                0x000000002000ac64      0x288 src/built-in.o
+                0x000000002000abcc      0x288 src/built-in.o
  .bss.Pc_w_inv.2
-                0x000000002000aeec      0x288 src/built-in.o
+                0x000000002000ae54      0x288 src/built-in.o
  .bss.X_state.24
-                0x000000002000b174       0x48 src/built-in.o
- .bss.e_x.15    0x000000002000b1bc       0x48 src/built-in.o
- .bss.tmp1.20   0x000000002000b204      0x288 src/built-in.o
+                0x000000002000b0dc       0x48 src/built-in.o
+ .bss.e_x.15    0x000000002000b124       0x48 src/built-in.o
+ .bss.tmp1.20   0x000000002000b16c      0x288 src/built-in.o
  .bss.wx_inv.14
-                0x000000002000b48c      0x288 src/built-in.o
- .bss.x_err.6   0x000000002000b714       0x48 src/built-in.o
+                0x000000002000b3f4      0x288 src/built-in.o
+ .bss.x_err.6   0x000000002000b67c       0x48 src/built-in.o
  .bss.measuredNX
-                0x000000002000b75c        0x4 src/built-in.o
+                0x000000002000b6c4        0x4 src/built-in.o
  .bss.measuredNY
-                0x000000002000b760        0x4 src/built-in.o
+                0x000000002000b6c8        0x4 src/built-in.o
  .bss.predictedNX
-                0x000000002000b764        0x4 src/built-in.o
+                0x000000002000b6cc        0x4 src/built-in.o
  .bss.predictedNY
-                0x000000002000b768        0x4 src/built-in.o
- *fill*         0x000000002000b76c        0x4 
- .bss.angles    0x000000002000b770      0x2a8 src/built-in.o
+                0x000000002000b6d0        0x4 src/built-in.o
+ *fill*         0x000000002000b6d4        0x4 
+ .bss.angles    0x000000002000b6d8      0x2a8 src/built-in.o
  .bss.baseStationActiveMap
-                0x000000002000ba18        0x2 src/built-in.o
+                0x000000002000b980        0x2 src/built-in.o
  .bss.baseStationActiveMapWs
-                0x000000002000ba1a        0x2 src/built-in.o
+                0x000000002000b982        0x2 src/built-in.o
  .bss.baseStationAvailabledMap
-                0x000000002000ba1c        0x2 src/built-in.o
+                0x000000002000b984        0x2 src/built-in.o
  .bss.baseStationAvailabledMapWs
-                0x000000002000ba1e        0x2 src/built-in.o
+                0x000000002000b986        0x2 src/built-in.o
  .bss.baseStationCalibConfirmedMap
-                0x000000002000ba20        0x2 src/built-in.o
+                0x000000002000b988        0x2 src/built-in.o
  .bss.baseStationCalibUpdatedMap
-                0x000000002000ba22        0x2 src/built-in.o
+                0x000000002000b98a        0x2 src/built-in.o
  .bss.baseStationReceivedMap
-                0x000000002000ba24        0x2 src/built-in.o
+                0x000000002000b98c        0x2 src/built-in.o
  .bss.baseStationReceivedMapWs
-                0x000000002000ba26        0x2 src/built-in.o
+                0x000000002000b98e        0x2 src/built-in.o
  .bss.bsIdentificationData
-                0x000000002000ba28        0x8 src/built-in.o
+                0x000000002000b990        0x8 src/built-in.o
  .bss.calibStatusReset
-                0x000000002000ba30        0x1 src/built-in.o
- .bss.data.0    0x000000002000ba31        0xc src/built-in.o
+                0x000000002000b998        0x1 src/built-in.o
+ .bss.data.0    0x000000002000b999        0xc src/built-in.o
  .bss.deckIsFlashed
-                0x000000002000ba3d        0x1 src/built-in.o
- *fill*         0x000000002000ba3e        0x2 
- .bss.frame     0x000000002000ba40       0x1c src/built-in.o
- *fill*         0x000000002000ba5c        0x4 
+                0x000000002000b9a5        0x1 src/built-in.o
+ *fill*         0x000000002000b9a6        0x2 
+ .bss.frame     0x000000002000b9a8       0x1c src/built-in.o
+ *fill*         0x000000002000b9c4        0x4 
  .bss.lighthouseCoreState
-                0x000000002000ba60      0x640 src/built-in.o
-                0x000000002000ba60                lighthouseCoreState
+                0x000000002000b9c8      0x640 src/built-in.o
+                0x000000002000b9c8                lighthouseCoreState
  .bss.nextUpdateTimeOfSystemStatus
-                0x000000002000c0a0        0x4 src/built-in.o
+                0x000000002000c008        0x4 src/built-in.o
  .bss.pulseWidth
-                0x000000002000c0a4        0x8 src/built-in.o
+                0x000000002000c00c        0x8 src/built-in.o
  .bss.systemStatus
-                0x000000002000c0ac        0x1 src/built-in.o
+                0x000000002000c014        0x1 src/built-in.o
  .bss.systemStatusWs
-                0x000000002000c0ad        0x1 src/built-in.o
+                0x000000002000c015        0x1 src/built-in.o
  .bss.uartSynchronized
-                0x000000002000c0ae        0x1 src/built-in.o
+                0x000000002000c016        0x1 src/built-in.o
  .bss.deckBitstream.0
-                0x000000002000c0af       0x40 src/built-in.o
+                0x000000002000c017       0x40 src/built-in.o
  .bss.hasStarted
-                0x000000002000c0ef        0x1 src/built-in.o
- .bss.deltaLog  0x000000002000c0f0        0x4 src/built-in.o
- .bss.position  0x000000002000c0f4        0xc src/built-in.o
+                0x000000002000c057        0x1 src/built-in.o
+ .bss.deltaLog  0x000000002000c058        0x4 src/built-in.o
+ .bss.position  0x000000002000c05c        0xc src/built-in.o
  .bss.positionLog
-                0x000000002000c100        0xc src/built-in.o
+                0x000000002000c068        0xc src/built-in.o
  .bss.calibBuffer
-                0x000000002000c10c       0x3d src/built-in.o
- *fill*         0x000000002000c149        0x3 
+                0x000000002000c074       0x3d src/built-in.o
+ *fill*         0x000000002000c0b1        0x3 
  .bss.geoBuffer
-                0x000000002000c14c       0x34 src/built-in.o
+                0x000000002000c0b4       0x34 src/built-in.o
  .bss.discardProbability
-                0x000000002000c180        0x4 src/built-in.o
+                0x000000002000c0e8        0x4 src/built-in.o
  .bss.discardThreshold.0
-                0x000000002000c184        0x4 src/built-in.o
+                0x000000002000c0ec        0x4 src/built-in.o
  .bss.eventCounter.3
-                0x000000002000c188        0x4 src/built-in.o
+                0x000000002000c0f0        0x4 src/built-in.o
  .bss.nextEvaluationTime.2
-                0x000000002000c18c        0x4 src/built-in.o
+                0x000000002000c0f4        0x4 src/built-in.o
  .bss.previousEvaluationTime.1
-                0x000000002000c190        0x4 src/built-in.o
+                0x000000002000c0f8        0x4 src/built-in.o
  .bss.attFiltEnable
-                0x000000002000c194        0x1 src/built-in.o
- *fill*         0x000000002000c195        0x1 
+                0x000000002000c0fc        0x1 src/built-in.o
+ *fill*         0x000000002000c0fd        0x1 
  .bss.pitchOutput
-                0x000000002000c196        0x2 src/built-in.o
+                0x000000002000c0fe        0x2 src/built-in.o
  .bss.rateFiltEnable
-                0x000000002000c198        0x1 src/built-in.o
- *fill*         0x000000002000c199        0x1 
+                0x000000002000c100        0x1 src/built-in.o
+ *fill*         0x000000002000c101        0x1 
  .bss.rollOutput
-                0x000000002000c19a        0x2 src/built-in.o
+                0x000000002000c102        0x2 src/built-in.o
  .bss.yawMaxDelta
-                0x000000002000c19c        0x4 src/built-in.o
+                0x000000002000c104        0x4 src/built-in.o
  .bss.yawOutput
-                0x000000002000c1a0        0x2 src/built-in.o
- *fill*         0x000000002000c1a2        0x2 
+                0x000000002000c108        0x2 src/built-in.o
+ *fill*         0x000000002000c10a        0x2 
  .bss.actuatorThrust
-                0x000000002000c1a4        0x8 src/built-in.o
+                0x000000002000c10c        0x8 src/built-in.o
  .bss.attitudeDesired
-                0x000000002000c1ac       0x20 src/built-in.o
+                0x000000002000c114       0x20 src/built-in.o
  .bss.body_rates
-                0x000000002000c1cc        0xc src/built-in.o
-                0x000000002000c1cc                body_rates
+                0x000000002000c134        0xc src/built-in.o
+                0x000000002000c134                body_rates
  .bss.rateDesired
-                0x000000002000c1d8       0x20 src/built-in.o
+                0x000000002000c140       0x20 src/built-in.o
  .bss.refOuterINDI
-                0x000000002000c1f8       0x10 src/built-in.o
+                0x000000002000c160       0x10 src/built-in.o
  .bss.currentController
-                0x000000002000c208        0x1 src/built-in.o
- *fill*         0x000000002000c209        0x3 
- .bss.accelz    0x000000002000c20c        0x4 src/built-in.o
+                0x000000002000c170        0x1 src/built-in.o
+ *fill*         0x000000002000c171        0x3 
+ .bss.accelz    0x000000002000c174        0x4 src/built-in.o
  .bss.cmd_pitch
-                0x000000002000c210        0x4 src/built-in.o
- .bss.cmd_roll  0x000000002000c214        0x4 src/built-in.o
+                0x000000002000c178        0x4 src/built-in.o
+ .bss.cmd_roll  0x000000002000c17c        0x4 src/built-in.o
  .bss.cmd_thrust
-                0x000000002000c218        0x4 src/built-in.o
- .bss.cmd_yaw   0x000000002000c21c        0x4 src/built-in.o
- .bss.r_pitch   0x000000002000c220        0x4 src/built-in.o
- .bss.r_roll    0x000000002000c224        0x4 src/built-in.o
- .bss.r_yaw     0x000000002000c228        0x4 src/built-in.o
+                0x000000002000c180        0x4 src/built-in.o
+ .bss.cmd_yaw   0x000000002000c184        0x4 src/built-in.o
+ .bss.r_pitch   0x000000002000c188        0x4 src/built-in.o
+ .bss.r_roll    0x000000002000c18c        0x4 src/built-in.o
+ .bss.r_yaw     0x000000002000c190        0x4 src/built-in.o
  .bss.control_omega.2
-                0x000000002000c22c        0xc src/built-in.o
+                0x000000002000c194        0xc src/built-in.o
  .bss.control_thrust.1
-                0x000000002000c238        0x4 src/built-in.o
+                0x000000002000c1a0        0x4 src/built-in.o
  .bss.control_torque.0
-                0x000000002000c23c        0xc src/built-in.o
+                0x000000002000c1a4        0xc src/built-in.o
  .bss.Gimbal2D_U
-                0x000000002000c248       0x54 src/built-in.o
-                0x000000002000c248                Gimbal2D_U
+                0x000000002000c1b0       0x54 src/built-in.o
+                0x000000002000c1b0                Gimbal2D_U
+ .bss.Gimbal2D_Y
+                0x000000002000c204       0x9c src/built-in.o
+                0x000000002000c204                Gimbal2D_Y
  .bss.positionRef
-                0x000000002000c29c        0xc src/built-in.o
- .bss.velS_x    0x000000002000c2a8        0x4 src/built-in.o
- .bss.velS_y    0x000000002000c2ac        0x4 src/built-in.o
- .bss.velS_z    0x000000002000c2b0        0x4 src/built-in.o
+                0x000000002000c2a0        0xc src/built-in.o
+ .bss.velS_x    0x000000002000c2ac        0x4 src/built-in.o
+ .bss.velS_y    0x000000002000c2b0        0x4 src/built-in.o
+ .bss.velS_z    0x000000002000c2b4        0x4 src/built-in.o
  .bss.velocityRef
-                0x000000002000c2b4        0xc src/built-in.o
+                0x000000002000c2b8        0xc src/built-in.o
  .bss.state_body_vx
-                0x000000002000c2c0        0x4 src/built-in.o
-                0x000000002000c2c0                state_body_vx
- .bss.state_body_vy
                 0x000000002000c2c4        0x4 src/built-in.o
-                0x000000002000c2c4                state_body_vy
- .bss.state_body_x
+                0x000000002000c2c4                state_body_vx
+ .bss.state_body_vy
                 0x000000002000c2c8        0x4 src/built-in.o
-                0x000000002000c2c8                state_body_x
- .bss.state_body_y
+                0x000000002000c2c8                state_body_vy
+ .bss.state_body_x
                 0x000000002000c2cc        0x4 src/built-in.o
-                0x000000002000c2cc                state_body_y
- .bss.acc       0x000000002000c2d0        0xc src/built-in.o
- .bss.baro      0x000000002000c2dc        0xc src/built-in.o
- .bss.gyro      0x000000002000c2e8        0xc src/built-in.o
- .bss.tof       0x000000002000c2f4        0xc src/built-in.o
+                0x000000002000c2cc                state_body_x
+ .bss.state_body_y
+                0x000000002000c2d0        0x4 src/built-in.o
+                0x000000002000c2d0                state_body_y
+ .bss.acc       0x000000002000c2d4        0xc src/built-in.o
+ .bss.baro      0x000000002000c2e0        0xc src/built-in.o
+ .bss.gyro      0x000000002000c2ec        0xc src/built-in.o
+ .bss.tof       0x000000002000c2f8        0xc src/built-in.o
  .bss.accLatest
-                0x000000002000c300        0xc src/built-in.o
+                0x000000002000c304        0xc src/built-in.o
  .bss.accSubSampler
-                0x000000002000c30c       0x20 src/built-in.o
+                0x000000002000c310       0x20 src/built-in.o
  .bss.coreParams
-                0x000000002000c32c       0x44 src/built-in.o
+                0x000000002000c330       0x44 src/built-in.o
  .bss.dataMutex
-                0x000000002000c370        0x4 src/built-in.o
+                0x000000002000c374        0x4 src/built-in.o
  .bss.dataMutexBuffer
-                0x000000002000c374       0x50 src/built-in.o
+                0x000000002000c378       0x50 src/built-in.o
  .bss.gyroLatest
-                0x000000002000c3c4        0xc src/built-in.o
+                0x000000002000c3c8        0xc src/built-in.o
  .bss.gyroSubSampler
-                0x000000002000c3d0       0x20 src/built-in.o
+                0x000000002000c3d4       0x20 src/built-in.o
  .bss.outlierFilterTdoaState
-                0x000000002000c3f0        0xc src/built-in.o
+                0x000000002000c3f4        0xc src/built-in.o
  .bss.resetEstimation
-                0x000000002000c3fc        0x1 src/built-in.o
-                0x000000002000c3fc                resetEstimation
+                0x000000002000c400        0x1 src/built-in.o
+                0x000000002000c400                resetEstimation
  .bss.robustTdoa
-                0x000000002000c3fd        0x1 src/built-in.o
+                0x000000002000c401        0x1 src/built-in.o
  .bss.robustTwr
-                0x000000002000c3fe        0x1 src/built-in.o
- *fill*         0x000000002000c3ff        0x1 
+                0x000000002000c402        0x1 src/built-in.o
+ *fill*         0x000000002000c403        0x1 
  .bss.runTaskSemaphore
-                0x000000002000c400        0x4 src/built-in.o
+                0x000000002000c404        0x4 src/built-in.o
  .bss.sweepOutlierFilterState
-                0x000000002000c404        0x8 src/built-in.o
+                0x000000002000c408        0x8 src/built-in.o
  .bss.taskEstimatorState
-                0x000000002000c40c       0x50 src/built-in.o
+                0x000000002000c410       0x50 src/built-in.o
  .bss.warningBlockTimeMs
-                0x000000002000c45c        0x4 src/built-in.o
+                0x000000002000c460        0x4 src/built-in.o
  .bss.currentEstimator
-                0x000000002000c460        0x1 src/built-in.o
+                0x000000002000c464        0x1 src/built-in.o
  .bss.eventTrigger_estDistance_payload
-                0x000000002000c461        0x5 src/built-in.o
+                0x000000002000c465        0x5 src/built-in.o
  .bss.eventTrigger_estPosition_payload
-                0x000000002000c466        0x1 src/built-in.o
+                0x000000002000c46a        0x1 src/built-in.o
  .bss.eventTrigger_estSweepAngle_payload
-                0x000000002000c467        0xb src/built-in.o
+                0x000000002000c46b        0xb src/built-in.o
  .bss.eventTrigger_estTDOA_payload
-                0x000000002000c472        0x6 src/built-in.o
+                0x000000002000c476        0x6 src/built-in.o
  .bss.eventTrigger_estYawError_payload
-                0x000000002000c478        0x4 src/built-in.o
- .bss.measurementsQueue
                 0x000000002000c47c        0x4 src/built-in.o
- .bss.prev_estimatedZ.0
+ .bss.measurementsQueue
                 0x000000002000c480        0x4 src/built-in.o
+ .bss.prev_estimatedZ.0
+                0x000000002000c484        0x4 src/built-in.o
  .bss.surfaceFollowingMode.1
-                0x000000002000c484        0x1 src/built-in.o
- *fill*         0x000000002000c485        0x1 
+                0x000000002000c488        0x1 src/built-in.o
+ *fill*         0x000000002000c489        0x1 
  .bss.internalRxBuf
-                0x000000002000c486       0x6a src/built-in.o
+                0x000000002000c48a       0x6a src/built-in.o
  .bss.internal_task_context
-                0x000000002000c4f0       0x6a src/built-in.o
- *fill*         0x000000002000c55a        0x2 
+                0x000000002000c4f4       0x6a src/built-in.o
+ *fill*         0x000000002000c55e        0x2 
  .bss.startUpEventGroup
-                0x000000002000c55c        0x4 src/built-in.o
+                0x000000002000c560        0x4 src/built-in.o
  .bss.uartRxBuf
-                0x000000002000c560       0x6a src/built-in.o
+                0x000000002000c564       0x6a src/built-in.o
  .bss.uart_task_context
-                0x000000002000c5ca       0x6a src/built-in.o
+                0x000000002000c5ce       0x6a src/built-in.o
  .bss.crtpQueue
-                0x000000002000c634        0x4 src/built-in.o
- .bss.mixedQueue
                 0x000000002000c638        0x4 src/built-in.o
- .bss.txq       0x000000002000c63c        0x4 src/built-in.o
- .bss.cpxRxp.0  0x000000002000c640       0x67 src/built-in.o
- *fill*         0x000000002000c6a7        0x1 
- .bss.cpxTxp    0x000000002000c6a8       0x6c src/built-in.o
- .bss.evGroup   0x000000002000c714        0x4 src/built-in.o
+ .bss.mixedQueue
+                0x000000002000c63c        0x4 src/built-in.o
+ .bss.txq       0x000000002000c640        0x4 src/built-in.o
+ .bss.cpxRxp.0  0x000000002000c644       0x67 src/built-in.o
+ *fill*         0x000000002000c6ab        0x1 
+ .bss.cpxTxp    0x000000002000c6ac       0x6c src/built-in.o
+ .bss.evGroup   0x000000002000c718        0x4 src/built-in.o
  .bss.shutdownTransport
-                0x000000002000c718        0x1 src/built-in.o
- *fill*         0x000000002000c719        0x3 
+                0x000000002000c71c        0x1 src/built-in.o
+ *fill*         0x000000002000c71d        0x3 
  .bss.uartRxQueue
-                0x000000002000c71c        0x4 src/built-in.o
- .bss.uartRxp   0x000000002000c720       0x67 src/built-in.o
- *fill*         0x000000002000c787        0x1 
+                0x000000002000c720        0x4 src/built-in.o
+ .bss.uartRxp   0x000000002000c724       0x67 src/built-in.o
+ *fill*         0x000000002000c78b        0x1 
  .bss.uartTxQueue
-                0x000000002000c788        0x4 src/built-in.o
- .bss.uartTxp   0x000000002000c78c       0x67 src/built-in.o
+                0x000000002000c78c        0x4 src/built-in.o
+ .bss.uartTxp   0x000000002000c790       0x67 src/built-in.o
  .bss.clientIsConnected
-                0x000000002000c7f3        0x1 src/built-in.o
- .bss.cpxRx     0x000000002000c7f4       0xd8 src/built-in.o
- .bss.cpxTx     0x000000002000c8cc       0x6c src/built-in.o
+                0x000000002000c7f7        0x1 src/built-in.o
+ .bss.cpxRx     0x000000002000c7f8       0xd8 src/built-in.o
+ .bss.cpxTx     0x000000002000c8d0       0x6c src/built-in.o
  .bss.appMessageHandlerCallback
-                0x000000002000c938        0x4 src/built-in.o
+                0x000000002000c93c        0x4 src/built-in.o
  .bss.hasLoggedVersionMismatch.0
-                0x000000002000c93c        0x1 src/built-in.o
- .bss.rx_state  0x000000002000c93d        0x1 src/built-in.o
- .bss.tx_state  0x000000002000c93e        0x1 src/built-in.o
- *fill*         0x000000002000c93f        0x1 
+                0x000000002000c940        0x1 src/built-in.o
+ .bss.rx_state  0x000000002000c941        0x1 src/built-in.o
+ .bss.tx_state  0x000000002000c942        0x1 src/built-in.o
+ *fill*         0x000000002000c943        0x1 
  .bss.omni_attitude_controller_U
-                0x000000002000c940       0x3c src/built-in.o
-                0x000000002000c940                omni_attitude_controller_U
+                0x000000002000c944       0x3c src/built-in.o
+                0x000000002000c944                omni_attitude_controller_U
  .bss.omni_attitude_controller_Y
-                0x000000002000c97c       0x90 src/built-in.o
-                0x000000002000c97c                omni_attitude_controller_Y
+                0x000000002000c980       0x90 src/built-in.o
+                0x000000002000c980                omni_attitude_controller_Y
  .bss.single_qc_ppid_DW
-                0x000000002000ca0c       0x38 src/built-in.o
-                0x000000002000ca0c                single_qc_ppid_DW
+                0x000000002000ca10       0x38 src/built-in.o
+                0x000000002000ca10                single_qc_ppid_DW
  .bss.single_qc_ppid_U
-                0x000000002000ca44       0x3c src/built-in.o
-                0x000000002000ca44                single_qc_ppid_U
+                0x000000002000ca48       0x3c src/built-in.o
+                0x000000002000ca48                single_qc_ppid_U
  .bss.single_qc_ppid_Y
-                0x000000002000ca80       0x40 src/built-in.o
-                0x000000002000ca80                single_qc_ppid_Y
- .bss.rtInf     0x000000002000cac0        0x8 src/built-in.o
-                0x000000002000cac0                rtInf
- .bss.rtInfF    0x000000002000cac8        0x4 src/built-in.o
-                0x000000002000cac8                rtInfF
- *fill*         0x000000002000cacc        0x4 
+                0x000000002000ca84       0x40 src/built-in.o
+                0x000000002000ca84                single_qc_ppid_Y
+ *fill*         0x000000002000cac4        0x4 
+ .bss.rtInf     0x000000002000cac8        0x8 src/built-in.o
+                0x000000002000cac8                rtInf
+ .bss.rtInfF    0x000000002000cad0        0x4 src/built-in.o
+                0x000000002000cad0                rtInfF
+ *fill*         0x000000002000cad4        0x4 
  .bss.rtMinusInf
-                0x000000002000cad0        0x8 src/built-in.o
-                0x000000002000cad0                rtMinusInf
+                0x000000002000cad8        0x8 src/built-in.o
+                0x000000002000cad8                rtMinusInf
  .bss.rtMinusInfF
-                0x000000002000cad8        0x4 src/built-in.o
-                0x000000002000cad8                rtMinusInfF
- *fill*         0x000000002000cadc        0x4 
- .bss.rtNaN     0x000000002000cae0        0x8 src/built-in.o
-                0x000000002000cae0                rtNaN
- .bss.rtNaNF    0x000000002000cae8        0x4 src/built-in.o
-                0x000000002000cae8                rtNaNF
+                0x000000002000cae0        0x4 src/built-in.o
+                0x000000002000cae0                rtMinusInfF
+ *fill*         0x000000002000cae4        0x4 
+ .bss.rtNaN     0x000000002000cae8        0x8 src/built-in.o
+                0x000000002000cae8                rtNaN
+ .bss.rtNaNF    0x000000002000caf0        0x4 src/built-in.o
+                0x000000002000caf0                rtNaNF
  .bss.active_config
-                0x000000002000caec        0x4 src/built-in.o
+                0x000000002000caf4        0x4 src/built-in.o
  .bss.currentType
-                0x000000002000caf0        0x1 src/built-in.o
- .bss.cb_ok     0x000000002000caf1        0x1 src/built-in.o
+                0x000000002000caf8        0x1 src/built-in.o
+ .bss.cb_ok     0x000000002000caf9        0x1 src/built-in.o
  .bss.configblock
-                0x000000002000caf2       0x15 src/built-in.o
+                0x000000002000cafa       0x15 src/built-in.o
  .bss.crcTableInitialized
-                0x000000002000cb07        0x1 src/built-in.o
+                0x000000002000cb0f        0x1 src/built-in.o
  .bss.keyBuffer.0
-                0x000000002000cb08       0x40 src/built-in.o
+                0x000000002000cb10       0x40 src/built-in.o
  .bss.moveBuffer.2
-                0x000000002000cb48       0x20 src/built-in.o
+                0x000000002000cb50       0x20 src/built-in.o
  .bss.searchBuffer.0
-                0x000000002000cb68       0xff src/built-in.o
+                0x000000002000cb70       0xff src/built-in.o
  .bss.searchBuffer.1
-                0x000000002000cc67       0xff src/built-in.o
- *fill*         0x000000002000cd66        0x2 
+                0x000000002000cc6f       0xff src/built-in.o
+ *fill*         0x000000002000cd6e        0x2 
  .bss.origin1.2
-                0x000000002000cd68        0xc src/built-in.o
+                0x000000002000cd70        0xc src/built-in.o
  .bss.origin2.0
-                0x000000002000cd74        0xc src/built-in.o
- .bss.ray1.3    0x000000002000cd80        0xc src/built-in.o
- .bss.ray2.1    0x000000002000cd8c        0xc src/built-in.o
+                0x000000002000cd7c        0xc src/built-in.o
+ .bss.ray1.3    0x000000002000cd88        0xc src/built-in.o
+ .bss.ray2.1    0x000000002000cd94        0xc src/built-in.o
  .bss.sync0Times.0
-                0x000000002000cd98       0x10 src/built-in.o
+                0x000000002000cda0       0x10 src/built-in.o
  .bss.validAngles
-                0x000000002000cda8        0x2 src/built-in.o
+                0x000000002000cdb0        0x2 src/built-in.o
  .bss.ucMaxSysCallPriority
-                0x000000002000cdaa        0x1 vendor/built-in.o
- *fill*         0x000000002000cdab        0x1 
+                0x000000002000cdb2        0x1 vendor/built-in.o
+ *fill*         0x000000002000cdb3        0x1 
  .bss.ulMaxPRIGROUPValue
-                0x000000002000cdac        0x4 vendor/built-in.o
- .bss.pxEnd     0x000000002000cdb0        0x4 vendor/built-in.o
- .bss.ucHeap    0x000000002000cdb4     0x7530 vendor/built-in.o
+                0x000000002000cdb4        0x4 vendor/built-in.o
+ .bss.pxEnd     0x000000002000cdb8        0x4 vendor/built-in.o
+ .bss.ucHeap    0x000000002000cdbc     0x7530 vendor/built-in.o
  .bss.xBlockAllocatedBit
-                0x00000000200142e4        0x4 vendor/built-in.o
- .bss.xFreeBytesRemaining
-                0x00000000200142e8        0x4 vendor/built-in.o
- .bss.xMinimumEverFreeBytesRemaining
                 0x00000000200142ec        0x4 vendor/built-in.o
- .bss.xNumberOfSuccessfulAllocations
+ .bss.xFreeBytesRemaining
                 0x00000000200142f0        0x4 vendor/built-in.o
- .bss.xNumberOfSuccessfulFrees
+ .bss.xMinimumEverFreeBytesRemaining
                 0x00000000200142f4        0x4 vendor/built-in.o
- .bss.xStart    0x00000000200142f8        0x8 vendor/built-in.o
+ .bss.xNumberOfSuccessfulAllocations
+                0x00000000200142f8        0x4 vendor/built-in.o
+ .bss.xNumberOfSuccessfulFrees
+                0x00000000200142fc        0x4 vendor/built-in.o
+ .bss.xStart    0x0000000020014300        0x8 vendor/built-in.o
  .bss.xQueueRegistry
-                0x0000000020014300       0x50 vendor/built-in.o
-                0x0000000020014300                xQueueRegistry
+                0x0000000020014308       0x50 vendor/built-in.o
+                0x0000000020014308                xQueueRegistry
  .bss.pxCurrentTCB
-                0x0000000020014350        0x4 vendor/built-in.o
-                0x0000000020014350                pxCurrentTCB
- .bss.pxDelayedTaskList
-                0x0000000020014354        0x4 vendor/built-in.o
- .bss.pxOverflowDelayedTaskList
                 0x0000000020014358        0x4 vendor/built-in.o
+                0x0000000020014358                pxCurrentTCB
+ .bss.pxDelayedTaskList
+                0x000000002001435c        0x4 vendor/built-in.o
+ .bss.pxOverflowDelayedTaskList
+                0x0000000020014360        0x4 vendor/built-in.o
  .bss.pxReadyTasksLists
-                0x000000002001435c       0x78 vendor/built-in.o
+                0x0000000020014364       0x78 vendor/built-in.o
  .bss.ulTaskSwitchedInTime
-                0x00000000200143d4        0x4 vendor/built-in.o
- .bss.ulTotalRunTime
-                0x00000000200143d8        0x4 vendor/built-in.o
- .bss.uxCurrentNumberOfTasks
                 0x00000000200143dc        0x4 vendor/built-in.o
- .bss.uxDeletedTasksWaitingCleanUp
+ .bss.ulTotalRunTime
                 0x00000000200143e0        0x4 vendor/built-in.o
- .bss.uxSchedulerSuspended
+ .bss.uxCurrentNumberOfTasks
                 0x00000000200143e4        0x4 vendor/built-in.o
- .bss.uxTaskNumber
+ .bss.uxDeletedTasksWaitingCleanUp
                 0x00000000200143e8        0x4 vendor/built-in.o
- .bss.uxTopReadyPriority
+ .bss.uxSchedulerSuspended
                 0x00000000200143ec        0x4 vendor/built-in.o
+ .bss.uxTaskNumber
+                0x00000000200143f0        0x4 vendor/built-in.o
+ .bss.uxTopReadyPriority
+                0x00000000200143f4        0x4 vendor/built-in.o
  .bss.xDelayedTaskList1
-                0x00000000200143f0       0x14 vendor/built-in.o
+                0x00000000200143f8       0x14 vendor/built-in.o
  .bss.xDelayedTaskList2
-                0x0000000020014404       0x14 vendor/built-in.o
+                0x000000002001440c       0x14 vendor/built-in.o
  .bss.xIdleTaskHandle
-                0x0000000020014418        0x4 vendor/built-in.o
- .bss.xNextTaskUnblockTime
-                0x000000002001441c        0x4 vendor/built-in.o
- .bss.xNumOfOverflows
                 0x0000000020014420        0x4 vendor/built-in.o
- .bss.xPendedTicks
+ .bss.xNextTaskUnblockTime
                 0x0000000020014424        0x4 vendor/built-in.o
+ .bss.xNumOfOverflows
+                0x0000000020014428        0x4 vendor/built-in.o
+ .bss.xPendedTicks
+                0x000000002001442c        0x4 vendor/built-in.o
  .bss.xPendingReadyList
-                0x0000000020014428       0x14 vendor/built-in.o
+                0x0000000020014430       0x14 vendor/built-in.o
  .bss.xSchedulerRunning
-                0x000000002001443c        0x4 vendor/built-in.o
+                0x0000000020014444        0x4 vendor/built-in.o
  .bss.xSuspendedTaskList
-                0x0000000020014440       0x14 vendor/built-in.o
+                0x0000000020014448       0x14 vendor/built-in.o
  .bss.xTasksWaitingTermination
-                0x0000000020014454       0x14 vendor/built-in.o
+                0x000000002001445c       0x14 vendor/built-in.o
  .bss.xTickCount
-                0x0000000020014468        0x4 vendor/built-in.o
- .bss.xYieldPending
-                0x000000002001446c        0x4 vendor/built-in.o
- .bss.pxCurrentTimerList
                 0x0000000020014470        0x4 vendor/built-in.o
- .bss.pxOverflowTimerList
+ .bss.xYieldPending
                 0x0000000020014474        0x4 vendor/built-in.o
+ .bss.pxCurrentTimerList
+                0x0000000020014478        0x4 vendor/built-in.o
+ .bss.pxOverflowTimerList
+                0x000000002001447c        0x4 vendor/built-in.o
  .bss.ucStaticTimerQueueStorage.1
-                0x0000000020014478      0x140 vendor/built-in.o
+                0x0000000020014480      0x140 vendor/built-in.o
  .bss.xActiveTimerList1
-                0x00000000200145b8       0x14 vendor/built-in.o
+                0x00000000200145c0       0x14 vendor/built-in.o
  .bss.xActiveTimerList2
-                0x00000000200145cc       0x14 vendor/built-in.o
+                0x00000000200145d4       0x14 vendor/built-in.o
  .bss.xLastTime.2
-                0x00000000200145e0        0x4 vendor/built-in.o
+                0x00000000200145e8        0x4 vendor/built-in.o
  .bss.xStaticTimerQueue.0
-                0x00000000200145e4       0x50 vendor/built-in.o
+                0x00000000200145ec       0x50 vendor/built-in.o
  .bss.xTimerQueue
-                0x0000000020014634        0x4 vendor/built-in.o
+                0x000000002001463c        0x4 vendor/built-in.o
  .bss.xTimerTaskHandle
-                0x0000000020014638        0x4 vendor/built-in.o
+                0x0000000020014640        0x4 vendor/built-in.o
  *(COMMON)
-                0x000000002001463c                . = ALIGN (0x4)
-                0x000000002001463c                _ebss = .
+                0x0000000020014644                . = ALIGN (0x4)
+                0x0000000020014644                _ebss = .
 
 .ccmbss         0x0000000010000000     0xf248
                 0x0000000010000000                . = ALIGN (0x4)
@@ -13585,35 +13586,35 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtn.o
                 0x000000001000f248                . = ALIGN (0x4)
                 0x000000001000f248                _eccmbss = .
 
-.ccmdata        0x000000001000f248        0x0 load address 0x0000000008049a04
+.ccmdata        0x000000001000f248        0x0 load address 0x000000000804996c
                 0x000000001000f248                . = ALIGN (0x4)
                 0x000000001000f248                _sccmdata = .
  *(.ccmdata)
  *(.ccmdata*)
                 0x000000001000f248                . = ALIGN (0x4)
                 0x000000001000f248                _eccmdata = .
-                0x0000000008049a04                _siccmdata = LOADADDR (.ccmdata)
+                0x000000000804996c                _siccmdata = LOADADDR (.ccmdata)
 
-.nzds           0x000000002001463c       0x28
-                0x000000002001463c                . = ALIGN (0x4)
-                0x000000002001463c                _snzds = .
+.nzds           0x0000000020014644       0x28
+                0x0000000020014644                . = ALIGN (0x4)
+                0x0000000020014644                _snzds = .
  *(.nzds)
- .nzds          0x000000002001463c       0x28 src/built-in.o
-                0x000000002001463c                snapshot
+ .nzds          0x0000000020014644       0x28 src/built-in.o
+                0x0000000020014644                snapshot
  *(.nzds.*)
  *(COMMON)
-                0x0000000020014664                . = ALIGN (0x4)
-                0x0000000020014664                _enzds = .
-                0x0000000020014664                PROVIDE (end = _enzds)
+                0x000000002001466c                . = ALIGN (0x4)
+                0x000000002001466c                _enzds = .
+                0x000000002001466c                PROVIDE (end = _enzds)
                 [!provide]                        PROVIDE (_end = _enzds)
 
-._usrstack      0x0000000020014664      0x100
-                0x0000000020014664                . = ALIGN (0x4)
-                0x0000000020014664                _susrstack = .
-                0x0000000020014764                . = (. + _Minimum_Stack_Size)
- *fill*         0x0000000020014664      0x100 
-                0x0000000020014764                . = ALIGN (0x4)
-                0x0000000020014764                _eusrstack = .
+._usrstack      0x000000002001466c      0x100
+                0x000000002001466c                . = ALIGN (0x4)
+                0x000000002001466c                _susrstack = .
+                0x000000002001476c                . = (. + _Minimum_Stack_Size)
+ *fill*         0x000000002001466c      0x100 
+                0x000000002001476c                . = ALIGN (0x4)
+                0x000000002001476c                _eusrstack = .
 
 .b1text
  *(.b1text)
@@ -13639,8 +13640,8 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtn.o
  *(.eb3text)
  *(.eb3rodata)
  *(.eb3rodata*)
-                0x0000000020014764                __exidx_start = .
-                0x0000000020014764                __exidx_end = .
+                0x000000002001476c                __exidx_start = .
+                0x000000002001476c                __exidx_end = .
 
 /DISCARD/
  libc.a(*)
@@ -14426,112 +14427,112 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtn.o
  .debug_abbrev  0x0000000000045202       0xa2 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(sbrk.o)
  .debug_abbrev  0x00000000000452a4       0x9b /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(write.o)
 
-.debug_line     0x0000000000000000    0xfb181
+.debug_line     0x0000000000000000    0xfb190
  *(.debug_line)
- .debug_line    0x0000000000000000    0x9f4e3 src/built-in.o
- .debug_line    0x000000000009f4e3    0x4f086 vendor/built-in.o
- .debug_line    0x00000000000ee569       0xe1 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-s_fmax.o)
- .debug_line    0x00000000000ee64a      0x175 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-s_fpclassify.o)
- .debug_line    0x00000000000ee7bf      0x2d0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_atan.o)
- .debug_line    0x00000000000eea8f      0x1d4 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_cos.o)
- .debug_line    0x00000000000eec63      0x152 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_fabs.o)
- .debug_line    0x00000000000eedb5      0x21d /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_floor.o)
- .debug_line    0x00000000000eefd2       0xe1 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_fmax.o)
- .debug_line    0x00000000000ef0b3       0xe1 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_fmin.o)
- .debug_line    0x00000000000ef194      0x150 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_fpclassify.o)
- .debug_line    0x00000000000ef2e4      0x1d4 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_sin.o)
- .debug_line    0x00000000000ef4b8      0x1a8 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_tan.o)
- .debug_line    0x00000000000ef660      0x178 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-wf_acos.o)
- .debug_line    0x00000000000ef7d8      0x178 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-wf_asin.o)
- .debug_line    0x00000000000ef950       0xea /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-wf_atan2.o)
- .debug_line    0x00000000000efa3a      0x192 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-wf_exp.o)
- .debug_line    0x00000000000efbcc      0x169 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-wf_fmod.o)
- .debug_line    0x00000000000efd35      0x190 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-wf_log10.o)
- .debug_line    0x00000000000efec5      0x25b /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-wf_pow.o)
- .debug_line    0x00000000000f0120      0x2f4 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_acos.o)
- .debug_line    0x00000000000f0414      0x303 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_asin.o)
- .debug_line    0x00000000000f0717      0x2bd /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_atan2.o)
- .debug_line    0x00000000000f09d4      0x2f0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_exp.o)
- .debug_line    0x00000000000f0cc4      0x302 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_fmod.o)
- .debug_line    0x00000000000f0fc6      0x21e /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_log10.o)
- .debug_line    0x00000000000f11e4      0x7f5 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_pow.o)
- .debug_line    0x00000000000f19d9      0x47f /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_rem_pio2.o)
- .debug_line    0x00000000000f1e58       0x77 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_sqrt.o)
- .debug_line    0x00000000000f1ecf      0x1df /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_cos.o)
- .debug_line    0x00000000000f20ae      0xa9e /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_rem_pio2.o)
- .debug_line    0x00000000000f2b4c      0x17e /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_sin.o)
- .debug_line    0x00000000000f2cca      0x31b /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_tan.o)
- .debug_line    0x00000000000f2fe5       0x97 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-s_lib_ver.o)
- .debug_line    0x00000000000f307c      0x11e /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_finite.o)
- .debug_line    0x00000000000f319a       0xac /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_nan.o)
- .debug_line    0x00000000000f3246      0x258 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_rint.o)
- .debug_line    0x00000000000f349e      0x22d /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_scalbn.o)
- .debug_line    0x00000000000f36cb      0x371 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_log.o)
- .debug_line    0x00000000000f3a3c      0x186 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
- .debug_line    0x00000000000f3bc2      0x19b /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldivdf3.o)
- .debug_line    0x00000000000f3d5d       0xbd /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_cmpdf2.o)
- .debug_line    0x00000000000f3e1a       0x75 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_fixunsdfsi.o)
- .debug_line    0x00000000000f3e8f       0x8d /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_truncdfsf2.o)
- .debug_line    0x00000000000f3f1c      0x11a /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubsf3.o)
- .debug_line    0x00000000000f4036       0x60 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
- .debug_line    0x00000000000f4096       0xbb /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_popcountsi2.o)
- .debug_line    0x00000000000f4151       0xab /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_fixsfdi.o)
- .debug_line    0x00000000000f41fc       0xb1 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_fixdfdi.o)
- .debug_line    0x00000000000f42ad       0xb7 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_fixunssfdi.o)
- .debug_line    0x00000000000f4364       0xad /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_fixunsdfdi.o)
- .debug_line    0x00000000000f4411      0x5ae /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
- .debug_line    0x00000000000f49bf       0x60 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_dvmd_tls.o)
- .debug_line    0x00000000000f4a1f       0x5e /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-ctype_.o)
- .debug_line    0x00000000000f4a7d      0x109 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-errno.o)
- .debug_line    0x00000000000f4b86       0xe4 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-impure.o)
- .debug_line    0x00000000000f4c6a      0x17a /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memcmp.o)
- .debug_line    0x00000000000f4de4       0xbe /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memcpy.o)
- .debug_line    0x00000000000f4ea2      0x1bf /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memset.o)
- .debug_line    0x00000000000f5061      0x293 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-rand.o)
- .debug_line    0x00000000000f52f4       0xf1 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-strcat.o)
- .debug_line    0x00000000000f53e5      0x1b0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-strchr.o)
- .debug_line    0x00000000000f5595      0x137 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-strcmp.o)
- .debug_line    0x00000000000f56cc       0xb9 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-strcpy.o)
- .debug_line    0x00000000000f5785       0xaf /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-strlen.o)
- .debug_line    0x00000000000f5834      0x1e8 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-strncmp.o)
- .debug_line    0x00000000000f5a1c      0x186 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-strncpy.o)
- .debug_line    0x00000000000f5ba2      0x221 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-strtok.o)
- .debug_line    0x00000000000f5dc3      0x1b4 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-strtok_r.o)
- .debug_line    0x00000000000f5f77      0x41d /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-strtol.o)
- .debug_line    0x00000000000f6394      0x194 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-assert.o)
- .debug_line    0x00000000000f6528      0x19e /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-fprintf.o)
- .debug_line    0x00000000000f66c6      0x700 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-vfprintf.o)
- .debug_line    0x00000000000f6dc6      0x746 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-vfprintf_i.o)
- .debug_line    0x00000000000f750c      0x279 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-wbuf.o)
- .debug_line    0x00000000000f7785      0x33e /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-wsetup.o)
- .debug_line    0x00000000000f7ac3      0x46d /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-fflush.o)
- .debug_line    0x00000000000f7f30      0x589 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-findfp.o)
- .debug_line    0x00000000000f84b9      0x5e4 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-fvwrite.o)
- .debug_line    0x00000000000f8a9d      0x29e /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-fwalk.o)
- .debug_line    0x00000000000f8d3b      0x3b2 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-makebuf.o)
- .debug_line    0x00000000000f90ed       0xa4 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memchr.o)
- .debug_line    0x00000000000f9191      0x1ee /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memmove.o)
- .debug_line    0x00000000000f937f      0x2ca /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-freer.o)
- .debug_line    0x00000000000f9649      0x2d0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-mallocr.o)
- .debug_line    0x00000000000f9919      0x1c5 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-reallocr.o)
- .debug_line    0x00000000000f9ade      0x183 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-sbrkr.o)
- .debug_line    0x00000000000f9c61      0x231 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-stdio.o)
- .debug_line    0x00000000000f9e92      0x189 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-writer.o)
- .debug_line    0x00000000000fa01b      0x183 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-closer.o)
- .debug_line    0x00000000000fa19e      0x203 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-fstatr.o)
- .debug_line    0x00000000000fa3a1      0x184 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-isattyr.o)
- .debug_line    0x00000000000fa525      0x189 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-lseekr.o)
- .debug_line    0x00000000000fa6ae      0x13e /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-mlock.o)
- .debug_line    0x00000000000fa7ec      0x160 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-msizer.o)
- .debug_line    0x00000000000fa94c      0x188 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-readr.o)
- .debug_line    0x00000000000faad4      0x2c7 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-reent.o)
- .debug_line    0x00000000000fad9b       0x70 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(close.o)
- .debug_line    0x00000000000fae0b      0x13a /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(fstat.o)
- .debug_line    0x00000000000faf45       0x71 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(isatty.o)
- .debug_line    0x00000000000fafb6       0x71 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(lseek.o)
- .debug_line    0x00000000000fb027       0x70 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(read.o)
- .debug_line    0x00000000000fb097       0x79 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(sbrk.o)
- .debug_line    0x00000000000fb110       0x71 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(write.o)
+ .debug_line    0x0000000000000000    0x9f4f2 src/built-in.o
+ .debug_line    0x000000000009f4f2    0x4f086 vendor/built-in.o
+ .debug_line    0x00000000000ee578       0xe1 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-s_fmax.o)
+ .debug_line    0x00000000000ee659      0x175 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-s_fpclassify.o)
+ .debug_line    0x00000000000ee7ce      0x2d0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_atan.o)
+ .debug_line    0x00000000000eea9e      0x1d4 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_cos.o)
+ .debug_line    0x00000000000eec72      0x152 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_fabs.o)
+ .debug_line    0x00000000000eedc4      0x21d /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_floor.o)
+ .debug_line    0x00000000000eefe1       0xe1 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_fmax.o)
+ .debug_line    0x00000000000ef0c2       0xe1 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_fmin.o)
+ .debug_line    0x00000000000ef1a3      0x150 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_fpclassify.o)
+ .debug_line    0x00000000000ef2f3      0x1d4 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_sin.o)
+ .debug_line    0x00000000000ef4c7      0x1a8 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_tan.o)
+ .debug_line    0x00000000000ef66f      0x178 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-wf_acos.o)
+ .debug_line    0x00000000000ef7e7      0x178 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-wf_asin.o)
+ .debug_line    0x00000000000ef95f       0xea /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-wf_atan2.o)
+ .debug_line    0x00000000000efa49      0x192 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-wf_exp.o)
+ .debug_line    0x00000000000efbdb      0x169 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-wf_fmod.o)
+ .debug_line    0x00000000000efd44      0x190 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-wf_log10.o)
+ .debug_line    0x00000000000efed4      0x25b /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-wf_pow.o)
+ .debug_line    0x00000000000f012f      0x2f4 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_acos.o)
+ .debug_line    0x00000000000f0423      0x303 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_asin.o)
+ .debug_line    0x00000000000f0726      0x2bd /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_atan2.o)
+ .debug_line    0x00000000000f09e3      0x2f0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_exp.o)
+ .debug_line    0x00000000000f0cd3      0x302 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_fmod.o)
+ .debug_line    0x00000000000f0fd5      0x21e /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_log10.o)
+ .debug_line    0x00000000000f11f3      0x7f5 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_pow.o)
+ .debug_line    0x00000000000f19e8      0x47f /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_rem_pio2.o)
+ .debug_line    0x00000000000f1e67       0x77 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_sqrt.o)
+ .debug_line    0x00000000000f1ede      0x1df /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_cos.o)
+ .debug_line    0x00000000000f20bd      0xa9e /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_rem_pio2.o)
+ .debug_line    0x00000000000f2b5b      0x17e /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_sin.o)
+ .debug_line    0x00000000000f2cd9      0x31b /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_tan.o)
+ .debug_line    0x00000000000f2ff4       0x97 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-s_lib_ver.o)
+ .debug_line    0x00000000000f308b      0x11e /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_finite.o)
+ .debug_line    0x00000000000f31a9       0xac /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_nan.o)
+ .debug_line    0x00000000000f3255      0x258 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_rint.o)
+ .debug_line    0x00000000000f34ad      0x22d /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_scalbn.o)
+ .debug_line    0x00000000000f36da      0x371 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_log.o)
+ .debug_line    0x00000000000f3a4b      0x186 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+ .debug_line    0x00000000000f3bd1      0x19b /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldivdf3.o)
+ .debug_line    0x00000000000f3d6c       0xbd /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_cmpdf2.o)
+ .debug_line    0x00000000000f3e29       0x75 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_fixunsdfsi.o)
+ .debug_line    0x00000000000f3e9e       0x8d /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_truncdfsf2.o)
+ .debug_line    0x00000000000f3f2b      0x11a /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubsf3.o)
+ .debug_line    0x00000000000f4045       0x60 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
+ .debug_line    0x00000000000f40a5       0xbb /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_popcountsi2.o)
+ .debug_line    0x00000000000f4160       0xab /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_fixsfdi.o)
+ .debug_line    0x00000000000f420b       0xb1 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_fixdfdi.o)
+ .debug_line    0x00000000000f42bc       0xb7 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_fixunssfdi.o)
+ .debug_line    0x00000000000f4373       0xad /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_fixunsdfdi.o)
+ .debug_line    0x00000000000f4420      0x5ae /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+ .debug_line    0x00000000000f49ce       0x60 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_dvmd_tls.o)
+ .debug_line    0x00000000000f4a2e       0x5e /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-ctype_.o)
+ .debug_line    0x00000000000f4a8c      0x109 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-errno.o)
+ .debug_line    0x00000000000f4b95       0xe4 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-impure.o)
+ .debug_line    0x00000000000f4c79      0x17a /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memcmp.o)
+ .debug_line    0x00000000000f4df3       0xbe /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memcpy.o)
+ .debug_line    0x00000000000f4eb1      0x1bf /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memset.o)
+ .debug_line    0x00000000000f5070      0x293 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-rand.o)
+ .debug_line    0x00000000000f5303       0xf1 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-strcat.o)
+ .debug_line    0x00000000000f53f4      0x1b0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-strchr.o)
+ .debug_line    0x00000000000f55a4      0x137 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-strcmp.o)
+ .debug_line    0x00000000000f56db       0xb9 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-strcpy.o)
+ .debug_line    0x00000000000f5794       0xaf /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-strlen.o)
+ .debug_line    0x00000000000f5843      0x1e8 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-strncmp.o)
+ .debug_line    0x00000000000f5a2b      0x186 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-strncpy.o)
+ .debug_line    0x00000000000f5bb1      0x221 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-strtok.o)
+ .debug_line    0x00000000000f5dd2      0x1b4 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-strtok_r.o)
+ .debug_line    0x00000000000f5f86      0x41d /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-strtol.o)
+ .debug_line    0x00000000000f63a3      0x194 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-assert.o)
+ .debug_line    0x00000000000f6537      0x19e /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-fprintf.o)
+ .debug_line    0x00000000000f66d5      0x700 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-vfprintf.o)
+ .debug_line    0x00000000000f6dd5      0x746 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-vfprintf_i.o)
+ .debug_line    0x00000000000f751b      0x279 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-wbuf.o)
+ .debug_line    0x00000000000f7794      0x33e /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-wsetup.o)
+ .debug_line    0x00000000000f7ad2      0x46d /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-fflush.o)
+ .debug_line    0x00000000000f7f3f      0x589 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-findfp.o)
+ .debug_line    0x00000000000f84c8      0x5e4 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-fvwrite.o)
+ .debug_line    0x00000000000f8aac      0x29e /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-fwalk.o)
+ .debug_line    0x00000000000f8d4a      0x3b2 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-makebuf.o)
+ .debug_line    0x00000000000f90fc       0xa4 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memchr.o)
+ .debug_line    0x00000000000f91a0      0x1ee /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memmove.o)
+ .debug_line    0x00000000000f938e      0x2ca /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-freer.o)
+ .debug_line    0x00000000000f9658      0x2d0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-mallocr.o)
+ .debug_line    0x00000000000f9928      0x1c5 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-reallocr.o)
+ .debug_line    0x00000000000f9aed      0x183 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-sbrkr.o)
+ .debug_line    0x00000000000f9c70      0x231 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-stdio.o)
+ .debug_line    0x00000000000f9ea1      0x189 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-writer.o)
+ .debug_line    0x00000000000fa02a      0x183 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-closer.o)
+ .debug_line    0x00000000000fa1ad      0x203 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-fstatr.o)
+ .debug_line    0x00000000000fa3b0      0x184 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-isattyr.o)
+ .debug_line    0x00000000000fa534      0x189 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-lseekr.o)
+ .debug_line    0x00000000000fa6bd      0x13e /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-mlock.o)
+ .debug_line    0x00000000000fa7fb      0x160 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-msizer.o)
+ .debug_line    0x00000000000fa95b      0x188 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-readr.o)
+ .debug_line    0x00000000000faae3      0x2c7 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-reent.o)
+ .debug_line    0x00000000000fadaa       0x70 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(close.o)
+ .debug_line    0x00000000000fae1a      0x13a /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(fstat.o)
+ .debug_line    0x00000000000faf54       0x71 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(isatty.o)
+ .debug_line    0x00000000000fafc5       0x71 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(lseek.o)
+ .debug_line    0x00000000000fb036       0x70 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(read.o)
+ .debug_line    0x00000000000fb0a6       0x79 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(sbrk.o)
+ .debug_line    0x00000000000fb11f       0x71 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(write.o)
 
 .debug_frame    0x0000000000000000    0x1af94
  *(.debug_frame)

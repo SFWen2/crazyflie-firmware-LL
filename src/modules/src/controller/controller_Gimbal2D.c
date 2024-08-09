@@ -101,7 +101,7 @@ Gimbal2D_U_Type Gimbal2D_U = {
 Gimbal2D_Y_Type Gimbal2D_Y = {
         .IsClamped = 0,
         .Treset = 0,
-        .UsingControlMode = GIMBAL2D_CONTROLMODE_PD,
+        .UsingControlMode = GIMBAL2D_CONTROLMODE_PID,
         .m1 = 0,
         .m2 = 0,
         .m3 = 0,
@@ -139,8 +139,8 @@ Gimbal2D_Y_Type Gimbal2D_Y = {
         .Tau_x = 0.0, 
         .Tau_y = 0.0,
         .Tau_z = 0.0,
-        .pos_am = 0.0,
-        .pos_bm = 0.0,
+        .pos_ac = 0.0,
+        .pos_bc = 0.0,
         };
 
 static void Gimbal2D_quatmultiply(const float q[4], const float r[4],
@@ -407,6 +407,8 @@ void Gimbal2D_controller_pd()
 {
   float alpha_des;
   float beta_des;
+
+  Gimbal2D_Y.UsingControlMode = GIMBAL2D_CONTROLMODE_PD;
 
   Gimbal2D_Y.error_alpha = Gimbal2D_U.alpha_desired - Gimbal2D_Y.alpha_e;
   Gimbal2D_Y.error_beta = Gimbal2D_U.beta_desired - Gimbal2D_Y.beta_e;
