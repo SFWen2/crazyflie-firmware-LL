@@ -1,4 +1,3 @@
-# CF_firmware
 # Gimbal 2D control : PID
 Compiling instruction refer to : https://github.com/bitcraze/crazyflie-firmware/blob/master/docs/building-and-flashing/build.md#compiling
 
