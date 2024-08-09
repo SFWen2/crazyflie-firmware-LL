@@ -54,14 +54,6 @@
 #define KVE_PARTITION_START (1024)
 #define KVE_PARTITION_LENGTH (7*1024)
 
-#define DEFAULT_DEFRAG_ON_STARTUP true
-
-#ifdef CONFIG_DEFRAG_STORAGE_ON_STARTUP
-#define DEFRAG_ON_STARTUP CONFIG_DEFRAG_STORAGE_ON_STARTUP
-#else
-#define DEFRAG_ON_STARTUP DEFAULT_DEFRAG_ON_STARTUP
-#endif
-
 static SemaphoreHandle_t storageMutex;
 
 static size_t readEeprom(size_t address, void* data, size_t length)
@@ -135,9 +127,6 @@ void storageInit()
   storageMutex = xSemaphoreCreateMutex();
 
   isInit = true;
-  if (DEFRAG_ON_STARTUP) {
-    kveDefrag(&kve);
-  }
 }
 
 bool storageTest()

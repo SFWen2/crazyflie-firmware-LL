@@ -42,7 +42,6 @@ We added the following:
 #include "position_controller.h"
 #include "controller_mellinger.h"
 #include "physicalConstants.h"
-#include "platform_defaults.h"
 
 // Global state variable used in the
 // firmware as the only instance and in bindings

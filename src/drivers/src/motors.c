@@ -47,7 +47,7 @@
 #include "log.h"
 #include "param.h"
 
-static uint8_t motorSetEnable = 0;
+static bool motorSetEnable = false;
 static uint16_t motorPowerSet[] = {0, 0, 0, 0}; // user-requested PWM signals (overrides)
 static uint32_t motor_ratios[] = {0, 0, 0, 0};  // actual PWM signals
 
@@ -98,7 +98,6 @@ const MotorHealthTestDef unknownMotorHealthTestSettings = {
 static bool isInit = false;
 static uint64_t lastCycleTime;
 static uint32_t cycleTime;
-
 
 /* Private functions */
 
@@ -224,20 +223,6 @@ void motorsInit(const MotorPerifDef** motorMapSelect)
 
   DEBUG_PRINT("Using %s motor driver\n", motorMap[0]->drvType == BRUSHED ? "brushed" : "brushless");
 
-  if (motorMap[MOTOR_M1]->hasPC15ESCReset)
-  {
-    MOTORS_RCC_GPIO_CMD(RCC_AHB1Periph_GPIOC, ENABLE);
-    // Configure the GPIO for CF-BL ESC RST
-    GPIO_StructInit(&GPIO_InitStructure);
-    GPIO_InitStructure.GPIO_Mode = GPIO_Mode_OUT;
-    GPIO_InitStructure.GPIO_OType = GPIO_OType_OD;
-    GPIO_InitStructure.GPIO_Speed = GPIO_Speed_2MHz;
-    GPIO_InitStructure.GPIO_Pin = GPIO_Pin_15;
-    GPIO_Init(GPIOC, &GPIO_InitStructure);
-    // Hold reset for all CF-BL ESC:s by pulling low.
-    GPIO_WriteBit(GPIOC, GPIO_Pin_15, Bit_RESET);
-  }
-
   for (i = 0; i < NBR_OF_MOTORS; i++)
   {
     //Clock the gpio and the timers
@@ -287,11 +272,9 @@ void motorsInit(const MotorPerifDef** motorMapSelect)
     motorMap[i]->ocInit(motorMap[i]->tim, &TIM_OCInitStructure);
     motorMap[i]->preloadConfig(motorMap[i]->tim, TIM_OCPreload_Enable);
   }
-
 #ifdef CONFIG_MOTORS_ESC_PROTOCOL_DSHOT
   motorsDshotDMASetup();
 #endif
-
   // Start the timers
   for (i = 0; i < NBR_OF_MOTORS; i++)
   {
@@ -302,12 +285,6 @@ void motorsInit(const MotorPerifDef** motorMapSelect)
 
   // Output zero power
   motorsStop();
-
-  if (motorMap[MOTOR_M1]->hasPC15ESCReset)
-  {
-    // Release reset for all CF-BL ESC:s after motor signal is activated
-    GPIO_WriteBit(GPIOC, GPIO_Pin_15, Bit_SET);
-  }
 }
 
 void motorsDeInit(const MotorPerifDef** motorMapSelect)
@@ -363,10 +340,7 @@ void motorsStop()
   }
 
 #ifdef CONFIG_MOTORS_ESC_PROTOCOL_DSHOT
-  if (motorMap[0]->drvType == BRUSHLESS)
-  {
-    motorsBurstDshot();
-  }
+  motorsBurstDshot();
 #endif
 }
 
@@ -493,13 +467,7 @@ void motorsSetRatio(uint32_t id, uint16_t ithrust)
 
     uint16_t ratio = ithrust;
 
-    // Override ratio in case of motorSetEnable
-    if (motorSetEnable == 2)
-    {
-      ratio = motorPowerSet[MOTOR_M1];
-    }
-    else if (motorSetEnable == 1)
-    {
+    if (motorSetEnable) {
       ratio = motorPowerSet[id];
     }
 
@@ -516,6 +484,13 @@ void motorsSetRatio(uint32_t id, uint16_t ithrust)
     }
     else
     {
+      float thrust = ((float)ithrust / 65536.0f) * 60;
+      float volts = (-0.0006239f * thrust * thrust + 0.088f * thrust) / 3.03396f * 3.4f;
+      float supply_voltage = pmGetBatteryVoltage();
+      float percentage = volts / supply_voltage;
+      percentage = percentage > 1.0f ? 1.0f : percentage;
+      ratio = UINT16_MAX * percentage;
+      motor_ratios[id] = ratio;
       motorMap[id]->setCompare(motorMap[id]->tim, motorsConv16ToBits(ratio));
     }
 

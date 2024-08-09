@@ -61,14 +61,11 @@
   #define AUTO_ARMING 0
 #endif
 
-static uint16_t landingTimeoutDuration = LANDING_TIMEOUT_MS;
-
 typedef struct {
   bool canFly;
   bool isFlying;
   bool isTumbled;
   bool isArmingActivated;
-  bool isCrashed;
   uint16_t infoBitfield;
   uint8_t paramEmergencyStop;
 
@@ -80,9 +77,6 @@ typedef struct {
 
   // The time (in ticks) of the latest high thrust event. 0=no high thrust event yet
   uint32_t latestThrustTick;
-
-  // The time (in ticks) of the latest landing event. 0=no landing event yet
-  uint32_t latestLandingTick;
 
   supervisorState_t state;
 
@@ -119,38 +113,6 @@ bool supervisorIsArmed() {
 
 bool supervisorIsLocked() {
   return supervisorStateLocked == supervisorMem.state;
-}
-
-bool supervisorIsCrashed() {
-  return supervisorMem.isCrashed;
-}
-
-static void supervisorSetLatestLandingTime(SupervisorMem_t* this, const uint32_t currentTick) {
-  this->latestLandingTick = currentTick;
-}
-
-bool supervisorIsLandingTimeout(SupervisorMem_t* this, const uint32_t currentTick) {
-  if (0 == this->latestLandingTick) {
-    return false;
-  }
-
-  const uint32_t landingTime = currentTick - this->latestLandingTick;
-  return landingTime > M2T(landingTimeoutDuration);
-}
-
-bool supervisorRequestCrashRecovery(const bool doRecovery) {
-
-  if (doRecovery && !supervisorIsCrashed()) {
-    return true;
-  } else if (doRecovery && supervisorIsCrashed() && !supervisorIsTumbled()) {
-    supervisorMem.isCrashed = false;
-    return true;
-  } else if (!doRecovery) {
-    supervisorMem.isCrashed = true;
-    return true;
-  }
-
-  return false;
 }
 
 bool supervisorRequestArming(const bool doArm) {
@@ -253,39 +215,25 @@ static bool checkEmergencyStopWatchdog(const uint32_t tick) {
   return isOk;
 }
 
-static void postTransitionActions(SupervisorMem_t* this, const supervisorState_t previousState, const uint32_t currentTick) {
+static void postTransitionActions(SupervisorMem_t* this, const supervisorState_t previousState) {
   const supervisorState_t newState = this->state;
 
   if (newState == supervisorStateReadyToFly) {
     DEBUG_PRINT("Ready to fly\n");
   }
 
-  if (newState == supervisorStateLanded) {
-    supervisorSetLatestLandingTime(this, currentTick);
-  }
-  
-  if ((previousState == supervisorStateLanded) && (newState == supervisorStateReset)) {
-    DEBUG_PRINT("Landing timeout, disarming\n");
-  }
-
   if (newState == supervisorStateLocked) {
     DEBUG_PRINT("Locked, reboot required\n");
   }
 
-  if (newState == supervisorStateCrashed) {
-    DEBUG_PRINT("Crashed, recovery required\n");
-    supervisorRequestCrashRecovery(false);
-  }
-
   if ((previousState == supervisorStateNotInitialized || previousState == supervisorStateReadyToFly || previousState == supervisorStateFlying) &&
-      newState != supervisorStateReadyToFly && newState != supervisorStateFlying && newState != supervisorStateLanded) {
+      newState != supervisorStateReadyToFly && newState != supervisorStateFlying) {
     DEBUG_PRINT("Can not fly\n");
   }
 
   if (newState != supervisorStateReadyToFly &&
       newState != supervisorStateFlying &&
-      newState != supervisorStateWarningLevelOut &&
-      newState != supervisorStateLanded) {
+      newState != supervisorStateWarningLevelOut) {
     supervisorRequestArming(false);
   }
 
@@ -334,14 +282,6 @@ static supervisorConditionBits_t updateAndPopulateConditions(SupervisorMem_t* th
     conditions |= SUPERVISOR_CB_EMERGENCY_STOP;
   }
 
-  if (supervisorIsCrashed()) {
-    conditions |= SUPERVISOR_CB_CRASHED;
-  }
-
-  if (supervisorIsLandingTimeout(this, currentTick)) {
-    conditions |= SUPERVISOR_CB_LANDING_TIMEOUT;
-  }
-
   return conditions;
 }
 
@@ -372,9 +312,6 @@ static void updateLogData(SupervisorMem_t* this, const supervisorConditionBits_t
   if (supervisorStateLocked == this->state) {
     this->infoBitfield |= 0x0040;
   }
-  if (this->isCrashed) {
-    this->infoBitfield |= 0x0080;
-  }
 }
 
 void supervisorUpdate(const sensorData_t *sensors, const setpoint_t* setpoint, stabilizerStep_t stabilizerStep) {
@@ -390,7 +327,7 @@ void supervisorUpdate(const sensorData_t *sensors, const setpoint_t* setpoint, s
   if (this->state != newState) {
     const supervisorState_t previousState = this->state;
     this->state = newState;
-    postTransitionActions(this, previousState, currentTick);
+    postTransitionActions(this, previousState);
   }
 
   this->latestConditions = conditions;
@@ -405,8 +342,6 @@ void supervisorOverrideSetpoint(setpoint_t* setpoint) {
   SupervisorMem_t* this = &supervisorMem;
   switch(this->state){
     case supervisorStateReadyToFly:
-      // Fall through
-    case supervisorStateLanded:
       // Fall through
     case supervisorStateFlying:
       // Do nothing
@@ -435,8 +370,7 @@ bool supervisorAreMotorsAllowedToRun() {
   SupervisorMem_t* this = &supervisorMem;
   return (this->state == supervisorStateReadyToFly) ||
          (this->state == supervisorStateFlying) ||
-         (this->state == supervisorStateWarningLevelOut) ||
-         (this->state == supervisorStateLanded);
+         (this->state == supervisorStateWarningLevelOut);
 }
 
 void infoDump(const SupervisorMem_t* this) {
@@ -528,10 +462,4 @@ PARAM_GROUP_START(supervisor)
  * @brief Set to nonzero to dump information about the current supervisor state to the console log
  */
 PARAM_ADD(PARAM_UINT8, infdmp, &supervisorMem.doinfodump)
-
-/**
- * @brief Landing timeout duration (ms)
- */
-PARAM_ADD(PARAM_UINT16 | PARAM_PERSISTENT, landedTimeout, &landingTimeoutDuration)
-
 PARAM_GROUP_STOP(supervisor)

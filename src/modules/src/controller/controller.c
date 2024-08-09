@@ -7,11 +7,14 @@
 #include "controller_mellinger.h"
 #include "controller_indi.h"
 #include "controller_brescianini.h"
-#include "controller_lee.h"
+#include "controller_single_ppid.h"
+#include "controller_omni_att.h"
+#include "controller_Gimbal2D.h"
 
 #include "autoconf.h"
 
-#define DEFAULT_CONTROLLER ControllerTypePID
+#define DEFAULT_CONTROLLER ControllerTypeGimbal2D
+// #define DEFAULT_CONTROLLER ControllerTypePID
 static ControllerType currentController = ControllerTypeAutoSelect;
 
 static void initController();
@@ -29,7 +32,9 @@ static ControllerFcns controllerFunctions[] = {
   {.init = controllerMellingerFirmwareInit, .test = controllerMellingerFirmwareTest, .update = controllerMellingerFirmware, .name = "Mellinger"},
   {.init = controllerINDIInit, .test = controllerINDITest, .update = controllerINDI, .name = "INDI"},
   {.init = controllerBrescianiniInit, .test = controllerBrescianiniTest, .update = controllerBrescianini, .name = "Brescianini"},
-  {.init = controllerLeeFirmwareInit, .test = controllerLeeFirmwareTest, .update = controllerLeeFirmware, .name = "Lee"},
+  {.init = controllerSinglePPIDInit, .test = controllerSinglePPIDTest, .update = controllerSinglePPID, .name = "SinglePPID"},
+  {.init = controllerOmniAttInit, .test = controllerOmniAttTest, .update = controllerOmniAtt, .name = "OmniAtt"},
+  {.init = controllerGimbal2DInit, .test = controllerGimbal2DTest, .update = controllerGimbal2D, .name = "Gimbal2D"},
   #ifdef CONFIG_CONTROLLER_OOT
   {.init = controllerOutOfTreeInit, .test = controllerOutOfTreeTest, .update = controllerOutOfTree, .name = "OutOfTree"},
   #endif
@@ -55,10 +60,6 @@ void controllerInit(ControllerType controller) {
     #define CONTROLLER ControllerTypeMellinger
   #elif defined(CONFIG_CONTROLLER_BRESCIANINI)
     #define CONTROLLER ControllerTypeBrescianini
-  #elif defined(CONFIG_CONTROLLER_LEE)
-    #define CONTROLLER ControllerTypeLee
-  #elif defined(CONFIG_CONTROLLER_OOT)
-    #define CONTROLLER ControllerTypeOot
   #else
     #define CONTROLLER ControllerTypeAutoSelect
   #endif
