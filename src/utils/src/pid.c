@@ -52,6 +52,7 @@ void pidInit(PidObject* pid, const float desired, const float kp,
   {
     lpf2pInit(&pid->dFilter, samplingRate, cutoffFreq);
   }
+  pid->last_time = time(NULL);
 }
 
 float pidUpdate(PidObject* pid, const float measured, const bool updateError)

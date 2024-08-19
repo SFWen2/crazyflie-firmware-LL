@@ -139,8 +139,9 @@ Gimbal2D_Y_Type Gimbal2D_Y = {
         .Tau_x = 0.0, 
         .Tau_y = 0.0,
         .Tau_z = 0.0,
-        .pos_ac = 0.0,
-        .pos_bc = 0.0,
+        .att_ac = 0.0,
+        .att_bc = 0.0,
+        .count = 0,
         };
 
 static void Gimbal2D_quatmultiply(const float q[4], const float r[4],
@@ -300,6 +301,7 @@ void Gimbal2D_reset_state()
   pidReset(&P->betasPID);
   pidReset(&P->alphaPD);
   pidReset(&P->betaPD);
+  Y->count += 1;
 }
 
 void Gimbal2D_AlphaBetaEstimator()
@@ -415,11 +417,11 @@ void Gimbal2D_controller_pd()
 
   pidSetError(&Gimbal2D_P.alphaPD, Gimbal2D_Y.error_alpha);
   alpha_des = pidUpdate(&Gimbal2D_P.alphaPD, Gimbal2D_Y.alpha_e, false);
-  Gimbal2D_Y.pos_ac = alpha_des;
+  Gimbal2D_Y.att_ac = alpha_des;
 
   pidSetError(&Gimbal2D_P.betaPD, Gimbal2D_Y.error_beta);
   beta_des = pidUpdate(&Gimbal2D_P.betaPD, Gimbal2D_Y.beta_e, false);
-  Gimbal2D_Y.pos_bc = beta_des;
+  Gimbal2D_Y.att_bc = beta_des;
 
   Gimbal2D_Y.u_alpha = JX * alpha_des;
   Gimbal2D_Y.u_beta = JY * beta_des;
@@ -737,7 +739,6 @@ PARAM_ADD(PARAM_FLOAT, bpgain, &Gimbal2D_P.betaPD.kp)
 PARAM_ADD(PARAM_FLOAT, bigain, &Gimbal2D_P.betaPD.ki)
 PARAM_ADD(PARAM_FLOAT, bdgain, &Gimbal2D_P.betaPD.kd)
 
-
 // for PID type controller
 PARAM_ADD(PARAM_FLOAT, pgaina, &Gimbal2D_P.alphaPID.kp)
 PARAM_ADD(PARAM_FLOAT, igaina, &Gimbal2D_P.alphaPID.ki)
@@ -781,8 +782,11 @@ LOG_ADD(LOG_FLOAT, alphas, &Gimbal2D_Y.alpha_speed_e)
 LOG_ADD(LOG_FLOAT, beta, &Gimbal2D_Y.beta_e)
 LOG_ADD(LOG_FLOAT, betas, &Gimbal2D_Y.beta_speed_e)
 
-LOG_ADD(LOG_FLOAT, apos_c, &Gimbal2D_Y.pos_ac)
-LOG_ADD(LOG_FLOAT, bpos_c, &Gimbal2D_Y.pos_bc)
+LOG_ADD(LOG_FLOAT, aatt_c, &Gimbal2D_Y.att_ac)
+LOG_ADD(LOG_FLOAT, batt_c, &Gimbal2D_Y.att_bc)
+
+LOG_ADD(LOG_FLOAT, ct, &Gimbal2D_U.ClampedThrust)
+LOG_ADD(LOG_FLOAT, lt, &Gimbal2D_U.LastThrust)
 
 LOG_ADD(LOG_FLOAT, u_alpha, &Gimbal2D_Y.u_alpha)
 LOG_ADD(LOG_FLOAT, u_beta, &Gimbal2D_Y.u_beta)

@@ -1,6 +1,7 @@
 /**
  * Authored by Mike Wen, 2024.March
- *
+ * 
+ * Revised by Wendy Chiu, 2024 August
  * ============================================================================
  */
 
@@ -84,8 +85,9 @@ typedef struct {
   float Tau_x;                      /* '<Root>/Tau_x' */
   float Tau_y;                      /* '<Root>/Tau_y' */
   float Tau_z;                      /* '<Root>/Tau_z' */
-  float pos_ac;
-  float pos_bc;
+  float att_ac;
+  float att_bc;
+  int count;
 } Gimbal2D_Y_Type;
 
 typedef struct {

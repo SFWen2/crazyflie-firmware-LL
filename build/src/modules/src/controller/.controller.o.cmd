@@ -62,6 +62,21 @@ deps_src/modules/src/controller/controller.o := \
   ../src/modules/interface/controller/controller_omni_att.h \
   ../src/modules/interface/controller/controller_Gimbal2D.h \
   ../src/utils/interface/pid.h \
+  /usr/include/newlib/time.h \
+  /usr/include/newlib/machine/time.h \
+  /usr/include/newlib/sys/types.h \
+  /usr/include/newlib/sys/_stdint.h \
+  /usr/include/newlib/machine/endian.h \
+  /usr/include/newlib/machine/_endian.h \
+  /usr/include/newlib/sys/select.h \
+  /usr/include/newlib/sys/_sigset.h \
+  /usr/include/newlib/sys/_timeval.h \
+  /usr/include/newlib/sys/timespec.h \
+  /usr/include/newlib/sys/_timespec.h \
+  /usr/include/newlib/sys/_pthreadtypes.h \
+  /usr/include/newlib/sys/sched.h \
+  /usr/include/newlib/machine/types.h \
+  /usr/include/newlib/sys/_locale.h \
   ../src/utils/interface/filter.h \
 
 src/modules/src/controller/controller.o: $(deps_src/modules/src/controller/controller.o)
