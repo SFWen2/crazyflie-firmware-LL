@@ -88,7 +88,7 @@ typedef struct {
   float att_ac;
   float att_bc;
   float diff_th;
-  int count;
+  float count;
 } Gimbal2D_Y_Type;
 
 typedef struct {

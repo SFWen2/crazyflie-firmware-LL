@@ -142,7 +142,7 @@ Gimbal2D_Y_Type Gimbal2D_Y = {
         .att_ac = 0.0,
         .att_bc = 0.0,
         .diff_th = 0.0,
-        .count = 0,
+        .count = 0.0,
         };
 
 static void Gimbal2D_quatmultiply(const float q[4], const float r[4],
@@ -302,7 +302,7 @@ void Gimbal2D_reset_state()
   pidReset(&P->betasPID);
   pidReset(&P->alphaPD);
   pidReset(&P->betaPD);
-  Y->count = 0;
+  Y->count += 0.1F;
 }
 
 void Gimbal2D_AlphaBetaEstimator()
@@ -363,6 +363,7 @@ void Gimbal2D_AlphaBetaEstimator()
 
   if(Gimbal2D_U.ClampedThrust >= 0.000898f && Gimbal2D_U.LastThrust <= 0.000898f)
   {
+    Gimbal2D_Y.count += 1;
     Gimbal2D_reset_state();
   }
 
