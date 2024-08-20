@@ -141,6 +141,7 @@ Gimbal2D_Y_Type Gimbal2D_Y = {
         .Tau_z = 0.0,
         .att_ac = 0.0,
         .att_bc = 0.0,
+        .diff_th = 0.0,
         .count = 0,
         };
 
@@ -301,7 +302,7 @@ void Gimbal2D_reset_state()
   pidReset(&P->betasPID);
   pidReset(&P->alphaPD);
   pidReset(&P->betaPD);
-  Y->count += 1;
+  Y->count = 0;
 }
 
 void Gimbal2D_AlphaBetaEstimator()
@@ -357,6 +358,8 @@ void Gimbal2D_AlphaBetaEstimator()
   } else {
     Gimbal2D_U.ClampedThrust = Gimbal2D_U.thrust;
   }
+
+  Gimbal2D_Y.diff_th = Gimbal2D_U.ClampedThrust - Gimbal2D_U.LastThrust;
 
   if(Gimbal2D_U.ClampedThrust >= 0.000898f && Gimbal2D_U.LastThrust <= 0.000898f)
   {
@@ -787,6 +790,8 @@ LOG_ADD(LOG_FLOAT, batt_c, &Gimbal2D_Y.att_bc)
 
 LOG_ADD(LOG_FLOAT, ct, &Gimbal2D_U.ClampedThrust)
 LOG_ADD(LOG_FLOAT, lt, &Gimbal2D_U.LastThrust)
+LOG_ADD(LOG_FLOAT, dth, &Gimbal2D_Y.diff_th)
+LOG_ADD(LOG_INT32, count, &Gimbal2D_Y.count)
 
 LOG_ADD(LOG_FLOAT, u_alpha, &Gimbal2D_Y.u_alpha)
 LOG_ADD(LOG_FLOAT, u_beta, &Gimbal2D_Y.u_beta)

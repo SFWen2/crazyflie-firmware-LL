@@ -87,6 +87,7 @@ typedef struct {
   float Tau_z;                      /* '<Root>/Tau_z' */
   float att_ac;
   float att_bc;
+  float diff_th;
   int count;
 } Gimbal2D_Y_Type;
 
