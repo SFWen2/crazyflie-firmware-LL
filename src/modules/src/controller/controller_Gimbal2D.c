@@ -303,7 +303,7 @@ void Gimbal2D_reset_state()
   pidReset(&P->alphaPD);
   pidReset(&P->betaPD);
   Y->count += 10;
-  isInit = false;
+  // isInit = false;
 }
 
 void Gimbal2D_AlphaBetaEstimator()
@@ -368,6 +368,11 @@ void Gimbal2D_AlphaBetaEstimator()
     Gimbal2D_Y.count += 1;
     Gimbal2D_reset_state();
   }
+  
+  if(Gimbal2D_U.ClampedThrust <= 0.000898f && Gimbal2D_U.LastThrust >= 0.000898f){
+    Gimbal2D_Y.count = -10;
+  }
+
 
   float diff_a = Gimbal2D_Y.alpha_prev - alpha0_e;
   float acount = Gimbal2D_Y.acount_prev;
@@ -797,10 +802,21 @@ LOG_ADD(LOG_FLOAT, lt, &Gimbal2D_U.LastThrust)
 LOG_ADD(LOG_FLOAT, dth, &Gimbal2D_Y.diff_th)
 LOG_ADD(LOG_INT32, count, &Gimbal2D_Y.count)
 
+LOG_ADD(LOG_INT8, isinit, &isInit)
+
 LOG_ADD(LOG_FLOAT, aerr, &Gimbal2D_P.alphaPD.error)
 LOG_ADD(LOG_FLOAT, aint, &Gimbal2D_P.alphaPD.integ)
 LOG_ADD(LOG_FLOAT, ader, &Gimbal2D_P.alphaPD.deriv)
-LOG_ADD(LOG_INT8, isinit, &isInit)
+LOG_ADD(LOG_FLOAT, aop, &Gimbal2D_P.alphaPD.outP)
+LOG_ADD(LOG_FLOAT, aoi, &Gimbal2D_P.alphaPD.outI)
+LOG_ADD(LOG_FLOAT, aod, &Gimbal2D_P.alphaPD.outD)
+
+LOG_ADD(LOG_FLOAT, bint, &Gimbal2D_P.betaPD.integ)
+LOG_ADD(LOG_FLOAT, bder, &Gimbal2D_P.betaPD.deriv)
+LOG_ADD(LOG_FLOAT, bop, &Gimbal2D_P.alphaPD.outP)
+LOG_ADD(LOG_FLOAT, boi, &Gimbal2D_P.alphaPD.outI)
+LOG_ADD(LOG_FLOAT, bod, &Gimbal2D_P.alphaPD.outD)
+
 
 LOG_ADD(LOG_FLOAT, u_alpha, &Gimbal2D_Y.u_alpha)
 LOG_ADD(LOG_FLOAT, u_beta, &Gimbal2D_Y.u_beta)

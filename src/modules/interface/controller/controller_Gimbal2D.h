@@ -52,6 +52,7 @@ typedef struct {
   unsigned short m2;                         /* '<Root>/m2' */
   unsigned short m3;                         /* '<Root>/m3' */
   unsigned short m4;                         /* '<Root>/m4' */
+  int count;
   float acount_prev;
   float bcount_prev;
   float alpha_prev;
@@ -88,7 +89,6 @@ typedef struct {
   float att_ac;
   float att_bc;
   float diff_th;
-  int count;
 } Gimbal2D_Y_Type;
 
 typedef struct {
