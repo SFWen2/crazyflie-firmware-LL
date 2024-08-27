@@ -1,0 +1,1 @@
+var modelInfo = {model:"omni_attitude_controller"};var modelHierarchy=[{model:"omni_attitude_controller",relativePath:"_internal.html",parent:"null"},];

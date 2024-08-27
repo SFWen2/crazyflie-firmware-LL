@@ -49,8 +49,7 @@
         "pid.h": "c",
         "dtr_p2p_interface.h": "c",
         "system.h": "c",
-        "param.h": "c",
-        "ratesupervisor.h": "c"
+        "param.h": "c"
     }
 }
 

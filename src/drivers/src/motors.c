@@ -51,8 +51,6 @@ static bool motorSetEnable = false;
 static uint16_t motorPowerSet[] = {0, 0, 0, 0}; // user-requested PWM signals (overrides)
 static uint32_t motor_ratios[] = {0, 0, 0, 0};  // actual PWM signals
 
-static int count_motor = 0;
-
 #ifdef CONFIG_MOTORS_ESC_PROTOCOL_DSHOT
 static DMA_InitTypeDef DMA_InitStructureShare;
 // Memory buffer for DSHOT bits
@@ -218,11 +216,8 @@ void motorsInit(const MotorPerifDef** motorMapSelect)
   if (isInit)
   {
     // First to init will configure it
-    count_motor += 3;
     return;
   }
-
-  count_motor += 10;
 
   motorMap = motorMapSelect;
 
@@ -245,7 +240,6 @@ void motorsInit(const MotorPerifDef** motorMapSelect)
       GPIO_InitStructure.GPIO_Pin = motorMap[i]->gpioPowerswitchPin;
       GPIO_Init(motorMap[i]->gpioPowerswitchPort, &GPIO_InitStructure);
       GPIO_WriteBit(motorMap[i]->gpioPowerswitchPort, motorMap[i]->gpioPowerswitchPin, 1);
-      count_motor += 2;
     }
 
     // Configure the GPIO for the timer output
@@ -278,7 +272,6 @@ void motorsInit(const MotorPerifDef** motorMapSelect)
     motorMap[i]->ocInit(motorMap[i]->tim, &TIM_OCInitStructure);
     motorMap[i]->preloadConfig(motorMap[i]->tim, TIM_OCPreload_Enable);
   }
-
 #ifdef CONFIG_MOTORS_ESC_PROTOCOL_DSHOT
   motorsDshotDMASetup();
 #endif
@@ -745,8 +738,3 @@ LOG_ADD_CORE(LOG_UINT32, m3, &motor_ratios[MOTOR_M3])
  */
 LOG_ADD_CORE(LOG_UINT32, m4, &motor_ratios[MOTOR_M4])
 LOG_GROUP_STOP(motor)
-
-
-LOG_GROUP_START(act_mot)
-LOG_ADD(LOG_INT16, c_mot, &count_motor)
-LOG_GROUP_STOP(act_mot)

@@ -81,8 +81,6 @@ static STATS_CNT_RATE_DEFINE(stabilizerRate, 500);
 static rateSupervisor_t rateSupervisorContext;
 static bool rateWarningDisplayed = false;
 
-static int count_stab = 0;
-
 static struct {
   // position - mm
   int16_t x;
@@ -173,11 +171,8 @@ static void compressSetpoint()
 
 void stabilizerInit(StateEstimatorType estimator)
 {
-  if(isInit){
-    count_stab += 9;
+  if(isInit)
     return;
-  }
-  count_stab += 1;
 
   sensorsInit();
   stateEstimatorInit(estimator);
@@ -185,14 +180,12 @@ void stabilizerInit(StateEstimatorType estimator)
   powerDistributionInit();
   motorsInit(platformConfigGetMotorMapping());
   collisionAvoidanceInit();
-
   estimatorType = stateEstimatorGetType();
   controllerType = controllerGetType();
 
   STATIC_MEM_TASK_CREATE(stabilizerTask, stabilizerTask, STABILIZER_TASK_NAME, NULL, STABILIZER_TASK_PRI);
 
   isInit = true;
-  count_stab += 5;
 }
 
 bool stabilizerTest(void)
@@ -528,8 +521,6 @@ LOG_ADD(LOG_FLOAT, yaw, &state.attitude.yaw)
  * @brief Current thrust
  */
 LOG_ADD(LOG_FLOAT, thrust, &control.thrust)
-
-LOG_ADD(LOG_INT32, c_stab, &count_stab)
 /**
  * @brief Rate of stabilizer loop
  */

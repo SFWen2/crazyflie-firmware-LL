@@ -1,7 +1,6 @@
 /**
  * Authored by Mike Wen, 2024.March
- * 
- * Revised by Wendy Chiu, 2024 August
+ *
  * ============================================================================
  */
 
@@ -52,7 +51,6 @@ typedef struct {
   unsigned short m2;                         /* '<Root>/m2' */
   unsigned short m3;                         /* '<Root>/m3' */
   unsigned short m4;                         /* '<Root>/m4' */
-  int count;
   float acount_prev;
   float bcount_prev;
   float alpha_prev;
@@ -86,9 +84,9 @@ typedef struct {
   float Tau_x;                      /* '<Root>/Tau_x' */
   float Tau_y;                      /* '<Root>/Tau_y' */
   float Tau_z;                      /* '<Root>/Tau_z' */
-  float att_ac;
-  float att_bc;
-  float diff_th;
+  float pos_ac;
+  float pos_bc;
+  float debug[4];
 } Gimbal2D_Y_Type;
 
 typedef struct {

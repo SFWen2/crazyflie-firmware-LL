@@ -28,7 +28,6 @@
 #define PID_H_
 
 #include <stdbool.h>
-#include <time.h>
 #include "filter.h"
 
 #define DEFAULT_PID_INTEGRATION_LIMIT 5000.0
@@ -55,7 +54,6 @@ typedef struct
   float dt;           //< delta-time dt
   lpf2pData dFilter;  //< filter for D term
   bool enableDFilter; //< filter for D term enable flag
-  time_t last_time;  //<last update time
 } PidObject;
 
 /**
