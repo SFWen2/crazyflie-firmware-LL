@@ -245,8 +245,8 @@ void controllerGimbal2DInit(void) {
     case GIMBAL2D_CONTROLMODE_PD:
         pidInit(&Gimbal2D_P.alphaPID,  0, Gimbal2D_P.alphaPID.kp,  Gimbal2D_P.alphaPID.ki,  Gimbal2D_P.alphaPID.kd,
             Gimbal2D_P.alphaPID.kff,  GIMBAL2D_ATTITUDE_UPDATE_DT, ATTITUDE_RATE, 0, 0);
-        pidInit(&Gimbal2D_P.alphasPID,  0, Gimbal2D_P.alphasPID.kp,  Gimbal2D_P.alphasPID.ki,  Gimbal2D_P.alphasPID.kd,
-            Gimbal2D_P.alphasPID.kff,  GIMBAL2D_ATTITUDE_UPDATE_DT, ATTITUDE_RATE, 30, 1);
+        pidInit(&Gimbal2D_P.betaPID,  0, Gimbal2D_P.betaPID.kp,  Gimbal2D_P.betaPID.ki,  Gimbal2D_P.betaPID.kd,
+            Gimbal2D_P.betaPID.kff,  GIMBAL2D_ATTITUDE_UPDATE_DT, ATTITUDE_RATE, 0, 0);
 
     case GIMBAL2D_CONTROLMODE_PID:
     case GIMBAL2D_CONTROLMODE_PID_JALPHA:
