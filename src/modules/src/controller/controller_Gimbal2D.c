@@ -242,6 +242,12 @@ void controllerGimbal2DInit(void) {
   }
   switch( Gimbal2D_P.ControlMode )
   {
+    case GIMBAL2D_CONTROLMODE_PD:
+        pidInit(&Gimbal2D_P.alphaPID,  0, Gimbal2D_P.alphaPID.kp,  Gimbal2D_P.alphaPID.ki,  Gimbal2D_P.alphaPID.kd,
+            Gimbal2D_P.alphaPID.kff,  GIMBAL2D_ATTITUDE_UPDATE_DT, ATTITUDE_RATE, 0, 0);
+        pidInit(&Gimbal2D_P.alphasPID,  0, Gimbal2D_P.alphasPID.kp,  Gimbal2D_P.alphasPID.ki,  Gimbal2D_P.alphasPID.kd,
+            Gimbal2D_P.alphasPID.kff,  GIMBAL2D_ATTITUDE_UPDATE_DT, ATTITUDE_RATE, 30, 1);
+
     case GIMBAL2D_CONTROLMODE_PID:
     case GIMBAL2D_CONTROLMODE_PID_JALPHA:
         pidInit(&Gimbal2D_P.alphaPID,  0, Gimbal2D_P.alphaPID.kp,  Gimbal2D_P.alphaPID.ki,  Gimbal2D_P.alphaPID.kd,
@@ -411,6 +417,22 @@ void Gimbal2D_AlphaBetaEstimator()
   Gimbal2D_Y.beta_prev = Gimbal2D_Y.beta_e; 
 }
 
+void Gimbal2D_controller_pd()
+{
+  Gimbal2D_Y.error_alpha = Gimbal2D_U.alpha_desired - Gimbal2D_Y.alpha_e;
+  Gimbal2D_Y.error_beta = Gimbal2D_U.beta_desired - Gimbal2D_Y.beta_e;
+
+  pidSetError(&Gimbal2D_P.alphaPID, Gimbal2D_Y.error_alpha);
+  Gimbal2D_Y.u_alpha = JX * pidUpdate(&Gimbal2D_P.alphaPID, Gimbal2D_Y.alpha_e, false);
+
+  pidSetError(&Gimbal2D_P.betaPID, Gimbal2D_Y.error_beta);
+  Gimbal2D_Y.u_beta = JY * pidUpdate(&Gimbal2D_P.betaPID, Gimbal2D_Y.beta_e, false);
+
+  Gimbal2D_Y.Tau_x = Gimbal2D_Y.u_alpha * cosf(Gimbal2D_Y.beta_e);
+  Gimbal2D_Y.Tau_y = Gimbal2D_Y.u_beta;
+  Gimbal2D_Y.Tau_z = Gimbal2D_Y.u_alpha * sinf(Gimbal2D_Y.beta_e);
+}
+
 void Gimbal2D_controller_pid()
 {
   float alphas_desired_pid;
@@ -543,6 +565,10 @@ void Gimbal2D_controller()
 
     case GIMBAL2D_CONTROLMODE_NSF:
         Gimbal2D_controller_nsf();
+        break;
+
+    case GIMBAL2D_CONTROLMODE_PD:
+        Gimbal2D_controller_pd();
         break;
 
     case GIMBAL2D_CONTROLMODE_PWMTEST:
